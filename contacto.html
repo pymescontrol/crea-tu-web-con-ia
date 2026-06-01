@@ -402,5 +402,53 @@
             document.getElementById('step-success').classList.add('active');
         });
     </script>
+
+    <!-- Script para inyección de botón de retorno (Funnel circular) -->
+    <script>
+        (function() {
+            try {
+                const url = localStorage.getItem('pymes_last_nicho_url');
+                const name = localStorage.getItem('pymes_last_nicho_name');
+                if (url && name) {
+                    // 1. Inyección Desktop
+                    const desktopMenu = document.querySelector('nav[aria-label="Menú principal"]');
+                    if (desktopMenu) {
+                        const btn = document.createElement('a');
+                        btn.href = url;
+                        btn.className = "border border-emerald-500/80 text-emerald-400 font-bold px-3 py-1.5 rounded-lg hover:bg-emerald-500/10 transition-all text-xs uppercase tracking-wider flex items-center gap-1.5 glow-emerald ml-4";
+                        btn.innerHTML = '<span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>Volver a ' + name;
+                        desktopMenu.appendChild(btn);
+                    }
+
+                    // 2. Inyección Móvil
+                    const mobileMenu = document.getElementById('mobile-menu');
+                    if (mobileMenu) {
+                        const btnMobile = document.createElement('a');
+                        btnMobile.href = url;
+                        btnMobile.className = "block px-3 py-2.5 rounded-xl border border-emerald-500/80 text-emerald-400 font-bold text-center text-sm uppercase tracking-wider bg-emerald-500/5 hover:bg-emerald-500/10 transition-all my-2";
+                        btnMobile.innerHTML = 'Volver a ' + name;
+                        const pt4Div = mobileMenu.querySelector('.pt-4');
+                        if (pt4Div) {
+                            mobileMenu.insertBefore(btnMobile, pt4Div);
+                        } else {
+                            mobileMenu.appendChild(btnMobile);
+                        }
+                    }
+
+                    // 3. Inyección en contacto.html
+                    const backLink = document.querySelector('header a[href="index.html"]:not(.group)');
+                    if (backLink && !desktopMenu) {
+                        const btnContacto = document.createElement('a');
+                        btnContacto.href = url;
+                        btnContacto.className = "border border-emerald-500/80 text-emerald-400 font-bold px-3 py-1.5 rounded-lg hover:bg-emerald-500/10 transition-all text-xs uppercase tracking-wider flex items-center gap-1.5 glow-emerald mr-4";
+                        btnContacto.innerHTML = '<span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>Volver a ' + name;
+                        backLink.parentNode.insertBefore(btnContacto, backLink);
+                    }
+                }
+            } catch (e) {
+                console.error('Error al inyectar botón de retorno en menú:', e);
+            }
+        })();
+    </script>
 </body>
 </html>

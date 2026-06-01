@@ -497,6 +497,22 @@
         </a>
     </div>
 
+    <!-- Script para retención de leads (Funnel circular) -->
+    <script>
+        (function() {
+            try {
+                const nicho = document.querySelector('.dynamic-nicho')?.innerText.trim() || '';
+                const ciudad = document.querySelector('.dynamic-ciudad')?.innerText.trim() || '';
+                if (nicho && ciudad && !nicho.includes('[') && !ciudad.includes('[')) {
+                    localStorage.setItem('pymes_last_nicho_url', window.location.href);
+                    localStorage.setItem('pymes_last_nicho_name', nicho + ' en ' + ciudad);
+                }
+            } catch (e) {
+                console.error('Error guardando propuesta en localStorage:', e);
+            }
+        })();
+    </script>
+
     
 </body>
 </html>
