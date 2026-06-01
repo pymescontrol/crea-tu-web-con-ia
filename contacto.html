@@ -6,13 +6,13 @@
     <title>Cualifica tu Negocio para Digitalización IA | Pymes Control</title>
     <meta name="description" content="Formulario de cualificación para el programa de digitalización Done-With-You de Pymes Control. Descubre si tu negocio local cumple con los requisitos.">
     <meta name="keywords" content="cualificación web pymes, contacto pymes control, consultoria dwy, seo local españa">
-    <meta name="robots" content="noindex, follow"> <!-- Evitar indexar el formulario de contacto para no diluir link juice -->
-    <link rel="canonical" href="https://pymescontrol.com/contacto.html">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://pymescontrol.github.io/crea-tu-web-con-ia/contacto.html">
 
     <!-- Google Fonts & Tailwind CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -20,6 +20,7 @@
                 extend: {
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
+                        outfit: ['Outfit', 'sans-serif'],
                     },
                     colors: {
                         darkblue: {
@@ -80,9 +81,9 @@
             
             <!-- Encabezado de Progreso -->
             <div class="mb-8 text-center space-y-2">
-                <span class="text-xs font-bold text-emerald-400 uppercase tracking-widest">Filtro de Admisión</span>
-                <h1 class="text-2xl sm:text-3xl font-extrabold text-white">Cualificación de Negocio Local</h1>
-                <p class="text-slate-400 text-sm max-w-md mx-auto font-light">Completa este cuestionario rápido de 3 pasos para determinar qué opción del sistema se adapta a tu pyme.</p>
+                <span class="text-xs font-bold text-emerald-400 uppercase tracking-widest font-outfit">Filtro de Admisión</span>
+                <h1 class="text-2xl sm:text-3xl font-extrabold text-white font-outfit">Cualificación de Negocio Local</h1>
+                <p class="text-slate-400 text-sm max-w-md mx-auto font-light">Completa este cuestionario de 3 pasos para determinar si tu negocio cualifica para la consultoría VIP.</p>
             </div>
 
             <!-- Contenedor del Quiz -->
@@ -96,10 +97,10 @@
                 <!-- Formulario -->
                 <form id="qualification-form" class="space-y-6 pt-4" novalidate>
                     
-                    <!-- PASO 1: Datos Personales e Identificación del Negocio -->
+                    <!-- PASO 1: Datos Personales -->
                     <div id="step-1" class="step-panel active space-y-4">
                         <div class="border-b border-slate-800/80 pb-3 mb-4">
-                            <h2 class="text-lg font-bold text-white flex items-center justify-between">
+                            <h2 class="text-lg font-bold text-white flex items-center justify-between font-outfit">
                                 <span>Información Básica</span>
                                 <span class="text-xs text-emerald-400">Paso 1 de 3</span>
                             </h2>
@@ -145,17 +146,16 @@
                         </div>
                     </div>
 
-                    <!-- PASO 2: Volumen de Facturación y Equipo -->
+                    <!-- PASO 2: Volumen de Facturación -->
                     <div id="step-2" class="step-panel space-y-4">
                         <div class="border-b border-slate-800/80 pb-3 mb-4">
-                            <h2 class="text-lg font-bold text-white flex items-center justify-between">
+                            <h2 class="text-lg font-bold text-white flex items-center justify-between font-outfit">
                                 <span>Capacidad de Negocio</span>
                                 <span class="text-xs text-emerald-400">Paso 2 de 3</span>
                             </h2>
                         </div>
 
                         <div class="space-y-6">
-                            <!-- Pregunta 1: Facturación -->
                             <div class="space-y-2">
                                 <span class="block text-xs font-semibold text-slate-300 uppercase tracking-wider">¿Cuánto factura tu negocio mensualmente?</span>
                                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -178,7 +178,6 @@
                                 </div>
                             </div>
 
-                            <!-- Pregunta 2: Empleados -->
                             <div class="space-y-2">
                                 <label for="form-employees" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1">¿Cuántos empleados / colaboradores tiene el negocio?</label>
                                 <select id="form-employees" required class="w-full bg-slate-900 border border-slate-800 focus:border-emerald-500/50 rounded-xl px-4 py-3 text-sm text-white focus:outline-none transition-all">
@@ -200,34 +199,34 @@
                         </div>
                     </div>
 
-                    <!-- PASO 3: Presupuesto e Intención de Inversión -->
+                    <!-- PASO 3: Presupuesto e Inversión VIP -->
                     <div id="step-3" class="step-panel space-y-4">
                         <div class="border-b border-slate-800/80 pb-3 mb-4">
-                            <h2 class="text-lg font-bold text-white flex items-center justify-between">
-                                <span>Capacidad de Inversión</span>
+                            <h2 class="text-lg font-bold text-white flex items-center justify-between font-outfit">
+                                <span>Compromiso y Presupuesto</span>
                                 <span class="text-xs text-emerald-400">Paso 3 de 3</span>
                             </h2>
                         </div>
 
                         <div class="space-y-6">
                             <div class="space-y-3">
-                                <span class="block text-xs font-semibold text-slate-300 uppercase tracking-wider">¿Tienes capacidad financiera y compromiso para invertir en la consultoría de alto valor (2.000€)?</span>
-                                <p class="text-xs text-slate-500 leading-normal">Buscamos negocios locales comprometidos que deseen eliminar de forma definitiva las comisiones mensuales de mantenimiento web.</p>
+                                <span class="block text-xs font-semibold text-slate-300 uppercase tracking-wider">¿Dispones de la capacidad financiera para la consultoría premium Done-With-You (2.000€)?</span>
+                                <p class="text-xs text-slate-500 leading-normal">Buscamos negocios locales comprometidos que deseen eliminar de forma definitiva las comisiones mensuales de agencias.</p>
                                 
                                 <div class="space-y-3">
                                     <label class="p-4 rounded-xl border-2 border-emerald-500/30 bg-slate-900/30 hover:bg-slate-900 hover:border-emerald-500 cursor-pointer flex items-start gap-3 text-sm transition-all">
                                         <input type="radio" name="budget" value="dwy-ready" checked class="accent-emerald-500 w-4 h-4 mt-0.5">
                                         <div>
-                                            <span class="font-bold text-white block">Sí, dispongo de 2.000€ y quiero hacerlo CON vosotros</span>
-                                            <span class="text-xs text-slate-400">Busco consultoría de acompañamiento vip acelerado.</span>
+                                            <span class="font-bold text-white block">Sí, dispongo de 2.000€ y quiero hacerlo con vosotros</span>
+                                            <span class="text-xs text-slate-400">Busco el servicio vip de acompañamiento e implementación en 15 días.</span>
                                         </div>
                                     </label>
                                     
                                     <label class="p-4 rounded-xl border border-slate-800 bg-slate-900/50 hover:bg-slate-900 hover:border-emerald-500/40 cursor-pointer flex items-start gap-3 text-sm transition-all">
-                                        <input type="radio" name="budget" value="diy-ready" class="accent-emerald-500 w-4 h-4 mt-0.5">
+                                        <input type="radio" name="budget" value="no-budget" class="accent-emerald-500 w-4 h-4 mt-0.5">
                                         <div>
-                                            <span class="font-semibold text-slate-200 block">No, prefiero la opción autodidacta (290€)</span>
-                                            <span class="text-xs text-slate-400">Prefiero ver las clases grabadas y programarlo yo mismo con IA.</span>
+                                            <span class="font-semibold text-slate-200 block">No, en este momento no puedo realizar esta inversión</span>
+                                            <span class="text-xs text-slate-400">No tengo capacidad de inversión o busco opciones low-cost.</span>
                                         </div>
                                     </label>
                                 </div>
@@ -251,7 +250,7 @@
                         </div>
                         
                         <div class="space-y-2">
-                            <h2 class="text-2xl font-extrabold text-white">Análisis Completado</h2>
+                            <h2 class="text-2xl font-extrabold text-white font-outfit">Análisis Completado</h2>
                             <p id="success-message-text" class="text-sm text-slate-400 max-w-md mx-auto font-light leading-relaxed"></p>
                         </div>
 
@@ -262,6 +261,17 @@
 
                 </form>
             </div>
+            
+            <!-- Contacto Directo visible -->
+            <div class="mt-8 text-center text-xs text-slate-500 space-y-2">
+                <p>O si lo prefieres, puedes contactar directamente:</p>
+                <p class="text-slate-300">
+                    ✉ <a href="mailto:dasmesantoto@gmail.com" class="hover:underline text-emerald-400">dasmesantoto@gmail.com</a>
+                    <span class="mx-2">|</span>
+                    📞 <a href="tel:+34691223199" class="hover:underline text-emerald-400">691 22 31 99</a>
+                </p>
+            </div>
+
         </div>
     </main>
 
@@ -274,22 +284,18 @@
     <script>
         let currentStep = 1;
 
-        // Elementos del DOM
         const progressIndicator = document.getElementById('progress-indicator');
         const form = document.getElementById('qualification-form');
 
-        // Navegación entre pasos
         function nextStep(step) {
             if (step === 1 && !validateStep1()) {
-                return; // Falla validación paso 1
+                return;
             }
 
-            // Cambiar vista de paneles
             document.getElementById(`step-${step}`).classList.remove('active');
             currentStep = step + 1;
             document.getElementById(`step-${currentStep}`).classList.add('active');
 
-            // Actualizar barra de progreso
             updateProgress();
         }
 
@@ -298,7 +304,6 @@
             currentStep = step - 1;
             document.getElementById(`step-${currentStep}`).classList.add('active');
 
-            // Actualizar barra de progreso
             updateProgress();
         }
 
@@ -307,7 +312,6 @@
             progressIndicator.style.width = percentages[currentStep] || '100%';
         }
 
-        // Validación manual de campos del Paso 1
         function validateStep1() {
             let isValid = true;
             
@@ -359,51 +363,42 @@
             return isValid;
         }
 
-        // Captura de envío del formulario
         form.addEventListener('submit', function(e) {
             e.preventDefault();
             
-            // Recoger los datos del lead
             const name = document.getElementById('form-name').value;
             const sector = document.getElementById('form-sector').value;
             const revenue = document.querySelector('input[name="revenue"]:checked').value;
-            const employees = document.getElementById('form-employees').value;
             const budget = document.querySelector('input[name="budget"]:checked').value;
 
-            // Ocultar paso 3
             document.getElementById('step-3').classList.remove('active');
             currentStep = 'success';
             updateProgress();
 
-            // Lógica de Cualificación B2B
             const successTitle = document.getElementById('success-message-text');
             const routingContainer = document.getElementById('routing-action-container');
 
-            // Determinar si cualifica para VIP (DWY - 2.000€)
-            // Cualifica si facturación no es baja (mid/high/vip) e indica disponibilidad de presupuesto dwy-ready
+            // Determinar cualificación para VIP (2.000€)
             if (budget === 'dwy-ready' && (revenue === 'mid' || revenue === 'high' || revenue === 'vip')) {
-                // Aceptado en consultoría VIP
-                successTitle.innerHTML = `¡Felicidades, <strong>${name}</strong>! Tu negocio en el sector <strong>${sector}</strong> cumple con todos los requisitos para acceder a la <strong>Consultoría VIP Done-With-You (2.000€)</strong>. Hemos reservado una sesión estratégica de 15 minutos para revisar tu caso de captación local en Google Maps sin mantenimientos.`;
+                successTitle.innerHTML = `¡Felicidades, <strong>${name}</strong>! Tu negocio en el sector <strong>${sector}</strong> cumple con todos los requisitos para acceder a la <strong>Consultoría VIP Done-With-You (2.000€)</strong>. Hemos reservado una sesión estratégica de 15 minutos para revisar tu caso de captación local sin mantenimientos de agencias.`;
                 
                 routingContainer.innerHTML = `
-                    <a href="https://calendly.com/pymes-control/sesion" target="_blank" rel="noopener" class="block w-full py-4 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 text-darkblue-950 font-extrabold text-sm transition-all hover:scale-[1.02] shadow-lg glow-emerald mb-3">
+                    <a href="https://calendly.com/pymes-control/sesion" target="_blank" rel="noopener" class="block w-full py-4 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-400 text-darkblue-950 font-extrabold text-sm transition-all hover:scale-[1.02] shadow-lg glow-emerald mb-3">
                         Agendar Sesión en Calendly
                     </a>
                     <a href="index.html" class="block text-xs text-slate-500 hover:text-slate-300">Volver a la página principal</a>
                 `;
             } else {
-                // Redirigido a la opción autodidacta DIY
-                successTitle.innerHTML = `¡Hola, <strong>${name}</strong>! Analizando tu perfil, consideramos que la opción más rentable para ti en este momento es acceder a nuestro <strong>Programa DIY de Lanzamiento con IA (290€)</strong>. Aprenderás a tu ritmo a programar y desplegar tu web en GitHub Pages de forma gratuita sin necesidad de inversión inicial en consultoría individual.`;
+                successTitle.innerHTML = `¡Hola, <strong>${name}</strong>! Analizando tu perfil, observamos que actualmente no cumples con el volumen de facturación o presupuesto requerido para el programa de consultoría VIP Done-With-You de 2.000€. Puedes escribirnos directamente por email para revisar alternativas.`;
                 
                 routingContainer.innerHTML = `
-                    <a href="https://checkout.pymescontrol.com/diy-course" target="_blank" rel="noopener" class="block w-full py-4 rounded-xl bg-slate-900 border border-slate-800 hover:border-emerald-500 text-emerald-400 font-extrabold text-sm transition-all hover:scale-[1.02] mb-3">
-                        Acceder al Curso DIY (290€)
+                    <a href="mailto:dasmesantoto@gmail.com" class="block w-full py-4 rounded-xl bg-slate-900 border border-slate-800 hover:border-emerald-500 text-emerald-400 font-extrabold text-sm transition-all hover:scale-[1.02] mb-3">
+                        Contactar por Email
                     </a>
                     <a href="index.html" class="block text-xs text-slate-500 hover:text-slate-300">Volver a la página principal</a>
                 `;
             }
 
-            // Mostrar sección de éxito
             document.getElementById('step-success').classList.add('active');
         });
     </script>
