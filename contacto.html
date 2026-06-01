@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cualifica tu Negocio para Digitalización IA | Pymes Control</title>
+    <meta name="description" content="Formulario de cualificación para el programa de digitalización Done-With-You de Pymes Control. Descubre si tu negocio local cumple con los requisitos.">
+    <meta name="keywords" content="cualificación web pymes, contacto pymes control, consultoria dwy, seo local españa">
+    <meta name="robots" content="noindex, follow"> <!-- Evitar indexar el formulario de contacto para no diluir link juice -->
+    <link rel="canonical" href="https://pymescontrol.com/contacto.html">
+
+    <!-- Google Fonts & Tailwind CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        darkblue: {
+                            950: '#090D16',
+                            900: '#0F1626',
+                            800: '#1D293F',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .glow-emerald {
+            box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.4);
+        }
+        .glass {
+            background: rgba(15, 22, 38, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .step-panel {
+            display: none;
+        }
+        .step-panel.active {
+            display: block;
+            animation: fadeIn 0.4s ease-in-out forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="bg-darkblue-950 text-slate-100 font-sans min-h-screen relative overflow-x-hidden flex flex-col justify-between">
+
+    <!-- Fondo de gradiente decorativo -->
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[450px] bg-[radial-gradient(ellipse_60%_65%_at_50%_-10%,rgba(16,185,129,0.1),rgba(255,255,255,0))] pointer-events-none -z-10"></div>
+
+    <!-- Navegación -->
+    <header class="w-full border-b border-slate-800/80 glass">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-2 group">
+                <span class="w-8 h-8 rounded-lg bg-gradient-to-tr from-emerald-500 to-teal-400 flex items-center justify-center font-extrabold text-darkblue-950 shadow-md">P</span>
+                <span class="text-xl font-bold tracking-tight text-white">Pymes<span class="text-emerald-400 font-light">Control</span></span>
+            </a>
+            <a href="index.html" class="text-sm font-semibold text-slate-400 hover:text-white flex items-center gap-1.5 transition-colors">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
+                Volver a Inicio
+            </a>
+        </div>
+    </header>
+
+    <!-- Contenido Principal: Quiz de Cualificación -->
+    <main class="flex-grow flex items-center justify-center py-12 px-4">
+        <div class="w-full max-w-xl">
+            
+            <!-- Encabezado de Progreso -->
+            <div class="mb-8 text-center space-y-2">
+                <span class="text-xs font-bold text-emerald-400 uppercase tracking-widest">Filtro de Admisión</span>
+                <h1 class="text-2xl sm:text-3xl font-extrabold text-white">Cualificación de Negocio Local</h1>
+                <p class="text-slate-400 text-sm max-w-md mx-auto font-light">Completa este cuestionario rápido de 3 pasos para determinar qué opción del sistema se adapta a tu pyme.</p>
+            </div>
+
+            <!-- Contenedor del Quiz -->
+            <div class="glass border border-slate-800/90 rounded-3xl p-6 sm:p-8 shadow-2xl relative overflow-hidden">
+                
+                <!-- Barra de Progreso Visual -->
+                <div class="absolute top-0 left-0 right-0 h-1.5 bg-slate-900">
+                    <div id="progress-indicator" class="h-full bg-gradient-to-r from-emerald-500 to-teal-400 w-1/3 transition-all duration-500 ease-out"></div>
+                </div>
+
+                <!-- Formulario -->
+                <form id="qualification-form" class="space-y-6 pt-4" novalidate>
+                    
+                    <!-- PASO 1: Datos Personales e Identificación del Negocio -->
+                    <div id="step-1" class="step-panel active space-y-4">
+                        <div class="border-b border-slate-800/80 pb-3 mb-4">
+                            <h2 class="text-lg font-bold text-white flex items-center justify-between">
+                                <span>Información Básica</span>
+                                <span class="text-xs text-emerald-400">Paso 1 de 3</span>
+                            </h2>
+                        </div>
+
+                        <div class="space-y-4">
+                            <div>
+                                <label for="form-name" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">Tu Nombre y Apellidos</label>
+                                <input type="text" id="form-name" required placeholder="Ej. Francisco David" class="w-full bg-slate-900 border border-slate-800 focus:border-emerald-500/50 rounded-xl px-4 py-3 text-sm text-white focus:outline-none transition-all placeholder:text-slate-600">
+                                <span id="error-name" class="text-rose-400 text-xs hidden mt-1">Por favor, introduce tu nombre.</span>
+                            </div>
+                            
+                            <div>
+                                <label for="form-email" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">Correo Electrónico Corporativo</label>
+                                <input type="email" id="form-email" required placeholder="ejemplo@tunegocio.com" class="w-full bg-slate-900 border border-slate-800 focus:border-emerald-500/50 rounded-xl px-4 py-3 text-sm text-white focus:outline-none transition-all placeholder:text-slate-600">
+                                <span id="error-email" class="text-rose-400 text-xs hidden mt-1">Por favor, introduce un correo electrónico válido.</span>
+                            </div>
+
+                            <div>
+                                <label for="form-phone" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">Teléfono de Contacto (WhatsApp)</label>
+                                <input type="tel" id="form-phone" required placeholder="Ej. +34 600 000 000" class="w-full bg-slate-900 border border-slate-800 focus:border-emerald-500/50 rounded-xl px-4 py-3 text-sm text-white focus:outline-none transition-all placeholder:text-slate-600">
+                                <span id="error-phone" class="text-rose-400 text-xs hidden mt-1">Por favor, introduce tu número de teléfono.</span>
+                            </div>
+
+                            <div>
+                                <label for="form-sector" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">Nicho / Sector del Negocio</label>
+                                <select id="form-sector" required class="w-full bg-slate-900 border border-slate-800 focus:border-emerald-500/50 rounded-xl px-4 py-3 text-sm text-white focus:outline-none transition-all">
+                                    <option value="" disabled selected>Selecciona tu nicho...</option>
+                                    <option value="reformas">Reformas y Construcción</option>
+                                    <option value="salud">Clínica Dental / Medicina</option>
+                                    <option value="instalador">Instalaciones e Industrial</option>
+                                    <option value="legal">Abogados / Asesoría</option>
+                                    <option value="otro">Otro Negocio Local de Servicios</option>
+                                </select>
+                                <span id="error-sector" class="text-rose-400 text-xs hidden mt-1">Por favor, selecciona tu sector comercial.</span>
+                            </div>
+                        </div>
+
+                        <div class="pt-6 flex justify-end">
+                            <button type="button" onclick="nextStep(1)" class="px-6 py-3 rounded-xl bg-slate-900 border border-slate-800 hover:border-emerald-500 text-emerald-400 font-semibold text-sm transition-all hover:scale-[1.02]">
+                                Siguiente Paso
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- PASO 2: Volumen de Facturación y Equipo -->
+                    <div id="step-2" class="step-panel space-y-4">
+                        <div class="border-b border-slate-800/80 pb-3 mb-4">
+                            <h2 class="text-lg font-bold text-white flex items-center justify-between">
+                                <span>Capacidad de Negocio</span>
+                                <span class="text-xs text-emerald-400">Paso 2 de 3</span>
+                            </h2>
+                        </div>
+
+                        <div class="space-y-6">
+                            <!-- Pregunta 1: Facturación -->
+                            <div class="space-y-2">
+                                <span class="block text-xs font-semibold text-slate-300 uppercase tracking-wider">¿Cuánto factura tu negocio mensualmente?</span>
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                    <label class="p-4 rounded-xl border border-slate-800 bg-slate-900/50 hover:bg-slate-900 hover:border-emerald-500/40 cursor-pointer flex items-center gap-3 text-sm transition-all">
+                                        <input type="radio" name="revenue" value="low" checked class="accent-emerald-500 w-4 h-4">
+                                        Menos de 3.000 € / mes
+                                    </label>
+                                    <label class="p-4 rounded-xl border border-slate-800 bg-slate-900/50 hover:bg-slate-900 hover:border-emerald-500/40 cursor-pointer flex items-center gap-3 text-sm transition-all">
+                                        <input type="radio" name="revenue" value="mid" class="accent-emerald-500 w-4 h-4">
+                                        Entre 3.000 € y 10.000 €
+                                    </label>
+                                    <label class="p-4 rounded-xl border border-slate-800 bg-slate-900/50 hover:bg-slate-900 hover:border-emerald-500/40 cursor-pointer flex items-center gap-3 text-sm transition-all">
+                                        <input type="radio" name="revenue" value="high" class="accent-emerald-500 w-4 h-4">
+                                        Entre 10.000 € y 30.000 €
+                                    </label>
+                                    <label class="p-4 rounded-xl border border-slate-800 bg-slate-900/50 hover:bg-slate-900 hover:border-emerald-500/40 cursor-pointer flex items-center gap-3 text-sm transition-all">
+                                        <input type="radio" name="revenue" value="vip" class="accent-emerald-500 w-4 h-4">
+                                        Más de 30.000 € / mes
+                                    </label>
+                                </div>
+                            </div>
+
+                            <!-- Pregunta 2: Empleados -->
+                            <div class="space-y-2">
+                                <label for="form-employees" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1">¿Cuántos empleados / colaboradores tiene el negocio?</label>
+                                <select id="form-employees" required class="w-full bg-slate-900 border border-slate-800 focus:border-emerald-500/50 rounded-xl px-4 py-3 text-sm text-white focus:outline-none transition-all">
+                                    <option value="solo">Solo yo (Autónomo independiente)</option>
+                                    <option value="small">De 2 a 5 personas</option>
+                                    <option value="medium" selected>De 6 a 15 personas</option>
+                                    <option value="large">Más de 15 personas</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="pt-6 flex justify-between gap-4">
+                            <button type="button" onclick="prevStep(2)" class="px-5 py-3 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 text-sm font-semibold hover:text-white transition-colors">
+                                Atrás
+                            </button>
+                            <button type="button" onclick="nextStep(2)" class="px-6 py-3 rounded-xl bg-slate-900 border border-slate-800 hover:border-emerald-500 text-emerald-400 font-semibold text-sm transition-all hover:scale-[1.02]">
+                                Siguiente Paso
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- PASO 3: Presupuesto e Intención de Inversión -->
+                    <div id="step-3" class="step-panel space-y-4">
+                        <div class="border-b border-slate-800/80 pb-3 mb-4">
+                            <h2 class="text-lg font-bold text-white flex items-center justify-between">
+                                <span>Capacidad de Inversión</span>
+                                <span class="text-xs text-emerald-400">Paso 3 de 3</span>
+                            </h2>
+                        </div>
+
+                        <div class="space-y-6">
+                            <div class="space-y-3">
+                                <span class="block text-xs font-semibold text-slate-300 uppercase tracking-wider">¿Tienes capacidad financiera y compromiso para invertir en la consultoría de alto valor (2.000€)?</span>
+                                <p class="text-xs text-slate-500 leading-normal">Buscamos negocios locales comprometidos que deseen eliminar de forma definitiva las comisiones mensuales de mantenimiento web.</p>
+                                
+                                <div class="space-y-3">
+                                    <label class="p-4 rounded-xl border-2 border-emerald-500/30 bg-slate-900/30 hover:bg-slate-900 hover:border-emerald-500 cursor-pointer flex items-start gap-3 text-sm transition-all">
+                                        <input type="radio" name="budget" value="dwy-ready" checked class="accent-emerald-500 w-4 h-4 mt-0.5">
+                                        <div>
+                                            <span class="font-bold text-white block">Sí, dispongo de 2.000€ y quiero hacerlo CON vosotros</span>
+                                            <span class="text-xs text-slate-400">Busco consultoría de acompañamiento vip acelerado.</span>
+                                        </div>
+                                    </label>
+                                    
+                                    <label class="p-4 rounded-xl border border-slate-800 bg-slate-900/50 hover:bg-slate-900 hover:border-emerald-500/40 cursor-pointer flex items-start gap-3 text-sm transition-all">
+                                        <input type="radio" name="budget" value="diy-ready" class="accent-emerald-500 w-4 h-4 mt-0.5">
+                                        <div>
+                                            <span class="font-semibold text-slate-200 block">No, prefiero la opción autodidacta (290€)</span>
+                                            <span class="text-xs text-slate-400">Prefiero ver las clases grabadas y programarlo yo mismo con IA.</span>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pt-6 flex justify-between gap-4">
+                            <button type="button" onclick="prevStep(3)" class="px-5 py-3 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 text-sm font-semibold hover:text-white transition-colors">
+                                Atrás
+                            </button>
+                            <button type="submit" class="px-8 py-3.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 text-darkblue-950 font-extrabold text-sm transition-all hover:scale-[1.02] active:scale-[0.98] glow-emerald">
+                                Enviar Cualificación
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- ESTADO DE ÉXITO DINÁMICO (POST SUBMIT) -->
+                    <div id="step-success" class="step-panel space-y-6 text-center py-6">
+                        <div class="w-16 h-16 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 flex items-center justify-center mx-auto mb-4 animate-bounce">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" /></svg>
+                        </div>
+                        
+                        <div class="space-y-2">
+                            <h2 class="text-2xl font-extrabold text-white">Análisis Completado</h2>
+                            <p id="success-message-text" class="text-sm text-slate-400 max-w-md mx-auto font-light leading-relaxed"></p>
+                        </div>
+
+                        <div id="routing-action-container" class="pt-4 max-w-sm mx-auto">
+                            <!-- Se inyecta botón de acción correspondiente por JS -->
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Semántico -->
+    <footer class="border-t border-slate-900 bg-darkblue-950/80 py-8 text-slate-600 text-center text-xs w-full">
+        <p>&copy; 2026 Pymes Control. Filtro de Admisión Cualificado y RGPD Protegido.</p>
+    </footer>
+
+    <!-- Script de Lógica Multipaso del Formulario y Cualificación Dinámica -->
+    <script>
+        let currentStep = 1;
+
+        // Elementos del DOM
+        const progressIndicator = document.getElementById('progress-indicator');
+        const form = document.getElementById('qualification-form');
+
+        // Navegación entre pasos
+        function nextStep(step) {
+            if (step === 1 && !validateStep1()) {
+                return; // Falla validación paso 1
+            }
+
+            // Cambiar vista de paneles
+            document.getElementById(`step-${step}`).classList.remove('active');
+            currentStep = step + 1;
+            document.getElementById(`step-${currentStep}`).classList.add('active');
+
+            // Actualizar barra de progreso
+            updateProgress();
+        }
+
+        function prevStep(step) {
+            document.getElementById(`step-${step}`).classList.remove('active');
+            currentStep = step - 1;
+            document.getElementById(`step-${currentStep}`).classList.add('active');
+
+            // Actualizar barra de progreso
+            updateProgress();
+        }
+
+        function updateProgress() {
+            const percentages = { 1: '33%', 2: '66%', 3: '100%', 'success': '100%' };
+            progressIndicator.style.width = percentages[currentStep] || '100%';
+        }
+
+        // Validación manual de campos del Paso 1
+        function validateStep1() {
+            let isValid = true;
+            
+            const name = document.getElementById('form-name');
+            const errorName = document.getElementById('error-name');
+            if (name.value.trim() === '') {
+                name.classList.add('border-rose-500');
+                errorName.classList.remove('hidden');
+                isValid = false;
+            } else {
+                name.classList.remove('border-rose-500');
+                errorName.classList.add('hidden');
+            }
+
+            const email = document.getElementById('form-email');
+            const errorEmail = document.getElementById('error-email');
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email.value.trim())) {
+                email.classList.add('border-rose-500');
+                errorEmail.classList.remove('hidden');
+                isValid = false;
+            } else {
+                email.classList.remove('border-rose-500');
+                errorEmail.classList.add('hidden');
+            }
+
+            const phone = document.getElementById('form-phone');
+            const errorPhone = document.getElementById('error-phone');
+            if (phone.value.trim() === '') {
+                phone.classList.add('border-rose-500');
+                errorPhone.classList.remove('hidden');
+                isValid = false;
+            } else {
+                phone.classList.remove('border-rose-500');
+                errorPhone.classList.add('hidden');
+            }
+
+            const sector = document.getElementById('form-sector');
+            const errorSector = document.getElementById('error-sector');
+            if (sector.value === '') {
+                sector.classList.add('border-rose-500');
+                errorSector.classList.remove('hidden');
+                isValid = false;
+            } else {
+                sector.classList.remove('border-rose-500');
+                errorSector.classList.add('hidden');
+            }
+
+            return isValid;
+        }
+
+        // Captura de envío del formulario
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Recoger los datos del lead
+            const name = document.getElementById('form-name').value;
+            const sector = document.getElementById('form-sector').value;
+            const revenue = document.querySelector('input[name="revenue"]:checked').value;
+            const employees = document.getElementById('form-employees').value;
+            const budget = document.querySelector('input[name="budget"]:checked').value;
+
+            // Ocultar paso 3
+            document.getElementById('step-3').classList.remove('active');
+            currentStep = 'success';
+            updateProgress();
+
+            // Lógica de Cualificación B2B
+            const successTitle = document.getElementById('success-message-text');
+            const routingContainer = document.getElementById('routing-action-container');
+
+            // Determinar si cualifica para VIP (DWY - 2.000€)
+            // Cualifica si facturación no es baja (mid/high/vip) e indica disponibilidad de presupuesto dwy-ready
+            if (budget === 'dwy-ready' && (revenue === 'mid' || revenue === 'high' || revenue === 'vip')) {
+                // Aceptado en consultoría VIP
+                successTitle.innerHTML = `¡Felicidades, <strong>${name}</strong>! Tu negocio en el sector <strong>${sector}</strong> cumple con todos los requisitos para acceder a la <strong>Consultoría VIP Done-With-You (2.000€)</strong>. Hemos reservado una sesión estratégica de 15 minutos para revisar tu caso de captación local en Google Maps sin mantenimientos.`;
+                
+                routingContainer.innerHTML = `
+                    <a href="https://calendly.com/pymes-control/sesion" target="_blank" rel="noopener" class="block w-full py-4 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 text-darkblue-950 font-extrabold text-sm transition-all hover:scale-[1.02] shadow-lg glow-emerald mb-3">
+                        Agendar Sesión en Calendly
+                    </a>
+                    <a href="index.html" class="block text-xs text-slate-500 hover:text-slate-300">Volver a la página principal</a>
+                `;
+            } else {
+                // Redirigido a la opción autodidacta DIY
+                successTitle.innerHTML = `¡Hola, <strong>${name}</strong>! Analizando tu perfil, consideramos que la opción más rentable para ti en este momento es acceder a nuestro <strong>Programa DIY de Lanzamiento con IA (290€)</strong>. Aprenderás a tu ritmo a programar y desplegar tu web en GitHub Pages de forma gratuita sin necesidad de inversión inicial en consultoría individual.`;
+                
+                routingContainer.innerHTML = `
+                    <a href="https://checkout.pymescontrol.com/diy-course" target="_blank" rel="noopener" class="block w-full py-4 rounded-xl bg-slate-900 border border-slate-800 hover:border-emerald-500 text-emerald-400 font-extrabold text-sm transition-all hover:scale-[1.02] mb-3">
+                        Acceder al Curso DIY (290€)
+                    </a>
+                    <a href="index.html" class="block text-xs text-slate-500 hover:text-slate-300">Volver a la página principal</a>
+                `;
+            }
+
+            // Mostrar sección de éxito
+            document.getElementById('step-success').classList.add('active');
+        });
+    </script>
+</body>
+</html>

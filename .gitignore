@@ -1,0 +1,7 @@
+# IA and temp logs
+.gemini/
+.system_generated/
+scratch/
+node_modules/
+.DS_Store
+Thumbs.db
