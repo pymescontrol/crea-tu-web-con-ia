@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodología y Manifiesto Tecnológico | Pymes Control</title>
+    <meta name="description" content="Descubre la ciencia y la arquitectura técnica detrás del SEO Programático local, el código HTML estático puro y el alojamiento en GitHub CDN para dominar Google Maps.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://pymescontrol.github.io/crea-tu-web-con-ia/metodologia.html">
+
+    <!-- Google Fonts & Tailwind Play CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        outfit: ['Outfit', 'sans-serif'],
+                    },
+                    colors: {
+                        darkblue: {
+                            950: '#060913',
+                            900: '#0b1120',
+                            850: '#111a30',
+                            800: '#17223b',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        .glow-purple {
+            box-shadow: 0 0 35px -5px rgba(168, 85, 247, 0.25);
+        }
+        .glass {
+            background: rgba(11, 17, 32, 0.75);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+        }
+    </style>
+</head>
+<body class="bg-darkblue-950 text-slate-200 font-sans relative overflow-x-hidden selection:bg-emerald-500 selection:text-darkblue-950">
+
+    <!-- Fondo decorativo -->
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[600px] bg-[radial-gradient(ellipse_60%_50%_at_50%_-10%,rgba(168,85,247,0.12),rgba(255,255,255,0))] pointer-events-none -z-10"></div>
+
+    <!-- Navegación Header -->
+    <header class="sticky top-0 z-50 w-full border-b border-slate-800/60 glass">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-2.5 group">
+                <span class="w-9 h-9 rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-400 flex items-center justify-center font-outfit font-black text-darkblue-950 shadow-lg group-hover:scale-105 transition-all">P</span>
+                <span class="text-2xl font-outfit font-bold tracking-tight text-white group-hover:text-emerald-400 transition-colors">Pymes<span class="text-emerald-400 font-light">Control</span></span>
+            </a>
+            
+            <nav aria-label="Menú principal" class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+                <a href="index.html" class="hover:text-emerald-400 transition-colors py-2">Inicio</a>
+                <a href="consultoria-vip.html" class="hover:text-emerald-400 transition-colors py-2">VIP Done-With-You</a>
+                <a href="curso-diy.html" class="hover:text-emerald-400 transition-colors py-2">Curso DIY</a>
+                <a href="metodologia.html" class="text-emerald-400 font-semibold py-2 border-b-2 border-emerald-500">Metodología</a>
+                <a href="contacto.html" class="hover:text-emerald-400 transition-colors py-2">Cualificación</a>
+            </nav>
+            
+            <div class="hidden md:block">
+                <a href="contacto.html" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-sm font-bold text-darkblue-950 transition-all hover:scale-[1.02] shadow-md glow-emerald">
+                    Cualificar Negocio
+                </a>
+            </div>
+
+            <!-- Botón Móvil -->
+            <button id="mobile-menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu" class="md:hidden p-2 text-slate-400 hover:text-white focus:outline-none" aria-label="Abrir menú">
+                <svg class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+
+        <!-- Menu Móvil Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden border-t border-slate-800/80 bg-darkblue-900/98 px-4 pt-2 pb-6 space-y-2">
+            <a href="index.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-emerald-400">Inicio</a>
+            <a href="consultoria-vip.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-emerald-400">VIP Done-With-You</a>
+            <a href="curso-diy.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-emerald-400">Curso DIY</a>
+            <a href="metodologia.html" class="block px-3 py-2 rounded-md text-base font-semibold text-emerald-400 bg-darkblue-850">Metodología</a>
+            <a href="contacto.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-emerald-400">Cualificación</a>
+            <div class="pt-4">
+                <a href="contacto.html" class="block text-center w-full px-4 py-3.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 text-base font-bold text-darkblue-950 shadow-lg glow-emerald">
+                    Cualificar Negocio
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main id="content">
+        <!-- Hero Section / Manifiesto -->
+        <section class="py-20 md:py-28 px-4 max-w-4xl mx-auto space-y-8 text-center">
+            <span class="px-3.5 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-400 text-xs font-semibold tracking-wide uppercase font-outfit">Manifiesto Tecnológico 2026</span>
+            <h1 class="text-4xl sm:text-6xl font-outfit font-extrabold text-white leading-tight">
+                La Ciencia Detrás de la Independencia Tecnológica
+            </h1>
+            <p class="text-lg sm:text-xl text-slate-300 font-light leading-relaxed">
+                Por qué el ecosistema de IA, Código Estático, CDN global y SEO Programático de Pymes Control supera a cualquier infraestructura tradicional de marketing en velocidad y posicionamiento en Google.
+            </p>
+        </section>
+
+        <!-- Contenido Técnico Académico -->
+        <section class="py-24 border-t border-slate-900 bg-slate-950/25">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
+                
+                <!-- Bloque 1: HTML Estático vs Servidores Dinámicos -->
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    <div class="lg:col-span-7 space-y-4">
+                        <h2 class="text-2xl font-outfit font-bold text-white">1. Latencia Cero: La Ventaja del Código Puro</h2>
+                        <p class="text-sm text-slate-400 font-light leading-relaxed">
+                            Las páginas de WordPress o Wix se ensamblan dinámicamente en el servidor cada vez que una visita hace clic: el servidor consulta la base de datos MySQL, junta los archivos PHP y finalmente envía el HTML al navegador. Este proceso suele demorar entre 1.5 y 4 segundos en redes móviles 4G.
+                        </p>
+                        <p class="text-sm text-slate-400 font-light leading-relaxed">
+                            Nuestra metodología sirve **archivos HTML5 y CSS3 pre-renderizados** almacenados directamente en la CDN global de GitHub Pages (Fastly). El servidor no tiene que procesar nada; simplemente le entrega el archivo al teléfono móvil en 0.2 segundos, eliminando la latencia de procesamiento.
+                        </p>
+                    </div>
+                    <div class="lg:col-span-5 p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-3 glow-purple">
+                        <h3 class="font-outfit font-bold text-xs text-purple-400 uppercase tracking-wider">Métrica de Rendimiento TTFB</h3>
+                        <div class="space-y-2 text-xs">
+                            <div class="flex justify-between">
+                                <span>WordPress (Time to First Byte)</span>
+                                <span class="text-rose-400">~800ms - 1.200ms</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>GitHub CDN (Time to First Byte)</span>
+                                <span class="text-emerald-400 font-bold">~15ms - 30ms</span>
+                            </div>
+                        </div>
+                        <p class="text-[10px] text-slate-500 leading-relaxed italic">El TTFB mide el tiempo que tarda el servidor en responder con el primer byte de información al navegador.</p>
+                    </div>
+                </div>
+
+                <!-- Bloque 2: SEO Programático (Hub and Spoke) -->
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    <div class="lg:col-span-5 p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-3">
+                        <h3 class="font-outfit font-bold text-xs text-purple-400 uppercase tracking-wider">Arquitectura SEO Hub & Spoke</h3>
+                        <div class="border border-slate-800 rounded p-4 font-mono text-[10px] text-slate-400 leading-relaxed bg-slate-950/40">
+                            <strong>Hub: index.html (Autoridad Principal)</strong><br>
+                            &nbsp;&nbsp;└── Link: reformas-integrales-madrid.html<br>
+                            &nbsp;&nbsp;└── Link: clinicas-dentales-barcelona.html<br>
+                            &nbsp;&nbsp;└── Link: placas-solares-sevilla.html<br>
+                            <br>
+                            <em>Traspaso de autoridad semántica y rastreo óptimo para arañas de indexación de Google.</em>
+                        </div>
+                    </div>
+                    <div class="lg:col-span-7 space-y-4">
+                        <h2 class="text-2xl font-outfit font-bold text-white">2. Arquitectura de SEO Programático Local</h2>
+                        <p class="text-sm text-slate-400 font-light leading-relaxed">
+                            El posicionamiento orgánico local ya no se gana intentando rankear para palabras clave sumamente competidas a nivel nacional. La estrategia inteligente consiste en dominar el tráfico transaccional de palabras de cola larga ("long-tail") asociadas a servicios específicos en ciudades concretas.
+                        </p>
+                        <p class="text-sm text-slate-400 font-light leading-relaxed">
+                            Mediante la estructura de **Hub & Spoke**, la página principal (`index.html`) canaliza la autoridad de enlace hacia las 100 landings independientes de nichos específicos. De esta forma, Google indexa y posiciona cada combinación local individualmente, captando clientes cualificados antes de que busquen opciones generalistas.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Bloque 3: Sincronización con Google Maps -->
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    <div class="lg:col-span-7 space-y-4">
+                        <h2 class="text-2xl font-outfit font-bold text-white">3. Vinculación con Perfil de Empresa de Google</h2>
+                        <p class="text-sm text-slate-400 font-light leading-relaxed">
+                            Cuando un usuario realiza una búsqueda local en Google (ej. "dentistas cerca de mí"), Google prioriza los resultados del mapa local ("Local Pack"). Los algoritmos del mapa deciden qué posiciones otorgar basándose, en gran medida, en la relevancia y la velocidad de la web enlazada a la ficha de Google Business Profile.
+                        </p>
+                        <p class="text-sm text-slate-400 font-light leading-relaxed">
+                            Al estructurar datos ricos utilizando esquemas Schema.org JSON-LD avanzados y optimizar la velocidad de carga móvil a menos de 1 segundo, transmitimos señales de confianza técnica extrema a los bots de Google, forzando la indexación rápida y mejorando la posición de tu pin en Google Maps.
+                        </p>
+                    </div>
+                    <div class="lg:col-span-5 p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4">
+                        <h3 class="font-outfit font-bold text-xs text-purple-400 uppercase tracking-wider">Esquema Org Semántico Inyectado</h3>
+                        <ul class="space-y-2 text-xs text-slate-300">
+                            <li class="flex items-center gap-2">✔ Oferta Local Geolocalizada (B2B/B2C)</li>
+                            <li class="flex items-center gap-2">✔ Marcado de LocalBusiness y Geolocalización</li>
+                            <li class="flex items-center gap-2">✔ Vinculación Directa con IDs de Ficha de Maps</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FAQ Metodología -->
+        <section class="py-24 border-t border-slate-900 bg-slate-950/20">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16 space-y-4">
+                    <h2 class="text-xs font-semibold text-purple-400 uppercase tracking-wider font-outfit">F.A.Q. Técnico</h2>
+                    <p class="text-3xl sm:text-4xl font-outfit font-extrabold text-white">Preguntas de Arquitectura Web</p>
+                </div>
+
+                <div class="space-y-4">
+                    <!-- Q1 -->
+                    <div class="p-5 rounded-xl bg-darkblue-900 border border-slate-800">
+                        <button type="button" class="flex justify-between items-center w-full text-left font-outfit font-bold text-white text-base focus:outline-none" onclick="toggleFaq(this)">
+                            ¿Cómo es posible que no se cobren cuotas por GitHub Pages?
+                            <span class="text-purple-400 text-xl font-bold ml-4">+</span>
+                        </button>
+                        <div class="hidden mt-3 text-sm text-slate-400 leading-relaxed font-light">
+                            GitHub (propiedad de Microsoft) sirve webs estáticas como parte de sus servicios a desarrolladores. Al no requerir infraestructura de procesamiento en tiempo real en bases de datos dinámicas, el consumo de ancho de banda y electricidad es ínfimo en comparación con el hosting de WordPress tradicional. Es una práctica estándar en el desarrollo de software moderno y 100% legal de por vida.
+                        </div>
+                    </div>
+
+                    <!-- Q2 -->
+                    <div class="p-5 rounded-xl bg-darkblue-900 border border-slate-800">
+                        <button type="button" class="flex justify-between items-center w-full text-left font-outfit font-bold text-white text-base focus:outline-none" onclick="toggleFaq(this)">
+                            ¿Qué ocurre si hay hackeos en GitHub Pages?
+                            <span class="text-purple-400 text-xl font-bold ml-4">+</span>
+                        </button>
+                        <div class="hidden mt-3 text-sm text-slate-400 leading-relaxed font-light">
+                            GitHub Pages es inherentemente inmune a hackeos tradicionales de inyección SQL o scripts maliciosos de WordPress, ya que no ejecuta bases de datos ni código del lado del servidor. No hay panel de inicio de sesión (`wp-admin`), lo que elimina el vector de ataque más común en internet. Tu sitio web es indestructible y siempre cargará de forma segura.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Final -->
+        <section class="py-20 bg-gradient-to-b from-darkblue-950 to-slate-950 relative border-t border-slate-900 text-center">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+                <h2 class="text-3xl sm:text-5xl font-outfit font-extrabold text-white leading-tight">Implementa el Stack de Futuro</h2>
+                <p class="text-slate-300 text-base sm:text-lg max-w-xl mx-auto font-light leading-relaxed">
+                    Comienza hoy a dominar tu mercado local con una web estática rápida y robusta que nunca volverá a depender de servidores obsoletos.
+                </p>
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <a href="contacto.html" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-darkblue-950 font-bold text-base transition-all hover:scale-[1.02] shadow-lg glow-emerald">
+                        Cualificar Mi Negocio
+                    </a>
+                    <a href="consultoria-vip.html" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-300 font-semibold text-base transition-all">
+                        Consultar Servicio VIP Done-With-You
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Semántico -->
+    <footer class="border-t border-slate-900 bg-darkblue-950 py-16 text-slate-500 text-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6 border-b border-slate-900 pb-12">
+                <div class="flex items-center gap-2.5">
+                    <span class="w-7 h-7 rounded-lg bg-emerald-500 flex items-center justify-center font-outfit font-bold text-darkblue-950 text-sm">P</span>
+                    <span class="text-lg font-outfit font-bold text-white">Pymes Control</span>
+                </div>
+                <nav aria-label="Enlaces de pie de página" class="flex gap-6 text-slate-400">
+                    <a href="index.html" class="hover:text-emerald-400">Inicio</a>
+                    <a href="consultoria-vip.html" class="hover:text-emerald-400">VIP Done-With-You</a>
+                    <a href="curso-diy.html" class="hover:text-emerald-400">Curso DIY</a>
+                    <a href="metodologia.html" class="text-emerald-400 font-semibold">Metodología</a>
+                </nav>
+            </div>
+            
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6 text-slate-500">
+                <p class="text-center md:text-left">&copy; 2026 Pymes Control. Todos los derechos reservados. Consultoría de Alto Ticket y Posicionamiento Local.</p>
+                <div class="flex gap-6">
+                    <a href="#" class="hover:text-slate-300 transition-colors">Aviso Legal</a>
+                    <a href="#" class="hover:text-slate-300 transition-colors">Privacidad</a>
+                    <a href="contacto.html" class="hover:text-slate-300 transition-colors">Cualificación</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script Menu Móvil y FAQs -->
+    <script>
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => {
+            const expanded = btn.getAttribute('aria-expanded') === 'true';
+            btn.setAttribute('aria-expanded', !expanded);
+            menu.classList.toggle('hidden');
+        });
+
+        function toggleFaq(button) {
+            const content = button.nextElementSibling;
+            const icon = button.querySelector('span');
+            content.classList.toggle('hidden');
+            if (content.classList.contains('hidden')) {
+                icon.innerText = '+';
+                icon.style.color = '#A855F7';
+            } else {
+                icon.innerText = '-';
+                icon.style.color = '#EF4444';
+            }
+        }
+    </script>
+</body>
+</html>

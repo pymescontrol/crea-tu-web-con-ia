@@ -3,29 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digitalización de Pymes con IA | Pymes Control</title>
-    <meta name="description" content="Aprende a crear la web de tu negocio local con IA y GitHub Pages. Despídete de cuotas de mantenimiento y de agencias tradicionales.">
-    <meta name="keywords" content="digitalización de pymes con IA, aprender a crear web para negocios locales, web gratis pymes, SEO local españa, pymes control">
+    <title>Pymes Control | Independencia Digital B2B y Captación Local sin Agencias</title>
+    <meta name="description" content="Toma el control absoluto de tu negocio local. Creamos webs ultrarrápidas con IA y las alojamos en GitHub Pages gratis. Dile adiós a los mantenimientos mensuales.">
+    <meta name="keywords" content="seo local, seo programático, webs con ia, github pages, digitalizacion de pymes, independencia digital">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://pymescontrol.com/">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://pymescontrol.com/">
-    <meta property="og:title" content="Digitalización de Pymes con IA: Crea tu Web Gratis | Pymes Control">
-    <meta property="og:description" content="Aprende a crear y desplegar la web de tu negocio local con IA en GitHub sin costes mensuales. Consultoría Done-With-You de alto valor.">
-    <meta property="og:image" content="https://pymescontrol.com/assets/og-image.jpg">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://pymescontrol.com/">
-    <meta property="twitter:title" content="Digitalización de Pymes con IA: Crea tu Web Gratis | Pymes Control">
-    <meta property="twitter:description" content="Aprende a crear y desplegar la web de tu negocio local con IA en GitHub sin costes mensuales. Consultoría Done-With-You de alto valor.">
+    <link rel="canonical" href="https://pymescontrol.github.io/crea-tu-web-con-ia/">
 
     <!-- Google Fonts & Tailwind Play CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -33,12 +20,14 @@
                 extend: {
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
+                        outfit: ['Outfit', 'sans-serif'],
                     },
                     colors: {
                         darkblue: {
-                            950: '#090D16',
-                            900: '#0F1626',
-                            800: '#1D293F',
+                            950: '#060913',
+                            900: '#0b1120',
+                            850: '#111a30',
+                            800: '#17223b',
                         }
                     }
                 }
@@ -46,116 +35,73 @@
         }
     </script>
     
-    <!-- Estilos Personalizados y Animaciones -->
     <style>
         .glow-emerald {
-            box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.4);
+            box-shadow: 0 0 35px -5px rgba(16, 185, 129, 0.3);
         }
         .glow-blue {
-            box-shadow: 0 0 25px -5px rgba(59, 130, 246, 0.3);
+            box-shadow: 0 0 35px -5px rgba(59, 130, 246, 0.25);
         }
         .glass {
-            background: rgba(15, 22, 38, 0.7);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
+            background: rgba(11, 17, 32, 0.75);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
         }
         @keyframes float {
             0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-8px); }
+            50% { transform: translateY(-6px); }
         }
         .animate-float {
-            animation: float 4s ease-in-out infinite;
+            animation: float 5s ease-in-out infinite;
         }
     </style>
-
-    <!-- Schema Org JSON-LD -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Organization",
-          "@id": "https://pymescontrol.com/#organization",
-          "name": "Pymes Control",
-          "url": "https://pymescontrol.com/",
-          "logo": "https://pymescontrol.com/assets/logo.png",
-          "sameAs": [],
-          "description": "Consultoría Done-With-You que enseña a pymes y autónomos a crear sus propias webs con IA y desplegarlas de forma gratuita en GitHub Pages para dominar el SEO local."
-        },
-        {
-          "@type": "Course",
-          "@id": "https://pymescontrol.com/#course",
-          "name": "Sistema de Digitalización y SEO Local con Inteligencia Artificial",
-          "description": "Aprende paso a paso a redactar, diseñar y lanzar el sitio web de tu negocio local usando IA (Gemini/Antigravity) y GitHub Pages, sin pagar cuotas mensuales de mantenimiento.",
-          "provider": {
-            "@type": "Organization",
-            "name": "Pymes Control",
-            "url": "https://pymescontrol.com/"
-          }
-        },
-        {
-          "@type": "Offer",
-          "@id": "https://pymescontrol.com/#service-offer",
-          "name": "Consultoría Done-With-You Pymes Control de Alto Valor",
-          "price": "2000.00",
-          "priceCurrency": "EUR",
-          "valueAddedTaxIncluded": "true",
-          "seller": {
-            "@type": "Organization",
-            "name": "Pymes Control"
-          },
-          "description": "Programa intensivo de consultoría y acompañamiento donde creamos e implementamos juntos tu sistema automatizado de captación en Google Maps y web en GitHub."
-        }
-      ]
-    }
-    </script>
 </head>
-<body class="bg-darkblue-950 text-slate-100 font-sans min-h-screen selection:bg-emerald-500 selection:text-darkblue-950 relative overflow-x-hidden">
-    
-    <!-- Fondo decorativo con gradientes radiales -->
-    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[600px] bg-[radial-gradient(ellipse_60%_60%_at_50%_-10%,rgba(16,185,129,0.15),rgba(255,255,255,0))] pointer-events-none -z-10"></div>
-    <div class="absolute top-[800px] right-0 w-[400px] h-[400px] bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.08),rgba(255,255,255,0))] pointer-events-none -z-10"></div>
+<body class="bg-darkblue-950 text-slate-200 font-sans relative overflow-x-hidden selection:bg-emerald-500 selection:text-darkblue-950">
+
+    <!-- Fondo de gradientes radiales premium -->
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[650px] bg-[radial-gradient(ellipse_60%_50%_at_50%_-10%,rgba(16,185,129,0.14),rgba(255,255,255,0))] pointer-events-none -z-10"></div>
+    <div class="absolute top-[1200px] right-0 w-[500px] h-[500px] bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.06),rgba(255,255,255,0))] pointer-events-none -z-10"></div>
 
     <!-- Navegación Header -->
-    <header class="sticky top-0 z-50 w-full border-b border-slate-800/80 glass">
+    <header class="sticky top-0 z-50 w-full border-b border-slate-800/60 glass">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            <a href="index.html" class="flex items-center gap-2 group">
-                <span class="w-8 h-8 rounded-lg bg-gradient-to-tr from-emerald-500 to-teal-400 flex items-center justify-center font-extrabold text-darkblue-950 shadow-md group-hover:scale-105 transition-all">P</span>
-                <span class="text-xl font-bold tracking-tight text-white group-hover:text-emerald-400 transition-colors">Pymes<span class="text-emerald-400 font-light">Control</span></span>
+            <a href="index.html" class="flex items-center gap-2.5 group">
+                <span class="w-9 h-9 rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-400 flex items-center justify-center font-outfit font-black text-darkblue-950 shadow-lg group-hover:scale-105 transition-all">P</span>
+                <span class="text-2xl font-outfit font-bold tracking-tight text-white group-hover:text-emerald-400 transition-colors">Pymes<span class="text-emerald-400 font-light">Control</span></span>
             </a>
             
             <!-- Menu Desktop -->
             <nav aria-label="Menú principal" class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
-                <a href="index.html" class="hover:text-emerald-400 transition-colors py-2 border-b-2 border-emerald-500 text-emerald-400">Inicio</a>
-                <a href="#metodo" class="hover:text-emerald-400 transition-colors py-2">Método IA</a>
-                <a href="#nichos" class="hover:text-emerald-400 transition-colors py-2">Nichos Locales</a>
-                <a href="#casos" class="hover:text-emerald-400 transition-colors py-2">Casos de Éxito</a>
-                <a href="contacto.html" class="hover:text-emerald-400 transition-colors py-2">Contacto</a>
+                <a href="index.html" class="text-emerald-400 font-semibold py-2 border-b-2 border-emerald-500">Inicio</a>
+                <a href="consultoria-vip.html" class="hover:text-emerald-400 transition-colors py-2">VIP Done-With-You</a>
+                <a href="curso-diy.html" class="hover:text-emerald-400 transition-colors py-2">Curso DIY</a>
+                <a href="metodologia.html" class="hover:text-emerald-400 transition-colors py-2">Metodología</a>
+                <a href="contacto.html" class="hover:text-emerald-400 transition-colors py-2">Cualificación</a>
             </nav>
             
             <div class="hidden md:block">
-                <a href="contacto.html" class="px-5 py-2.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-emerald-500 text-sm font-semibold text-emerald-400 transition-all hover:scale-[1.02]">
+                <a href="contacto.html" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-sm font-bold text-darkblue-950 transition-all hover:scale-[1.02] shadow-md glow-emerald">
                     Cualificar Negocio
                 </a>
             </div>
 
             <!-- Botón Móvil -->
             <button id="mobile-menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu" class="md:hidden p-2 text-slate-400 hover:text-white focus:outline-none" aria-label="Abrir menú">
-                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
             </button>
         </div>
 
         <!-- Menu Móvil Dropdown -->
-        <div id="mobile-menu" class="hidden md:hidden border-t border-slate-800/80 bg-darkblue-900/95 px-4 pt-2 pb-6 space-y-2">
-            <a href="index.html" class="block px-3 py-2 rounded-md text-base font-medium text-emerald-400 bg-darkblue-850">Inicio</a>
-            <a href="#metodo" class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-emerald-400">Método IA</a>
-            <a href="#nichos" class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-emerald-400">Nichos Locales</a>
-            <a href="#casos" class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-emerald-400">Casos de Éxito</a>
-            <a href="contacto.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-emerald-400">Contacto</a>
+        <div id="mobile-menu" class="hidden md:hidden border-t border-slate-800/80 bg-darkblue-900/98 px-4 pt-2 pb-6 space-y-2">
+            <a href="index.html" class="block px-3 py-2 rounded-md text-base font-semibold text-emerald-400 bg-darkblue-850">Inicio</a>
+            <a href="consultoria-vip.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-emerald-400">VIP Done-With-You</a>
+            <a href="curso-diy.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-emerald-400">Curso DIY</a>
+            <a href="metodologia.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-emerald-400">Metodología</a>
+            <a href="contacto.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-emerald-400">Cualificación</a>
             <div class="pt-4">
-                <a href="contacto.html" class="block text-center w-full px-4 py-3 rounded-lg bg-emerald-500 hover:bg-emerald-600 text-base font-semibold text-darkblue-950 transition-colors glow-emerald">
+                <a href="contacto.html" class="block text-center w-full px-4 py-3.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 text-base font-bold text-darkblue-950 shadow-lg glow-emerald">
                     Cualificar Negocio
                 </a>
             </div>
@@ -163,93 +109,84 @@
     </header>
 
     <main id="content">
-        <!-- Hero Section -->
-        <section id="hero" class="relative pt-12 pb-24 md:py-32 overflow-hidden">
+        <!-- Hero B2B Premium -->
+        <section id="hero" class="relative pt-16 pb-24 md:py-32 overflow-hidden">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
                     
-                    <!-- Copywriting Principal -->
-                    <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
-                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold tracking-wide">
-                            <span class="flex h-2 w-2 relative">
+                    <!-- Copywriting -->
+                    <div class="lg:col-span-7 space-y-8 text-center lg:text-left">
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold tracking-wide uppercase font-outfit">
+                            <span class="flex h-2.5 w-2.5 relative">
                               <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                              <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                              <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
                             </span>
-                            Modelo Done-With-You (DWY) de Alto Valor
+                            Soberanía e Independencia Digital 2026
                         </div>
-                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
-                            El sistema definitivo para captar clientes en <span class="bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-emerald-300 to-teal-400">Google Maps</span> sin pagar agencias
+                        <h1 class="text-4xl sm:text-6xl font-outfit font-extrabold tracking-tight text-white leading-tight">
+                            Deja de regalar tu facturación a las <span class="bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-emerald-300 to-teal-400">Agencias de Marketing</span>
                         </h1>
-                        <p class="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto lg:mx-0 font-light">
-                            Te enseñamos a crear y controlar tu propia infraestructura web de alta conversión usando Inteligencia Artificial y a alojarla en <strong class="text-white font-medium">GitHub Pages gratis de por vida</strong>. Despídete de los mantenimientos de 150€/mes.
+                        <p class="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto lg:mx-0 font-light leading-relaxed">
+                            No necesitas pagar cuotas mensuales de mantenimiento por una web lenta y cautiva. Te enseñamos a implementar tu propio sistema con <strong class="text-white font-semibold">Inteligencia Artificial y HTML5 puro</strong>, alojado gratis de por vida en GitHub Pages.
                         </p>
                         
                         <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
-                            <a href="contacto.html" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-darkblue-950 font-bold text-base transition-all hover:scale-[1.02] active:scale-[0.98] glow-emerald text-center">
-                                Cualificar para el Programa DWY
+                            <a href="consultoria-vip.html" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-darkblue-950 font-bold text-base transition-all hover:scale-[1.02] shadow-lg glow-emerald text-center">
+                                VIP Done-With-You (€2.000)
                             </a>
-                            <a href="#metodo" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-300 font-semibold text-base transition-all hover:bg-slate-800/50 text-center">
-                                Ver Método en 3 Pasos
+                            <a href="curso-diy.html" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-300 font-semibold text-base transition-all text-center">
+                                Estudiar Curso DIY (€290)
                             </a>
                         </div>
 
-                        <!-- Métricas Rápidas -->
-                        <div class="grid grid-cols-3 gap-4 pt-8 border-t border-slate-900 max-w-md mx-auto lg:mx-0">
+                        <!-- Métricas -->
+                        <div class="grid grid-cols-3 gap-6 pt-10 border-t border-slate-900 max-w-md mx-auto lg:mx-0 text-left">
                             <div>
-                                <p class="text-2xl sm:text-3xl font-extrabold text-emerald-400">0€</p>
-                                <p class="text-xs text-slate-400 uppercase tracking-wider font-semibold">Coste Servidor</p>
+                                <p class="text-3xl font-outfit font-extrabold text-emerald-400">0€</p>
+                                <p class="text-xs text-slate-400 uppercase tracking-wider font-semibold">Servidores/Mantenimiento</p>
                             </div>
                             <div>
-                                <p class="text-2xl sm:text-3xl font-extrabold text-blue-400">2.000€</p>
-                                <p class="text-xs text-slate-400 uppercase tracking-wider font-semibold">Inversión DWY</p>
+                                <p class="text-3xl font-outfit font-extrabold text-blue-400">0.2s</p>
+                                <p class="text-xs text-slate-400 uppercase tracking-wider font-semibold">Velocidad de Carga</p>
                             </div>
                             <div>
-                                <p class="text-2xl sm:text-3xl font-extrabold text-white">100%</p>
-                                <p class="text-xs text-slate-400 uppercase tracking-wider font-semibold">Propiedad Código</p>
+                                <p class="text-3xl font-outfit font-extrabold text-white">100%</p>
+                                <p class="text-xs text-slate-400 uppercase tracking-wider font-semibold">Propiedad Intelectual</p>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Gráfico/Mockup Visual -->
+                    <!-- Lado Visual -->
                     <div class="lg:col-span-5 relative animate-float">
-                        <div class="absolute inset-0 bg-gradient-to-tr from-emerald-500/10 to-blue-500/10 rounded-3xl filter blur-2xl -z-10"></div>
-                        <div class="bg-darkblue-900 border border-slate-800 rounded-3xl p-6 shadow-2xl relative overflow-hidden">
-                            <!-- Ventana superior estilo editor -->
+                        <div class="absolute inset-0 bg-gradient-to-tr from-emerald-500/10 to-blue-500/10 rounded-3xl filter blur-3xl -z-10"></div>
+                        <div class="bg-darkblue-900/90 border border-slate-800 rounded-3xl p-7 shadow-2xl relative overflow-hidden">
                             <div class="flex items-center justify-between border-b border-slate-800/80 pb-4 mb-6">
                                 <div class="flex gap-2">
                                     <span class="w-3 h-3 rounded-full bg-rose-500/80"></span>
                                     <span class="w-3 h-3 rounded-full bg-amber-500/80"></span>
                                     <span class="w-3 h-3 rounded-full bg-emerald-500/80"></span>
                                 </div>
-                                <span class="text-xs text-slate-500 font-mono">pymes-control-ia.js</span>
+                                <span class="text-xs text-slate-500 font-mono">system-stats.log</span>
                             </div>
                             
-                            <!-- Caja Antes y Después -->
-                            <div class="space-y-4">
+                            <!-- Comparativa corta -->
+                            <div class="space-y-4 text-sm">
                                 <div class="p-4 rounded-xl bg-rose-950/20 border border-rose-500/20">
-                                    <div class="flex items-center justify-between mb-2">
-                                        <span class="text-xs font-semibold text-rose-400 uppercase tracking-wider">Agencia Tradicional</span>
-                                        <span class="text-xs text-slate-400">180€/mes</span>
-                                    </div>
-                                    <p class="text-sm font-medium text-slate-200">Web en WordPress lenta, dependiente de plugins, hackeos y secuestrada por la agencia.</p>
+                                    <h3 class="text-rose-400 font-semibold uppercase tracking-wider text-xs mb-1">Agencia Clásica</h3>
+                                    <p class="text-slate-300 text-xs">Cuota fija de 150€/mes, WordPress inestable, hackeable y con carga lenta de 3.8s.</p>
                                 </div>
 
-                                <div class="p-4 rounded-xl bg-emerald-950/30 border border-emerald-500/30 glow-emerald">
-                                    <div class="flex items-center justify-between mb-2">
-                                        <span class="text-xs font-semibold text-emerald-400 uppercase tracking-wider">Sistema Pymes Control</span>
-                                        <span class="text-xs text-emerald-400 font-bold">0€/mes</span>
-                                    </div>
-                                    <p class="text-sm font-medium text-slate-200">Web en HTML5/CSS estático ultrarrápida (100% Score en Google Core Web Vitals) y alojada en GitHub de tu propiedad.</p>
+                                <div class="p-4 rounded-xl bg-emerald-950/20 border border-emerald-500/20 glow-emerald">
+                                    <h3 class="text-emerald-400 font-semibold uppercase tracking-wider text-xs mb-1">Estructura Pymes Control</h3>
+                                    <p class="text-slate-300 text-xs">Cero cuotas mensuales. Hospedaje en CDN global en GitHub Pages. Carga en 0.2s.</p>
                                 </div>
                             </div>
 
-                            <!-- Dashboard de captación simulado -->
-                            <div class="mt-6 p-4 rounded-xl bg-slate-950/50 border border-slate-800 text-xs font-mono text-emerald-400 space-y-1">
-                                <p><span class="text-slate-500">></span> gemini-ai --generate-niche-seo</p>
-                                <p class="text-slate-300">Generando 100 landing pages locales en España...</p>
-                                <p class="text-slate-400">[Reformas Madrid] -> SEO optimizado. Ficha vinculada.</p>
-                                <p class="text-slate-400">[Reformas Valencia] -> SEO optimizado. Ficha vinculada.</p>
-                                <p class="text-emerald-300">¡Listo! Desplegado en GitHub Pages de forma gratuita.</p>
+                            <div class="mt-6 p-4 rounded-xl bg-slate-950/80 border border-slate-800 text-[11px] font-mono text-emerald-400 space-y-1">
+                                <p><span class="text-slate-500">></span> deploy-programmatic-seo --all</p>
+                                <p class="text-slate-300">Construyendo 100 landing pages estáticas locales...</p>
+                                <p class="text-slate-400">100/100 páginas generadas y optimizadas.</p>
+                                <p class="text-emerald-300">Despliegue completado con éxito en CDN global.</p>
                             </div>
                         </div>
                     </div>
@@ -258,128 +195,440 @@
             </div>
         </section>
 
-        <!-- Método Section -->
-        <section id="metodo" class="py-20 border-t border-slate-900 bg-slate-950/30">
+        <!-- Problema vs Solución -->
+        <section id="problema-solucion" class="py-24 border-t border-slate-900 bg-slate-950/20">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
-                    <h2 class="text-xs font-semibold text-emerald-400 uppercase tracking-wider">Cómo Funciona</h2>
-                    <p class="text-3xl sm:text-4xl font-extrabold text-white">Digitalización sin Dependencias en 3 Pasos</p>
-                    <p class="text-lg text-slate-400 font-light">Diseñado específicamente para negocios locales que quieren captar clientes directamente en su ciudad sin depender de agencias de marketing leoninas.</p>
+                    <h2 class="text-xs font-semibold text-emerald-400 uppercase tracking-wider font-outfit">La Realidad B2B</h2>
+                    <p class="text-3xl sm:text-5xl font-outfit font-extrabold text-white">¿Por qué las Agencias no quieren que conozcas esto?</p>
+                    <p class="text-slate-400 font-light text-base sm:text-lg">Las agencias tradicionales necesitan justificar cuotas recurrentes. Por eso te construyen webs en WordPress hiper-pesadas que requieren parches continuos y soporte constante.</p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <!-- Paso 1 -->
-                    <div class="p-8 rounded-2xl bg-darkblue-900/60 border border-slate-800/80 relative hover:border-emerald-500/40 transition-colors group">
-                        <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-xl mb-6 group-hover:scale-105 transition-transform">1</div>
-                        <h3 class="text-xl font-bold text-white mb-3">Copywriting Local con IA</h3>
-                        <p class="text-sm text-slate-400 leading-relaxed">
-                            Usamos modelos avanzados (Gemini 3.5, Antigravity) para redactar los textos persuasivos de venta y las estructuras de tus páginas. Olvídate de redactar o contratar redactores caros.
-                        </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <!-- Problema: Agencia Tradicional -->
+                    <div class="p-8 sm:p-10 rounded-3xl bg-darkblue-900/30 border border-slate-800 flex flex-col justify-between">
+                        <div class="space-y-6">
+                            <h3 class="text-2xl font-outfit font-bold text-rose-400 flex items-center gap-3">
+                                <span class="w-8 h-8 rounded-lg bg-rose-500/10 flex items-center justify-center text-rose-400 text-lg">✕</span>
+                                El Modelo de Dependencia
+                            </h3>
+                            <p class="text-slate-400 text-sm font-light leading-relaxed">
+                                Mantienen tu negocio de rehén cobrándote mantenimientos y tarifas ocultas para cambiar una frase o una foto. La web está en sus servidores y, si cancelas la mensualidad, simplemente la apagan.
+                            </p>
+                            <ul class="space-y-3.5 text-sm text-slate-300">
+                                <li class="flex items-start gap-3">
+                                    <span class="text-rose-500 flex-shrink-0 mt-0.5">●</span>
+                                    Coste oculto de por vida (entre 1.200€ y 2.400€ anuales).
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-rose-500 flex-shrink-0 mt-0.5">●</span>
+                                    Código cautivo en servidores ajenos que no controlas.
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-rose-500 flex-shrink-0 mt-0.5">●</span>
+                                    Web lenta en móviles que arruina tu posicionamiento en Google Maps.
+                                </li>
+                            </ul>
+                        </div>
                     </div>
 
-                    <!-- Paso 2 -->
-                    <div class="p-8 rounded-2xl bg-darkblue-900/60 border border-slate-800/80 relative hover:border-emerald-500/40 transition-colors group">
-                        <div class="w-12 h-12 rounded-xl bg-blue-500/10 border border-blue-500/20 text-blue-400 flex items-center justify-center font-bold text-xl mb-6 group-hover:scale-105 transition-transform">2</div>
-                        <h3 class="text-xl font-bold text-white mb-3">Estructura Web Premium</h3>
-                        <p class="text-sm text-slate-400 leading-relaxed">
-                            Construimos tu sitio usando plantillas modulares limpias, adaptadas y sin código basura. Tu web cargará al instante en cualquier teléfono, aumentando el tiempo de retención y el CTR.
-                        </p>
-                    </div>
-
-                    <!-- Paso 3 -->
-                    <div class="p-8 rounded-2xl bg-darkblue-900/60 border border-slate-800/80 relative hover:border-emerald-500/40 transition-colors group">
-                        <div class="w-12 h-12 rounded-xl bg-teal-500/10 border border-teal-500/20 text-teal-400 flex items-center justify-center font-bold text-xl mb-6 group-hover:scale-105 transition-transform">3</div>
-                        <h3 class="text-xl font-bold text-white mb-3">Dominio en Google Maps + GitHub</h3>
-                        <p class="text-sm text-slate-400 leading-relaxed">
-                            Alojamos y desplegamos tu web de forma 100% gratuita en GitHub Pages y la optimizamos para que indexe y se conecte a tu perfil de Google Business Profile (Google Maps) con autoridad total.
-                        </p>
+                    <!-- Solución: Pymes Control -->
+                    <div class="p-8 sm:p-10 rounded-3xl bg-darkblue-900/70 border-2 border-emerald-500 flex flex-col justify-between relative glow-emerald">
+                        <div class="absolute -top-3.5 right-6 px-3.5 py-1 rounded-full bg-emerald-500 text-darkblue-950 text-xs font-bold uppercase tracking-wider shadow">
+                            Soberanía Absoluta
+                        </div>
+                        <div class="space-y-6">
+                            <h3 class="text-2xl font-outfit font-bold text-emerald-400 flex items-center gap-3">
+                                <span class="w-8 h-8 rounded-lg bg-emerald-500/10 flex items-center justify-center text-emerald-400 text-lg">✓</span>
+                                El Ecosistema Pymes Control
+                            </h3>
+                            <p class="text-slate-300 text-sm font-light leading-relaxed">
+                                Creamos la web de tu negocio en código HTML5 y CSS limpio. Todo el repositorio se aloja en tu cuenta personal de GitHub y se sirve de forma gratuita. Tienes la llave total de tu infraestructura.
+                            </p>
+                            <ul class="space-y-3.5 text-sm text-slate-200">
+                                <li class="flex items-start gap-3">
+                                    <span class="text-emerald-400 flex-shrink-0 mt-0.5">●</span>
+                                    Cero cuotas mensuales de alojamiento. Coste del servidor: 0€.
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-emerald-400 flex-shrink-0 mt-0.5">●</span>
+                                    Propiedad del 100% del código en tu cuenta de GitHub personal.
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-emerald-400 flex-shrink-0 mt-0.5">●</span>
+                                    Carga instantánea (0.2s) garantizada para dominar Google Maps.
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Nichos Grid (Spokes Grid) Section -->
-        <section id="nichos" class="py-20 border-t border-slate-900">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
-                    <h2 class="text-xs font-semibold text-emerald-400 uppercase tracking-wider">Traspaso de Autoridad (Link Juice)</h2>
-                    <p class="text-3xl sm:text-4xl font-extrabold text-white">Captación Local por Sectores</p>
-                    <p class="text-lg text-slate-400 font-light">Explora las plantillas y metodologías que inyectamos según el sector del negocio local. Diseñado para dominar palabras clave locales sin competencia.</p>
+        <!-- Bloques Visuales Grandes (Hub de Destinos) -->
+        <section id="servicios" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <h2 class="text-xs font-semibold text-emerald-400 uppercase tracking-wider font-outfit">Nuestras Opciones</h2>
+                <p class="text-3xl sm:text-5xl font-outfit font-extrabold text-white">¿Cómo deseas tomar el control?</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+                <!-- Bloque 1: Consultoría VIP Done-With-You -->
+                <div class="p-8 sm:p-10 rounded-3xl bg-slate-900 border border-slate-800 flex flex-col justify-between hover:border-emerald-500/40 hover:scale-[1.01] transition-all duration-300">
+                    <div class="space-y-6">
+                        <span class="px-2.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-[10px] font-bold uppercase font-outfit tracking-wider">Acompañamiento VIP</span>
+                        <h3 class="text-3xl font-outfit font-bold text-white">Done-With-You</h3>
+                        <p class="text-slate-400 text-sm font-light leading-relaxed">
+                            Diseñamos, programamos y desplegamos tu sistema completo en tu cuenta personal de GitHub en 15 días. Nos encargamos de todo el trabajo técnico mientras aprendes a gestionarlo.
+                        </p>
+                        <ul class="space-y-2.5 text-xs text-slate-300">
+                            <li class="flex items-center gap-2">✔ Sesiones estratégicas de posicionamiento 1-a-1</li>
+                            <li class="flex items-center gap-2">✔ Programación de landings optimizadas con IA</li>
+                            <li class="flex items-center gap-2">✔ Configuración de Ficha de Google Maps y SEO local</li>
+                        </ul>
+                    </div>
+                    <div class="mt-8 pt-6 border-t border-slate-800/80 flex items-center justify-between">
+                        <span class="text-2xl font-outfit font-bold text-white">2.000€</span>
+                        <a href="consultoria-vip.html" class="px-5 py-2.5 rounded-lg bg-emerald-500 text-darkblue-950 font-bold text-xs uppercase tracking-wider hover:bg-emerald-400 transition-colors">Ver Servicio VIP</a>
+                    </div>
                 </div>
 
-                <!-- Grid de Sectores/Spokes -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                    
-                    <!-- Reformas y Construcción -->
-                    <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800/80 hover:border-emerald-500/40 transition-all flex flex-col justify-between group">
-                        <div>
-                            <span class="p-2.5 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-sm font-semibold inline-block mb-4">Reformas</span>
-                            <h3 class="text-lg font-bold text-white mb-2 group-hover:text-emerald-400 transition-colors">Empresas de Reformas</h3>
-                            <p class="text-xs text-slate-400 leading-relaxed mb-4">Captación de obras, reformas integrales y cocinas de ticket alto.</p>
-                        </div>
-                        <a href="plantilla-nicho.html?nicho=Reformas&ciudad=Madrid" class="text-xs font-semibold text-emerald-400 inline-flex items-center gap-1 hover:underline">
-                            Ver Plantilla Activa
-                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
-                        </a>
+                <!-- Bloque 2: Curso DIY Formación -->
+                <div class="p-8 sm:p-10 rounded-3xl bg-slate-900 border border-slate-800 flex flex-col justify-between hover:border-blue-500/40 hover:scale-[1.01] transition-all duration-300">
+                    <div class="space-y-6">
+                        <span class="px-2.5 py-0.5 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20 text-[10px] font-bold uppercase font-outfit tracking-wider">Formación Completa</span>
+                        <h3 class="text-3xl font-outfit font-bold text-white">Curso DIY</h3>
+                        <p class="text-slate-400 text-sm font-light leading-relaxed">
+                            Aprende paso a paso a usar la IA y plantillas HTML para construir tu propia web y publicarla gratis en GitHub Pages. Adquiere habilidades que te servirán para siempre.
+                        </p>
+                        <ul class="space-y-2.5 text-xs text-slate-300">
+                            <li class="flex items-center gap-2">✔ Módulos prácticos en vídeo de inicio a fin</li>
+                            <li class="flex items-center gap-2">✔ Plantillas premium de alta conversión</li>
+                            <li class="flex items-center gap-2">✔ Soporte técnico en nuestra comunidad privada</li>
+                        </ul>
                     </div>
-
-                    <!-- Salud y Clínicas -->
-                    <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800/80 hover:border-emerald-500/40 transition-all flex flex-col justify-between group">
-                        <div>
-                            <span class="p-2.5 rounded-lg bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm font-semibold inline-block mb-4">Clínicas</span>
-                            <h3 class="text-lg font-bold text-white mb-2 group-hover:text-blue-400 transition-colors">Clínicas Dentales y Salud</h3>
-                            <p class="text-xs text-slate-400 leading-relaxed mb-4">Captación de pacientes locales para implantes y ortodoncia.</p>
-                        </div>
-                        <a href="plantilla-nicho.html?nicho=Dentistas&ciudad=Barcelona" class="text-xs font-semibold text-blue-400 inline-flex items-center gap-1 hover:underline">
-                            Ver Plantilla Activa
-                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
-                        </a>
+                    <div class="mt-8 pt-6 border-t border-slate-800/80 flex items-center justify-between">
+                        <span class="text-2xl font-outfit font-bold text-white">290€</span>
+                        <a href="curso-diy.html" class="px-5 py-2.5 rounded-lg bg-blue-500 text-darkblue-950 font-bold text-xs uppercase tracking-wider hover:bg-blue-400 transition-colors">Ver Curso DIY</a>
                     </div>
+                </div>
 
-                    <!-- Instaladores e Industriales -->
-                    <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800/80 hover:border-emerald-500/40 transition-all flex flex-col justify-between group">
-                        <div>
-                            <span class="p-2.5 rounded-lg bg-teal-500/10 border border-teal-500/20 text-teal-400 text-sm font-semibold inline-block mb-4">Instalaciones</span>
-                            <h3 class="text-lg font-bold text-white mb-2 group-hover:text-teal-400 transition-colors">Climatización e Instaladores</h3>
-                            <p class="text-xs text-slate-400 leading-relaxed mb-4">Captación de servicios de urgencia, aerotermia y aire acondicionado.</p>
-                        </div>
-                        <a href="plantilla-nicho.html?nicho=Instaladores&ciudad=Valencia" class="text-xs font-semibold text-teal-400 inline-flex items-center gap-1 hover:underline">
-                            Ver Plantilla Activa
-                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
-                        </a>
+                <!-- Bloque 3: Manifiesto Tecnológico -->
+                <div class="p-8 sm:p-10 rounded-3xl bg-slate-900 border border-slate-800 flex flex-col justify-between hover:border-purple-500/40 hover:scale-[1.01] transition-all duration-300">
+                    <div class="space-y-6">
+                        <span class="px-2.5 py-0.5 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20 text-[10px] font-bold uppercase font-outfit tracking-wider">Nuestra Filosofía</span>
+                        <h3 class="text-3xl font-outfit font-bold text-white">Metodología</h3>
+                        <p class="text-slate-400 text-sm font-light leading-relaxed">
+                            Entiende el trasfondo técnico detrás de la velocidad instantánea, el SEO programático local y por qué los motores de Google priorizan nuestro código estructurado antes que a WordPress.
+                        </p>
+                        <ul class="space-y-2.5 text-xs text-slate-300">
+                            <li class="flex items-center gap-2">✔ Explicación del sistema de Link Juice</li>
+                            <li class="flex items-center gap-2">✔ Análisis técnico de Core Web Vitals</li>
+                            <li class="flex items-center gap-2">✔ Vinculación geolocalizada con Google Maps</li>
+                        </ul>
                     </div>
-
-                    <!-- Abogados y Asesorías -->
-                    <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800/80 hover:border-emerald-500/40 transition-all flex flex-col justify-between group">
-                        <div>
-                            <span class="p-2.5 rounded-lg bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-sm font-semibold inline-block mb-4">Legal</span>
-                            <h3 class="text-lg font-bold text-white mb-2 group-hover:text-indigo-400 transition-colors">Abogados y Consultores</h3>
-                            <p class="text-xs text-slate-400 leading-relaxed mb-4">Herramienta de captación de clientes locales para herencias y divorcios.</p>
-                        </div>
-                        <a href="plantilla-nicho.html?nicho=Abogados&ciudad=Sevilla" class="text-xs font-semibold text-indigo-400 inline-flex items-center gap-1 hover:underline">
-                            Ver Plantilla Activa
-                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
-                        </a>
+                    <div class="mt-8 pt-6 border-t border-slate-800/80 flex items-center justify-between">
+                        <span class="text-xs text-slate-400 uppercase font-semibold">Ensayo Técnico</span>
+                        <a href="metodologia.html" class="px-5 py-2.5 rounded-lg bg-purple-500 text-darkblue-950 font-bold text-xs uppercase tracking-wider hover:bg-purple-400 transition-colors">Leer Manifiesto</a>
                     </div>
-
                 </div>
             </div>
         </section>
 
-        <!-- CTA Seccional Pegajoso/Destacado -->
-        <section id="dw-you-cta" class="py-16 bg-gradient-to-b from-darkblue-950 to-slate-950 relative border-t border-slate-900">
-            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <div class="p-8 sm:p-12 rounded-3xl bg-gradient-to-tr from-darkblue-900/80 to-slate-900/80 border border-slate-800 relative overflow-hidden">
-                    <div class="absolute top-0 right-0 w-32 h-32 bg-emerald-500/5 rounded-full blur-2xl pointer-events-none"></div>
-                    
-                    <h2 class="text-2xl sm:text-3xl font-extrabold text-white mb-4">¿Quieres que implementemos esto juntos en tu negocio?</h2>
-                    <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto mb-8 font-light">
-                        Ofrecemos una Consultoría Done-With-You personalizada (2.000€) donde creamos tu estructura web con IA y la desplegamos en tu propio GitHub sin costes adicionales ni comisiones de mantenimiento recurrentes.
+        <!-- Casos de Éxito -->
+        <section id="casos" class="py-24 border-t border-slate-900 bg-slate-950/20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                    <h2 class="text-xs font-semibold text-emerald-400 uppercase tracking-wider font-outfit">Resultados Reales</h2>
+                    <p class="text-3xl sm:text-5xl font-outfit font-extrabold text-white">Casos de Éxito de Alto Ticket</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Caso 1 -->
+                    <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4">
+                        <div class="flex items-center justify-between">
+                            <h4 class="font-outfit font-bold text-lg text-white">Reformas Integrales Madrid</h4>
+                            <span class="text-xs text-emerald-400 font-bold font-mono">+180% Leads</span>
+                        </div>
+                        <p class="text-xs text-slate-400 font-light leading-relaxed">
+                            "Pasamos de pagar 180€/mes por una web lenta a desplegar nuestro sitio en GitHub. En 3 meses captamos 4 reformas integrales gracias al posicionamiento local. Ahorro y facturación real."
+                        </p>
+                        <p class="text-[10px] text-slate-500 font-semibold">— Carlos Ortega, Gerente</p>
+                    </div>
+
+                    <!-- Caso 2 -->
+                    <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4">
+                        <div class="flex items-center justify-between">
+                            <h4 class="font-outfit font-bold text-lg text-white">Instalaciones Málaga</h4>
+                            <span class="text-xs text-emerald-400 font-bold font-mono">0.2s Carga</span>
+                        </div>
+                        <p class="text-xs text-slate-400 font-light leading-relaxed">
+                            "Nuestra antigua web de WordPress tardaba una eternidad en cargar en móviles. Con la plantilla HTML5 optimizada de Pymes Control, las llamadas desde la ficha de Maps subieron al doble en semanas."
+                        </p>
+                        <p class="text-[10px] text-slate-500 font-semibold">— Laura Jiménez, Fundadora</p>
+                    </div>
+
+                    <!-- Caso 3 -->
+                    <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4">
+                        <div class="flex items-center justify-between">
+                            <h4 class="font-outfit font-bold text-lg text-white">Clínica Dental Valencia</h4>
+                            <span class="text-xs text-emerald-400 font-bold font-mono">0€ Servidor</span>
+                        </div>
+                        <p class="text-xs text-slate-400 font-light leading-relaxed">
+                            "Liberarnos de las facturas mensuales de la agencia de hosting nos ahorra más de 1.500€ al año. La propiedad del código es 100% nuestra y lo controlamos todo en GitHub."
+                        </p>
+                        <p class="text-[10px] text-slate-500 font-semibold">— Dr. Alejandro Ruiz</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ecosistema de 100 Nichos (Link Juice Grid) -->
+        <section id="nichos" class="py-24 border-t border-slate-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                    <h2 class="text-xs font-semibold text-emerald-400 uppercase tracking-wider font-outfit">Estructura SEO Local</h2>
+                    <p class="text-3xl sm:text-5xl font-outfit font-extrabold text-white">Nuestra Red de Captación B2B</p>
+                    <p class="text-slate-400 font-light text-sm sm:text-base">
+                        Distribución de autoridad semántica a través de 100 páginas de destino locales indexadas de forma individual. Haz clic en cualquiera de las combinaciones para inspeccionar la optimización del SEO Programático.
                     </p>
+                </div>
+
+                <!-- Grid de 10 Sectores con enlaces a Ciudades -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
                     
-                    <a href="contacto.html" class="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-darkblue-950 font-bold text-base transition-all hover:scale-[1.02] active:scale-[0.98] glow-emerald">
-                        Cualificar tu Negocio Ahora
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+                    <!-- Reformas Integrales -->
+                    <div class="space-y-3">
+                        <h4 class="text-xs font-outfit font-extrabold text-emerald-400 uppercase tracking-widest border-b border-slate-800 pb-2">Reformas Integrales</h4>
+                        <ul class="space-y-1.5 text-xs text-slate-400">
+                            <li><a href="nichos-generados/reformas-integrales-madrid.html" class="hover:text-emerald-400 transition-colors">Madrid</a></li>
+                            <li><a href="nichos-generados/reformas-integrales-barcelona.html" class="hover:text-emerald-400 transition-colors">Barcelona</a></li>
+                            <li><a href="nichos-generados/reformas-integrales-valencia.html" class="hover:text-emerald-400 transition-colors">Valencia</a></li>
+                            <li><a href="nichos-generados/reformas-integrales-sevilla.html" class="hover:text-emerald-400 transition-colors">Sevilla</a></li>
+                            <li><a href="nichos-generados/reformas-integrales-zaragoza.html" class="hover:text-emerald-400 transition-colors">Zaragoza</a></li>
+                            <li><a href="nichos-generados/reformas-integrales-malaga.html" class="hover:text-emerald-400 transition-colors">Málaga</a></li>
+                            <li><a href="nichos-generados/reformas-integrales-murcia.html" class="hover:text-emerald-400 transition-colors">Murcia</a></li>
+                            <li><a href="nichos-generados/reformas-integrales-palma-de-mallorca.html" class="hover:text-emerald-400 transition-colors">Palma de Mallorca</a></li>
+                            <li><a href="nichos-generados/reformas-integrales-bilbao.html" class="hover:text-emerald-400 transition-colors">Bilbao</a></li>
+                            <li><a href="nichos-generados/reformas-integrales-alicante.html" class="hover:text-emerald-400 transition-colors">Alicante</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Clínicas Dentales -->
+                    <div class="space-y-3">
+                        <h4 class="text-xs font-outfit font-extrabold text-blue-400 uppercase tracking-widest border-b border-slate-800 pb-2">Clínicas Dentales</h4>
+                        <ul class="space-y-1.5 text-xs text-slate-400">
+                            <li><a href="nichos-generados/clinicas-dentales-madrid.html" class="hover:text-blue-400 transition-colors">Madrid</a></li>
+                            <li><a href="nichos-generados/clinicas-dentales-barcelona.html" class="hover:text-blue-400 transition-colors">Barcelona</a></li>
+                            <li><a href="nichos-generados/clinicas-dentales-valencia.html" class="hover:text-blue-400 transition-colors">Valencia</a></li>
+                            <li><a href="nichos-generados/clinicas-dentales-sevilla.html" class="hover:text-blue-400 transition-colors">Sevilla</a></li>
+                            <li><a href="nichos-generados/clinicas-dentales-zaragoza.html" class="hover:text-blue-400 transition-colors">Zaragoza</a></li>
+                            <li><a href="nichos-generados/clinicas-dentales-malaga.html" class="hover:text-blue-400 transition-colors">Málaga</a></li>
+                            <li><a href="nichos-generados/clinicas-dentales-murcia.html" class="hover:text-blue-400 transition-colors">Murcia</a></li>
+                            <li><a href="nichos-generados/clinicas-dentales-palma-de-mallorca.html" class="hover:text-blue-400 transition-colors">Palma de Mallorca</a></li>
+                            <li><a href="nichos-generados/clinicas-dentales-bilbao.html" class="hover:text-blue-400 transition-colors">Bilbao</a></li>
+                            <li><a href="nichos-generados/clinicas-dentales-alicante.html" class="hover:text-blue-400 transition-colors">Alicante</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Placas Solares -->
+                    <div class="space-y-3">
+                        <h4 class="text-xs font-outfit font-extrabold text-amber-400 uppercase tracking-widest border-b border-slate-800 pb-2">Placas Solares</h4>
+                        <ul class="space-y-1.5 text-xs text-slate-400">
+                            <li><a href="nichos-generados/placas-solares-madrid.html" class="hover:text-amber-400 transition-colors">Madrid</a></li>
+                            <li><a href="nichos-generados/placas-solares-barcelona.html" class="hover:text-amber-400 transition-colors">Barcelona</a></li>
+                            <li><a href="nichos-generados/placas-solares-valencia.html" class="hover:text-amber-400 transition-colors">Valencia</a></li>
+                            <li><a href="nichos-generados/placas-solares-sevilla.html" class="hover:text-amber-400 transition-colors">Sevilla</a></li>
+                            <li><a href="nichos-generados/placas-solares-zaragoza.html" class="hover:text-amber-400 transition-colors">Zaragoza</a></li>
+                            <li><a href="nichos-generados/placas-solares-malaga.html" class="hover:text-amber-400 transition-colors">Málaga</a></li>
+                            <li><a href="nichos-generados/placas-solares-murcia.html" class="hover:text-amber-400 transition-colors">Murcia</a></li>
+                            <li><a href="nichos-generados/placas-solares-palma-de-mallorca.html" class="hover:text-amber-400 transition-colors">Palma de Mallorca</a></li>
+                            <li><a href="nichos-generados/placas-solares-bilbao.html" class="hover:text-amber-400 transition-colors">Bilbao</a></li>
+                            <li><a href="nichos-generados/placas-solares-alicante.html" class="hover:text-amber-400 transition-colors">Alicante</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Arquitectos -->
+                    <div class="space-y-3">
+                        <h4 class="text-xs font-outfit font-extrabold text-teal-400 uppercase tracking-widest border-b border-slate-800 pb-2">Arquitectos</h4>
+                        <ul class="space-y-1.5 text-xs text-slate-400">
+                            <li><a href="nichos-generados/arquitectos-madrid.html" class="hover:text-teal-400 transition-colors">Madrid</a></li>
+                            <li><a href="nichos-generados/arquitectos-barcelona.html" class="hover:text-teal-400 transition-colors">Barcelona</a></li>
+                            <li><a href="nichos-generados/arquitectos-valencia.html" class="hover:text-teal-400 transition-colors">Valencia</a></li>
+                            <li><a href="nichos-generados/arquitectos-sevilla.html" class="hover:text-teal-400 transition-colors">Sevilla</a></li>
+                            <li><a href="nichos-generados/arquitectos-zaragoza.html" class="hover:text-teal-400 transition-colors">Zaragoza</a></li>
+                            <li><a href="nichos-generados/arquitectos-malaga.html" class="hover:text-teal-400 transition-colors">Málaga</a></li>
+                            <li><a href="nichos-generados/arquitectos-murcia.html" class="hover:text-teal-400 transition-colors">Murcia</a></li>
+                            <li><a href="nichos-generados/arquitectos-palma-de-mallorca.html" class="hover:text-teal-400 transition-colors">Palma de Mallorca</a></li>
+                            <li><a href="nichos-generados/arquitectos-bilbao.html" class="hover:text-teal-400 transition-colors">Bilbao</a></li>
+                            <li><a href="nichos-generados/arquitectos-alicante.html" class="hover:text-teal-400 transition-colors">Alicante</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Abogados de Herencias -->
+                    <div class="space-y-3">
+                        <h4 class="text-xs font-outfit font-extrabold text-indigo-400 uppercase tracking-widest border-b border-slate-800 pb-2">Abogados Herencias</h4>
+                        <ul class="space-y-1.5 text-xs text-slate-400">
+                            <li><a href="nichos-generados/abogados-de-herencias-madrid.html" class="hover:text-indigo-400 transition-colors">Madrid</a></li>
+                            <li><a href="nichos-generados/abogados-de-herencias-barcelona.html" class="hover:text-indigo-400 transition-colors">Barcelona</a></li>
+                            <li><a href="nichos-generados/abogados-de-herencias-valencia.html" class="hover:text-indigo-400 transition-colors">Valencia</a></li>
+                            <li><a href="nichos-generados/abogados-de-herencias-sevilla.html" class="hover:text-indigo-400 transition-colors">Sevilla</a></li>
+                            <li><a href="nichos-generados/abogados-de-herencias-zaragoza.html" class="hover:text-indigo-400 transition-colors">Zaragoza</a></li>
+                            <li><a href="nichos-generados/abogados-de-herencias-malaga.html" class="hover:text-indigo-400 transition-colors">Málaga</a></li>
+                            <li><a href="nichos-generados/abogados-de-herencias-murcia.html" class="hover:text-indigo-400 transition-colors">Murcia</a></li>
+                            <li><a href="nichos-generados/abogados-de-herencias-palma-de-mallorca.html" class="hover:text-indigo-400 transition-colors">Palma de Mallorca</a></li>
+                            <li><a href="nichos-generados/abogados-de-herencias-bilbao.html" class="hover:text-indigo-400 transition-colors">Bilbao</a></li>
+                            <li><a href="nichos-generados/abogados-de-herencias-alicante.html" class="hover:text-indigo-400 transition-colors">Alicante</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Clínicas de Estética -->
+                    <div class="space-y-3 pt-6 lg:pt-0">
+                        <h4 class="text-xs font-outfit font-extrabold text-pink-400 uppercase tracking-widest border-b border-slate-800 pb-2">Clínicas Estética</h4>
+                        <ul class="space-y-1.5 text-xs text-slate-400">
+                            <li><a href="nichos-generados/clinicas-de-estetica-madrid.html" class="hover:text-pink-400 transition-colors">Madrid</a></li>
+                            <li><a href="nichos-generados/clinicas-de-estetica-barcelona.html" class="hover:text-pink-400 transition-colors">Barcelona</a></li>
+                            <li><a href="nichos-generados/clinicas-de-estetica-valencia.html" class="hover:text-pink-400 transition-colors">Valencia</a></li>
+                            <li><a href="nichos-generados/clinicas-de-estetica-sevilla.html" class="hover:text-pink-400 transition-colors">Sevilla</a></li>
+                            <li><a href="nichos-generados/clinicas-de-estetica-zaragoza.html" class="hover:text-pink-400 transition-colors">Zaragoza</a></li>
+                            <li><a href="nichos-generados/clinicas-de-estetica-malaga.html" class="hover:text-pink-400 transition-colors">Málaga</a></li>
+                            <li><a href="nichos-generados/clinicas-de-estetica-murcia.html" class="hover:text-pink-400 transition-colors">Murcia</a></li>
+                            <li><a href="nichos-generados/clinicas-de-estetica-palma-de-mallorca.html" class="hover:text-pink-400 transition-colors">Palma de Mallorca</a></li>
+                            <li><a href="nichos-generados/clinicas-de-estetica-bilbao.html" class="hover:text-pink-400 transition-colors">Bilbao</a></li>
+                            <li><a href="nichos-generados/clinicas-de-estetica-alicante.html" class="hover:text-pink-400 transition-colors">Alicante</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Asesorías Fiscales -->
+                    <div class="space-y-3 pt-6 lg:pt-0">
+                        <h4 class="text-xs font-outfit font-extrabold text-emerald-300 uppercase tracking-widest border-b border-slate-800 pb-2">Asesorías Fiscales</h4>
+                        <ul class="space-y-1.5 text-xs text-slate-400">
+                            <li><a href="nichos-generados/asesorias-fiscales-madrid.html" class="hover:text-emerald-300 transition-colors">Madrid</a></li>
+                            <li><a href="nichos-generados/asesorias-fiscales-barcelona.html" class="hover:text-emerald-300 transition-colors">Barcelona</a></li>
+                            <li><a href="nichos-generados/asesorias-fiscales-valencia.html" class="hover:text-emerald-300 transition-colors">Valencia</a></li>
+                            <li><a href="nichos-generados/asesorias-fiscales-sevilla.html" class="hover:text-emerald-300 transition-colors">Sevilla</a></li>
+                            <li><a href="nichos-generados/asesorias-fiscales-zaragoza.html" class="hover:text-emerald-300 transition-colors">Zaragoza</a></li>
+                            <li><a href="nichos-generados/asesorias-fiscales-malaga.html" class="hover:text-emerald-300 transition-colors">Málaga</a></li>
+                            <li><a href="nichos-generados/asesorias-fiscales-murcia.html" class="hover:text-emerald-300 transition-colors">Murcia</a></li>
+                            <li><a href="nichos-generados/asesorias-fiscales-palma-de-mallorca.html" class="hover:text-emerald-300 transition-colors">Palma de Mallorca</a></li>
+                            <li><a href="nichos-generados/asesorias-fiscales-bilbao.html" class="hover:text-emerald-300 transition-colors">Bilbao</a></li>
+                            <li><a href="nichos-generados/asesorias-fiscales-alicante.html" class="hover:text-emerald-300 transition-colors">Alicante</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Inmobiliarias de Lujo -->
+                    <div class="space-y-3 pt-6 lg:pt-0">
+                        <h4 class="text-xs font-outfit font-extrabold text-cyan-400 uppercase tracking-widest border-b border-slate-800 pb-2">Inmobiliaria Lujo</h4>
+                        <ul class="space-y-1.5 text-xs text-slate-400">
+                            <li><a href="nichos-generados/inmobiliarias-de-lujo-madrid.html" class="hover:text-cyan-400 transition-colors">Madrid</a></li>
+                            <li><a href="nichos-generados/inmobiliarias-de-lujo-barcelona.html" class="hover:text-cyan-400 transition-colors">Barcelona</a></li>
+                            <li><a href="nichos-generados/inmobiliarias-de-lujo-valencia.html" class="hover:text-cyan-400 transition-colors">Valencia</a></li>
+                            <li><a href="nichos-generados/inmobiliarias-de-lujo-sevilla.html" class="hover:text-cyan-400 transition-colors">Sevilla</a></li>
+                            <li><a href="nichos-generados/inmobiliarias-de-lujo-zaragoza.html" class="hover:text-cyan-400 transition-colors">Zaragoza</a></li>
+                            <li><a href="nichos-generados/inmobiliarias-de-lujo-malaga.html" class="hover:text-cyan-400 transition-colors">Málaga</a></li>
+                            <li><a href="nichos-generados/inmobiliarias-de-lujo-murcia.html" class="hover:text-cyan-400 transition-colors">Murcia</a></li>
+                            <li><a href="nichos-generados/inmobiliarias-de-lujo-palma-de-mallorca.html" class="hover:text-cyan-400 transition-colors">Palma de Mallorca</a></li>
+                            <li><a href="nichos-generados/inmobiliarias-de-lujo-bilbao.html" class="hover:text-cyan-400 transition-colors">Bilbao</a></li>
+                            <li><a href="nichos-generados/inmobiliarias-de-lujo-alicante.html" class="hover:text-cyan-400 transition-colors">Alicante</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Mudanzas Nacionales -->
+                    <div class="space-y-3 pt-6 lg:pt-0">
+                        <h4 class="text-xs font-outfit font-extrabold text-orange-400 uppercase tracking-widest border-b border-slate-800 pb-2">Mudanzas Nal.</h4>
+                        <ul class="space-y-1.5 text-xs text-slate-400">
+                            <li><a href="nichos-generados/mudanzas-nacionales-madrid.html" class="hover:text-orange-400 transition-colors">Madrid</a></li>
+                            <li><a href="nichos-generados/mudanzas-nacionales-barcelona.html" class="hover:text-orange-400 transition-colors">Barcelona</a></li>
+                            <li><a href="nichos-generados/mudanzas-nacionales-valencia.html" class="hover:text-orange-400 transition-colors">Valencia</a></li>
+                            <li><a href="nichos-generados/mudanzas-nacionales-sevilla.html" class="hover:text-orange-400 transition-colors">Sevilla</a></li>
+                            <li><a href="nichos-generados/mudanzas-nacionales-zaragoza.html" class="hover:text-orange-400 transition-colors">Zaragoza</a></li>
+                            <li><a href="nichos-generados/mudanzas-nacionales-malaga.html" class="hover:text-orange-400 transition-colors">Málaga</a></li>
+                            <li><a href="nichos-generados/mudanzas-nacionales-murcia.html" class="hover:text-orange-400 transition-colors">Murcia</a></li>
+                            <li><a href="nichos-generados/mudanzas-nacionales-palma-de-mallorca.html" class="hover:text-orange-400 transition-colors">Palma de Mallorca</a></li>
+                            <li><a href="nichos-generados/mudanzas-nacionales-bilbao.html" class="hover:text-orange-400 transition-colors">Bilbao</a></li>
+                            <li><a href="nichos-generados/mudanzas-nacionales-alicante.html" class="hover:text-orange-400 transition-colors">Alicante</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Instaladores de Climatización -->
+                    <div class="space-y-3 pt-6 lg:pt-0">
+                        <h4 class="text-xs font-outfit font-extrabold text-rose-400 uppercase tracking-widest border-b border-slate-800 pb-2">Climatización</h4>
+                        <ul class="space-y-1.5 text-xs text-slate-400">
+                            <li><a href="nichos-generados/instaladores-de-climatizacion-madrid.html" class="hover:text-rose-400 transition-colors">Madrid</a></li>
+                            <li><a href="nichos-generados/instaladores-de-climatizacion-barcelona.html" class="hover:text-rose-400 transition-colors">Barcelona</a></li>
+                            <li><a href="nichos-generados/instaladores-de-climatizacion-valencia.html" class="hover:text-rose-400 transition-colors">Valencia</a></li>
+                            <li><a href="nichos-generados/instaladores-de-climatizacion-sevilla.html" class="hover:text-rose-400 transition-colors">Sevilla</a></li>
+                            <li><a href="nichos-generados/instaladores-de-climatizacion-zaragoza.html" class="hover:text-rose-400 transition-colors">Zaragoza</a></li>
+                            <li><a href="nichos-generados/instaladores-de-climatizacion-malaga.html" class="hover:text-rose-400 transition-colors">Málaga</a></li>
+                            <li><a href="nichos-generados/instaladores-de-climatizacion-murcia.html" class="hover:text-rose-400 transition-colors">Murcia</a></li>
+                            <li><a href="nichos-generados/instaladores-de-climatizacion-palma-de-mallorca.html" class="hover:text-rose-400 transition-colors">Palma de Mallorca</a></li>
+                            <li><a href="nichos-generados/instaladores-de-climatizacion-bilbao.html" class="hover:text-rose-400 transition-colors">Bilbao</a></li>
+                            <li><a href="nichos-generados/instaladores-de-climatizacion-alicante.html" class="hover:text-rose-400 transition-colors">Alicante</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Seccional -->
+        <section id="faq" class="py-24 border-t border-slate-900 bg-slate-950/30">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16 space-y-4">
+                    <h2 class="text-xs font-semibold text-emerald-400 uppercase tracking-wider font-outfit">F.A.Q.</h2>
+                    <p class="text-3xl sm:text-4xl font-outfit font-extrabold text-white">Preguntas Frecuentes sobre el Ecosistema</p>
+                </div>
+
+                <div class="space-y-4">
+                    <!-- Q1 -->
+                    <div class="p-5 rounded-xl bg-darkblue-900 border border-slate-800">
+                        <button type="button" class="flex justify-between items-center w-full text-left font-outfit font-bold text-white text-base focus:outline-none" onclick="toggleFaq(this)">
+                            ¿Por qué el coste del servidor es verdaderamente 0€ para siempre?
+                            <span class="text-emerald-400 text-xl font-bold ml-4">+</span>
+                        </button>
+                        <div class="hidden mt-3 text-sm text-slate-400 leading-relaxed font-light">
+                            GitHub Pages es una infraestructura de alojamiento estático optimizada globalmente sobre la red de CDN de Fastly. GitHub ofrece este servicio de forma gratuita para proyectos y repositorios. Dado que no usamos bases de datos dinámicas lentas (como PHP/MySQL de WordPress) sino HTML estático puro, no hay consumo de recursos de servidor dinámico, lo que elimina la necesidad de pagar hosting mensual de forma definitiva.
+                        </div>
+                    </div>
+
+                    <!-- Q2 -->
+                    <div class="p-5 rounded-xl bg-darkblue-900 border border-slate-800">
+                        <button type="button" class="flex justify-between items-center w-full text-left font-outfit font-bold text-white text-base focus:outline-none" onclick="toggleFaq(this)">
+                            ¿Cómo puedo editar mis textos o imágenes si ya no tengo un panel de WordPress?
+                            <span class="text-emerald-400 text-xl font-bold ml-4">+</span>
+                        </button>
+                        <div class="hidden mt-3 text-sm text-slate-400 leading-relaxed font-light">
+                            Utilizamos herramientas de Inteligencia Artificial para regenerar y estructurar el código de tus archivos directamente en tu cuenta de GitHub. Puedes usar una interfaz sencilla de edición web (como GitHub Web Editor) o Gemini/Antigravity para decirle en lenguaje natural lo que quieres modificar: "Cambia el teléfono de contacto en index.html por el 600000000" y la IA se encargará de realizar el cambio de forma segura y publicar la web al instante en segundos.
+                        </div>
+                    </div>
+
+                    <!-- Q3 -->
+                    <div class="p-5 rounded-xl bg-darkblue-900 border border-slate-800">
+                        <button type="button" class="flex justify-between items-center w-full text-left font-outfit font-bold text-white text-base focus:outline-none" onclick="toggleFaq(this)">
+                            ¿Qué ocurre con la propiedad del código y del dominio?
+                            <span class="text-emerald-400 text-xl font-bold ml-4">+</span>
+                        </button>
+                        <div class="hidden mt-3 text-sm text-slate-400 leading-relaxed font-light">
+                            El 100% de la propiedad intelectual de tu sitio te pertenece. El código se guarda en tu propio repositorio personal en tu cuenta de GitHub, a la cual solo tú tienes acceso. Tu dominio (ej. minegocio.com) se registra a tu nombre en el proveedor que elijas (Cloudflare, Namecheap, etc.) y se conecta directamente con GitHub Pages, sin intermediarios ni contratos abusivos.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Final -->
+        <section id="cta" class="py-20 bg-gradient-to-b from-darkblue-950 to-slate-950 relative border-t border-slate-900 text-center">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+                <h2 class="text-3xl sm:text-5xl font-outfit font-extrabold text-white leading-tight">¿Listo para reclamar tu soberanía digital?</h2>
+                <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto font-light leading-relaxed">
+                    Deja de financiar mensualidades inútiles. Ya sea que prefieras que lo hagamos contigo en 15 días o aprender a construirlo tú mismo, el cambio hacia el rendimiento óptimo empieza hoy.
+                </p>
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <a href="contacto.html" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-darkblue-950 font-bold text-base transition-all hover:scale-[1.02] shadow-lg glow-emerald">
+                        Cualificar Negocio B2B
+                    </a>
+                    <a href="metodologia.html" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-300 font-semibold text-base transition-all">
+                        Leer Nuestro Manifiesto Técnico
                     </a>
                 </div>
             </div>
@@ -387,40 +636,53 @@
     </main>
 
     <!-- Footer Semántico -->
-    <footer class="border-t border-slate-900 bg-darkblue-950 py-12 text-slate-500 text-xs">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
-            <div class="flex items-center gap-2">
-                <span class="w-6 h-6 rounded-md bg-emerald-500 flex items-center justify-center font-bold text-darkblue-950 text-xs">P</span>
-                <span class="text-sm font-semibold text-slate-300">Pymes Control</span>
+    <footer class="border-t border-slate-900 bg-darkblue-950 py-16 text-slate-500 text-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6 border-b border-slate-900 pb-12">
+                <div class="flex items-center gap-2.5">
+                    <span class="w-7 h-7 rounded-lg bg-emerald-500 flex items-center justify-center font-outfit font-bold text-darkblue-950 text-sm">P</span>
+                    <span class="text-lg font-outfit font-bold text-white">Pymes Control</span>
+                </div>
+                <p class="text-center md:text-left text-slate-400 max-w-md font-light leading-relaxed">
+                    Consultoría Premium de Digitalización B2B. Proveemos independencia tecnológica absoluta mediante IA, código estático y alojamiento gratuito de por vida.
+                </p>
             </div>
             
-            <p class="text-center md:text-left">&copy; 2026 Pymes Control. Todos los derechos reservados. Consultoría Premium de Digitalización B2B sin Mantenimiento.</p>
-            
-            <div class="flex gap-4">
-                <a href="#" class="hover:text-slate-300 transition-colors">Aviso Legal</a>
-                <a href="#" class="hover:text-slate-300 transition-colors">Privacidad</a>
-                <a href="contacto.html" class="hover:text-slate-300 transition-colors">Cualificación</a>
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6 text-slate-500">
+                <p class="text-center md:text-left">&copy; 2026 Pymes Control. Todos los derechos reservados. Consultoría de Alto Ticket y Posicionamiento Local.</p>
+                <div class="flex gap-6">
+                    <a href="#" class="hover:text-slate-300 transition-colors">Aviso Legal</a>
+                    <a href="#" class="hover:text-slate-300 transition-colors">Privacidad</a>
+                    <a href="contacto.html" class="hover:text-slate-300 transition-colors">Cualificación</a>
+                </div>
             </div>
         </div>
     </footer>
 
-    <!-- Sticky Floating CTA for Mobile Conversion (Fixed) -->
-    <div class="fixed bottom-4 right-4 left-4 z-50 md:hidden">
-        <a href="contacto.html" class="flex items-center justify-center gap-2 w-full py-4 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-darkblue-950 font-bold text-base transition-all shadow-xl active:scale-[0.98] glow-emerald">
-            Cualificar para el Programa (2.000€)
-        </a>
-    </div>
-
-    <!-- Menú Móvil Script -->
+    <!-- Menú Móvil Script y FAQ Script -->
     <script>
+        // Toggle mobile menu
         const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
-
         btn.addEventListener('click', () => {
             const expanded = btn.getAttribute('aria-expanded') === 'true';
             btn.setAttribute('aria-expanded', !expanded);
             menu.classList.toggle('hidden');
         });
+
+        // FAQ Toggle Accordion function
+        function toggleFaq(button) {
+            const content = button.nextElementSibling;
+            const icon = button.querySelector('span');
+            content.classList.toggle('hidden');
+            if (content.classList.contains('hidden')) {
+                icon.innerText = '+';
+                icon.style.color = '#10B981';
+            } else {
+                icon.innerText = '-';
+                icon.style.color = '#EF4444';
+            }
+        }
     </script>
 </body>
 </html>
