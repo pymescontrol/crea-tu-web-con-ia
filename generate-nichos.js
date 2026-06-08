@@ -127,6 +127,15 @@ function generate() {
     }
 
     console.log(`Generación completada con éxito. Se crearon ${generatedCount} archivos HTML en la carpeta 'nichos-generados'.`);
+
+    // Automatically generate sitemap.xml
+    try {
+        const generateSitemap = require('./generate-sitemap');
+        generateSitemap();
+    } catch (err) {
+        console.error('Error al generar el sitemap automáticamente:', err);
+    }
 }
 
 generate();
+
