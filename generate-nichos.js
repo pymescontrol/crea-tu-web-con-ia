@@ -112,6 +112,15 @@ function generate() {
         // Canonical URL and Schema ID URL replacements
         pageHtml = pageHtml.replace(/plantilla-nicho\.html/g, `nichos-generados/${outputFilename}`);
 
+        // Semantic variability variations
+        const variations = [
+            "Tu negocio es tuyo, tu web también debería serlo. La mayoría de agencias te atrapan con cuotas fijas de mantenimiento que acaban costándote miles de euros al año por un trabajo inexistente. Es hora de cortar esa sangría. En nuestra Mentoría VIP de 2 horas, te instalamos una infraestructura propia, alojada gratis de por vida, y te enseñamos a gestionarla sin depender de nadie. Cero cuotas, rentabilidad total.",
+            "Recupera el control total de tu escaparate digital. ¿Tienes que mandar un email a tu informático y esperar días solo para cambiar una foto o el precio de un servicio? Ese modelo está obsoleto. Desplegamos para ti un ecosistema independiente de alta tecnología. En solo 2 horas, aprenderás a actualizar cualquier oferta en segundos, simplemente chateando con la Inteligencia Artificial. Tú mandas.",
+            "Deja de perder clientes por culpa de una web lenta. Si tu página tarda más de 3 segundos en cargar, Google te oculta y tu competencia se lleva las llamadas. Reemplazamos tu viejo WordPress por código puro que carga en 0.2 segundos, posicionándote de forma letal en las búsquedas locales. Te entregamos el sistema llave en mano y te enseñamos a dominarlo en una sesión de 2 horas."
+        ];
+        const variation = variations[generatedCount % 3];
+        pageHtml = pageHtml.replace(/\[EXPLICACION_SERVICIO\]/g, variation);
+
         // Write file
         fs.writeFileSync(outputPath, pageHtml, 'utf8');
         generatedCount++;
