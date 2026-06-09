@@ -121,6 +121,22 @@ function generate() {
         const variation = variations[generatedCount % 3];
         pageHtml = pageHtml.replace(/\[EXPLICACION_SERVICIO\]/g, variation);
 
+        // Generate footer cluster links (cities of the same niche)
+        const otherCitiesLinks = [];
+        for (const otherCity of cities) {
+            if (otherCity !== city) {
+                const cleanNicheName = cleanString(niche);
+                const cleanCityName = cleanString(otherCity);
+                const otherSlug = `${cleanNicheName}-${cleanCityName}.html`;
+                otherCitiesLinks.push(`<li><a href="${otherSlug}" class="hover:text-emerald-400 transition-colors">Diseño Web para ${niche} en ${otherCity}</a></li>`);
+            }
+        }
+        // Add global pillar link
+        otherCitiesLinks.push(`<li class="col-span-2 sm:col-span-3 md:col-span-5 pt-2 border-t border-slate-900/60"><a href="/expertos-${cleanString(niche)}" class="text-emerald-400 hover:text-emerald-300 font-semibold transition-colors">Ver soluciones globales para ${niche}</a></li>`);
+        
+        const clusterHtml = otherCitiesLinks.join('\n            ');
+        pageHtml = pageHtml.replace(/\[ENLAZADO_CLUSTER\]/g, clusterHtml);
+
         // Write file
         fs.writeFileSync(outputPath, pageHtml, 'utf8');
         generatedCount++;
