@@ -114,12 +114,60 @@ function generate() {
 
         // Semantic variability variations
         const variations = [
-            "Tu negocio es tuyo, tu web también debería serlo. La mayoría de agencias te atrapan con cuotas fijas de mantenimiento que acaban costándote miles de euros al año por un trabajo inexistente. Es hora de cortar esa sangría. En nuestra Mentoría VIP de 2 horas, te instalamos una infraestructura propia, alojada gratis de por vida, y te enseñamos a gestionarla sin depender de nadie. Cero cuotas, rentabilidad total.",
-            "Recupera el control total de tu escaparate digital. ¿Tienes que mandar un email a tu informático y esperar días solo para cambiar una foto o el precio de un servicio? Ese modelo está obsoleto. Desplegamos para ti un ecosistema independiente de alta tecnología. En solo 2 horas, aprenderás a actualizar cualquier oferta en segundos, simplemente chateando con la Inteligencia Artificial. Tú mandas.",
-            "Deja de perder clientes por culpa de una web lenta. Si tu página tarda más de 3 segundos en cargar, Google te oculta y tu competencia se lleva las llamadas. Reemplazamos tu viejo WordPress por código puro que carga en 0.2 segundos, posicionándote de forma letal en las búsquedas locales. Te entregamos el sistema llave en mano y te enseñamos a dominarlo en una sesión de 2 horas."
+            "Tu negocio es tuyo, tu web también debería serlo. La mayoría de agencias te atan con cuotas de mantenimiento mensual que acaban costándote cientos de euros al año por un trabajo casi inexistente. Con nuestra mentoría intensiva personalizada, te ayudamos a configurar tu propia web en una infraestructura independiente sin cuotas mensuales y te enseñamos a gestionarla por ti mismo. Propiedad completa, rentabilidad real.",
+            "Recupera el control total de tu escaparate digital. Tener que enviar un correo a tu soporte técnico y esperar días para actualizar un precio o un servicio es ineficiente. Con nuestro acompañamiento práctico, aprenderás a editar y actualizar cualquier contenido de tu web de forma autónoma en minutos, usando Inteligencia Artificial para redactar y modificar el código de manera sencilla.",
+            "Una web lenta ahuyenta a tus potenciales clientes. Si tu página tarda demasiado en cargar en teléfonos móviles, las visitas se marchan y buscan a otro profesional. Construimos contigo una web ligera, rápida y bien estructurada que carga de forma instantánea en cualquier red móvil, mejorando tu presencia y visibilidad en Google sin pagar hosting recurrente."
         ];
         const variation = variations[generatedCount % 3];
         pageHtml = pageHtml.replace(/\[EXPLICACION_SERVICIO\]/g, variation);
+
+        // Sector-specific unique B2B content
+        const sectorData = {
+            "Reformas Integrales": {
+                problema: "En el sector de las reformas, los clientes buscan ver fotos de calidad de trabajos anteriores, opiniones y una forma clara de pedir presupuesto. Si tu web no transmite confianza técnica de inmediato, el cliente se va a otra empresa.",
+                solucion: "Tu web mostrará un porfolio visual limpio de tus proyectos terminados, opiniones destacadas y un formulario de presupuesto directo, diseñado para captar clientes locales interesados en obras reales."
+            },
+            "Clínicas Dentales": {
+                problema: "En las clínicas dentales, la confianza y la cercanía son vitales. Los pacientes quieren conocer al equipo, los tratamientos y las facilidades de contacto directo para pedir cita.",
+                solucion: "Estructuramos tu web para mostrar de manera clara tus especialidades (implantes, ortodoncia, estética), el perfil del equipo médico y botones directos de cita o contacto por WhatsApp."
+            },
+            "Placas Solares": {
+                problema: "Los clientes de placas solares buscan claridad sobre el ahorro energético, el proceso de instalación y las subvenciones disponibles. Una web confusa que no responda a esto perderá el interés del usuario al instante.",
+                solucion: "La web explicará el paso a paso de la instalación, ejemplos de ahorro estimado en viviendas y naves, y un botón de contacto para solicitar un estudio de viabilidad sin compromiso."
+            },
+            "Arquitectos": {
+                problema: "Un estudio de arquitectura necesita transmitir diseño, profesionalidad y rigor técnico. Si la web es lenta o tiene un diseño descuidado, dañará seriamente la imagen y reputación del estudio.",
+                solucion: "Te ayudamos a estructurar una web minimalista y elegante que resalte tus proyectos residenciales o comerciales, tu filosofía de diseño y una forma directa de concertar una reunión técnica."
+            },
+            "Abogados de Herencias": {
+                problema: "El derecho de sucesiones requiere transmitir máxima seriedad, confidencialidad y empatía. Las personas que buscan un abogado de herencias suelen estar pasando por momentos difíciles y necesitan respuestas claras.",
+                solucion: "Estructuramos una web enfocada en resolver dudas comunes de herencias y testamentos, mostrando tu experiencia y ofreciendo una primera consulta de valoración muy accesible."
+            },
+            "Clínicas de Estética": {
+                problema: "Las clínicas de medicina estética necesitan mostrar tratamientos seguros, tecnología homologada y resultados realistas. La falta de información clara sobre el personal cualificado genera desconfianza.",
+                solucion: "La web presentará tus tratamientos faciales y corporales de forma rigurosa, destacando la seguridad de los procesos, el equipo médico y enlaces para reservar una primera valoración."
+            },
+            "Asesorías Fiscales": {
+                problema: "Pymes y autónomos buscan asesorías que les quiten dolores de cabeza y hablen su mismo idioma. Una web que solo use jerga legal aburrida no conseguirá conectar con los clientes locales.",
+                solucion: "Diseñamos la estructura para explicar tus servicios fiscales, laborales y contables con total transparencia, destacando cómo ayudas a ahorrar tiempo y evitar sanciones de Hacienda."
+            },
+            "Inmobiliarias de Lujo": {
+                problema: "En el mercado inmobiliario de gama alta, la presentación visual y la discreción lo son todo. Fotos de baja calidad o webs desorganizadas espantarán de inmediato a los propietarios y compradores premium.",
+                solucion: "La estructura destacará la exclusividad de tu cartera de propiedades, servicios de valoración profesional y asesoramiento personalizado para inversores nacionales e internacionales."
+            },
+            "Mudanzas Nacionales": {
+                problema: "Los clientes que cambian de hogar o de oficina temen las pérdidas de objetos o los retrasos. Si tu web no da garantías de seguridad y seguros contratados, elegirán a otro transportista.",
+                solucion: "La web transmitirá tranquilidad detallando vuestros seguros de carga, vuestra flota de vehículos y un cotizador de mudanzas intuitivo para agilizar la captación de presupuestos."
+            },
+            "Instaladores de Climatización": {
+                problema: "Cuando una caldera o aire acondicionado falla, la rapidez es crítica. Un cliente que no encuentre de forma inmediata el teléfono de urgencias o los tipos de instalación que hacéis se irá al siguiente resultado.",
+                solucion: "La web priorizará el contacto rápido por teléfono o WhatsApp, explicando las marcas con las que trabajáis, los servicios de instalación y el soporte de mantenimiento preventivo."
+            }
+        };
+
+        const sData = sectorData[niche] || { problema: "", solucion: "" };
+        pageHtml = pageHtml.replace(/\[PROBLEMA_SECTOR\]/g, sData.problema);
+        pageHtml = pageHtml.replace(/\[SOLUCION_SECTOR\]/g, sData.solucion);
 
         // Generate footer cluster links (cities of the same niche)
         const otherCitiesLinks = [];

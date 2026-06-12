@@ -21,8 +21,9 @@ function generateSitemap() {
     for (const main of mainFiles) {
         const filePath = path.join(__dirname, main.file);
         if (fs.existsSync(filePath)) {
+            const locUrl = main.file === 'index.html' ? baseUrl : `${baseUrl}${main.file}`;
             urls.push({
-                loc: `${baseUrl}${main.file}`,
+                loc: locUrl,
                 lastmod: lastMod,
                 changefreq: 'weekly',
                 priority: main.priority
