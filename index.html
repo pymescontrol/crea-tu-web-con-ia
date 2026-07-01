@@ -12,22 +12,31 @@
     <!-- Google Fonts & Tailwind Play CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&family=Noto+Serif:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                        outfit: ['Outfit', 'sans-serif'],
+                        sans: ['Manrope', 'sans-serif'],
+                        outfit: ['Noto Serif', 'serif'],
                     },
                     colors: {
                         darkblue: {
-                            950: '#060913',
-                            900: '#0b1120',
-                            850: '#111a30',
-                            800: '#17223b',
+                            950: '#000000',
+                            900: '#0d0d0d',
+                            850: '#111111',
+                            800: '#151515',
+                        },
+                        emerald: {
+                            400: '#c084fc',
+                            500: '#a855f7',
+                            600: '#9333ea',
+                        },
+                        teal: {
+                            400: '#d8b4fe',
+                            500: '#86198f',
                         }
                     }
                 }
@@ -37,13 +46,13 @@
     
     <style>
         .glow-emerald {
-            box-shadow: 0 0 35px -5px rgba(16, 185, 129, 0.3);
+            box-shadow: 0 0 35px -5px rgba(168, 85, 247, 0.3);
         }
         .glow-blue {
-            box-shadow: 0 0 35px -5px rgba(59, 130, 246, 0.25);
+            box-shadow: 0 0 35px -5px rgba(168, 85, 247, 0.25);
         }
         .glass {
-            background: rgba(11, 17, 32, 0.75);
+            background: rgba(13, 13, 13, 0.75);
             backdrop-filter: blur(14px);
             -webkit-backdrop-filter: blur(14px);
         }
@@ -54,13 +63,42 @@
         .animate-float {
             animation: float 5s ease-in-out infinite;
         }
+
+        /* Purple glow card and floating animation styles */
+        .purple-glow-card {
+            border: 1px solid rgba(168, 85, 247, 0.2) !important;
+            box-shadow: 0 4px 20px rgba(168, 85, 247, 0.1), 
+                        inset 0 0 12px rgba(168, 85, 247, 0.03) !important;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease !important;
+        }
+        .purple-glow-card:hover {
+            border-color: rgba(192, 132, 252, 0.6) !important;
+            box-shadow: 0 8px 30px rgba(168, 85, 247, 0.25), 
+                        inset 0 0 15px rgba(168, 85, 247, 0.1) !important;
+        }
+
+        /* Animación de flotado suave */
+        @keyframes float-gentle {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-6px); }
+            100% { transform: translateY(0px); }
+        }
+
+        .floating-card {
+            animation: float-gentle 6s ease-in-out infinite;
+        }
+
+        /* Delays para asincronía en flotación */
+        .float-delay-1 { animation-delay: 1.5s; }
+        .float-delay-2 { animation-delay: 3s; }
+        .float-delay-3 { animation-delay: 4.5s; }
     </style>
 </head>
 <body class="bg-darkblue-950 text-slate-200 font-sans relative overflow-x-hidden selection:bg-emerald-500 selection:text-darkblue-950">
 
     <!-- Fondo de gradientes radiales premium -->
-    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[650px] bg-[radial-gradient(ellipse_60%_50%_at_50%_-10%,rgba(16,185,129,0.14),rgba(255,255,255,0))] pointer-events-none -z-10"></div>
-    <div class="absolute top-[1200px] right-0 w-[500px] h-[500px] bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.06),rgba(255,255,255,0))] pointer-events-none -z-10"></div>
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[650px] bg-[radial-gradient(ellipse_60%_50%_at_50%_-10%,rgba(168,85,247,0.14),rgba(255,255,255,0))] pointer-events-none -z-10"></div>
+    <div class="absolute top-[1200px] right-0 w-[500px] h-[500px] bg-[radial-gradient(circle_at_center,rgba(168,85,247,0.08),rgba(255,255,255,0))] pointer-events-none -z-10"></div>
 
     <!-- Navegación Header -->
     <header class="sticky top-0 z-50 w-full border-b border-slate-800/60 glass">
@@ -306,7 +344,7 @@
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <!-- Item 1 -->
-                    <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800 space-y-4">
+                    <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800 space-y-4 purple-glow-card floating-card float-delay-1">
                         <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-lg font-outfit">01</div>
                         <h3 class="text-lg font-outfit font-bold text-white">Web Profesional Propia</h3>
                         <p class="text-xs text-slate-400 leading-relaxed font-light">
@@ -315,7 +353,7 @@
                     </div>
 
                     <!-- Item 2 -->
-                    <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800 space-y-4">
+                    <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800 space-y-4 purple-glow-card floating-card float-delay-2">
                         <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-lg font-outfit">02</div>
                         <h3 class="text-lg font-outfit font-bold text-white">Páginas Principales</h3>
                         <p class="text-xs text-slate-400 leading-relaxed font-light">
@@ -324,7 +362,7 @@
                     </div>
 
                     <!-- Item 3 -->
-                    <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800 space-y-4">
+                    <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800 space-y-4 purple-glow-card floating-card float-delay-3">
                         <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-lg font-outfit">03</div>
                         <h3 class="text-lg font-outfit font-bold text-white">Textos a tu Medida</h3>
                         <p class="text-xs text-slate-400 leading-relaxed font-light">
@@ -333,7 +371,7 @@
                     </div>
 
                     <!-- Item 4 -->
-                    <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800 space-y-4">
+                    <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800 space-y-4 purple-glow-card floating-card float-delay-1">
                         <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-lg font-outfit">04</div>
                         <h3 class="text-lg font-outfit font-bold text-white">Diseño Responsive</h3>
                         <p class="text-xs text-slate-400 leading-relaxed font-light">
@@ -342,7 +380,7 @@
                     </div>
 
                     <!-- Item 5 -->
-                    <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800 space-y-4">
+                    <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800 space-y-4 purple-glow-card floating-card float-delay-2">
                         <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-lg font-outfit">05</div>
                         <h3 class="text-lg font-outfit font-bold text-white">Botones de Contacto</h3>
                         <p class="text-xs text-slate-400 leading-relaxed font-light">
@@ -351,7 +389,7 @@
                     </div>
 
                     <!-- Item 6 -->
-                    <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800 space-y-4">
+                    <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800 space-y-4 purple-glow-card floating-card float-delay-3">
                         <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-lg font-outfit">06</div>
                         <h3 class="text-lg font-outfit font-bold text-white">Estructura Limpia</h3>
                         <p class="text-xs text-slate-400 leading-relaxed font-light">
@@ -360,7 +398,7 @@
                     </div>
 
                     <!-- Item 7 -->
-                    <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800 space-y-4">
+                    <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800 space-y-4 purple-glow-card floating-card float-delay-1">
                         <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-lg font-outfit">07</div>
                         <h3 class="text-lg font-outfit font-bold text-white">Publicación Online</h3>
                         <p class="text-xs text-slate-400 leading-relaxed font-light">
@@ -369,7 +407,7 @@
                     </div>
 
                     <!-- Item 8 -->
-                    <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800 space-y-4">
+                    <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800 space-y-4 purple-glow-card floating-card float-delay-2">
                         <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-lg font-outfit">08</div>
                         <h3 class="text-lg font-outfit font-bold text-white">Base para Crecer</h3>
                         <p class="text-xs text-slate-400 leading-relaxed font-light">
@@ -393,7 +431,7 @@
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <!-- Paso 1 -->
-                    <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4">
+                    <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4 purple-glow-card floating-card float-delay-1">
                         <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-outfit font-bold text-lg">01</div>
                         <h3 class="text-lg font-outfit font-bold text-white">Análisis del Negocio</h3>
                         <p class="text-xs text-slate-400 leading-relaxed font-light">
@@ -402,7 +440,7 @@
                     </div>
 
                     <!-- Paso 2 -->
-                    <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4">
+                    <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4 purple-glow-card floating-card float-delay-2">
                         <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-outfit font-bold text-lg">02</div>
                         <h3 class="text-lg font-outfit font-bold text-white">Definición de Mensajes</h3>
                         <p class="text-xs text-slate-400 leading-relaxed font-light">
@@ -411,7 +449,7 @@
                     </div>
 
                     <!-- Paso 3 -->
-                    <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4">
+                    <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4 purple-glow-card floating-card float-delay-3">
                         <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-outfit font-bold text-lg">03</div>
                         <h3 class="text-lg font-outfit font-bold text-white">Diseño de la Estructura</h3>
                         <p class="text-xs text-slate-400 leading-relaxed font-light">
@@ -420,7 +458,7 @@
                     </div>
 
                     <!-- Paso 4 -->
-                    <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4">
+                    <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4 purple-glow-card floating-card float-delay-1">
                         <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-outfit font-bold text-lg">04</div>
                         <h3 class="text-lg font-outfit font-bold text-white">Desarrollo asistido por IA</h3>
                         <p class="text-xs text-slate-400 leading-relaxed font-light">
@@ -429,7 +467,7 @@
                     </div>
 
                     <!-- Paso 5 -->
-                    <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4">
+                    <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4 purple-glow-card floating-card float-delay-2">
                         <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-outfit font-bold text-lg">05</div>
                         <h3 class="text-lg font-outfit font-bold text-white">Diseño y Publicación</h3>
                         <p class="text-xs text-slate-400 leading-relaxed font-light">
@@ -438,7 +476,7 @@
                     </div>
 
                     <!-- Paso 6 -->
-                    <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4">
+                    <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4 purple-glow-card floating-card float-delay-3">
                         <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-outfit font-bold text-lg">06</div>
                         <h3 class="text-lg font-outfit font-bold text-white">Formación de Mantenimiento</h3>
                         <p class="text-xs text-slate-400 leading-relaxed font-light">
@@ -462,7 +500,7 @@
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
                     <!-- Para quién es -->
-                    <div class="p-8 sm:p-10 rounded-3xl bg-darkblue-900/40 border border-slate-800 space-y-6">
+                    <div class="p-8 sm:p-10 rounded-3xl bg-darkblue-900/40 border border-slate-800 space-y-6 purple-glow-card floating-card float-delay-1">
                         <h3 class="text-2xl font-outfit font-bold text-emerald-400 flex items-center gap-3">
                             <span class="w-8 h-8 rounded-lg bg-emerald-500/10 flex items-center justify-center text-emerald-400 text-lg font-bold">✓</span>
                             Esta mentoría es para:
@@ -488,7 +526,7 @@
                     </div>
 
                     <!-- Para quién no es -->
-                    <div class="p-8 sm:p-10 rounded-3xl bg-darkblue-900/40 border border-slate-800 space-y-6">
+                    <div class="p-8 sm:p-10 rounded-3xl bg-darkblue-900/40 border border-slate-800 space-y-6 purple-glow-card floating-card float-delay-2">
                         <h3 class="text-2xl font-outfit font-bold text-rose-400 flex items-center gap-3">
                             <span class="w-8 h-8 rounded-lg bg-rose-500/10 flex items-center justify-center text-rose-400 text-lg font-bold">✕</span>
                             Esta mentoría NO es para:
@@ -525,7 +563,7 @@
 
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-stretch mb-12">
                     <!-- Qué incluye el precio (Col 1) -->
-                    <div class="lg:col-span-6 p-8 rounded-3xl bg-darkblue-900/40 border border-slate-800 flex flex-col justify-between">
+                    <div class="lg:col-span-6 p-8 rounded-3xl bg-darkblue-900/40 border border-slate-800 flex flex-col justify-between purple-glow-card floating-card float-delay-1">
                         <div class="space-y-6">
                             <h3 class="text-2xl font-outfit font-bold text-white">¿Qué incluye la mentoría?</h3>
                             <p class="text-slate-400 text-sm font-light leading-relaxed">
@@ -580,7 +618,7 @@
                     </div>
 
                     <!-- Comparativa Financiera (Col 2) -->
-                    <div class="lg:col-span-6 p-8 rounded-3xl bg-darkblue-900/20 border border-slate-800 flex flex-col justify-between">
+                    <div class="lg:col-span-6 p-8 rounded-3xl bg-darkblue-900/20 border border-slate-800 flex flex-col justify-between purple-glow-card floating-card float-delay-2">
                         <div class="space-y-6">
                             <h3 class="text-2xl font-outfit font-bold text-white">Comparativa a 5 años vista</h3>
                             <p class="text-slate-400 text-sm font-light leading-relaxed">
@@ -626,7 +664,7 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
                 <!-- Bloque 1: Mentoría VIP -->
-                <div class="p-8 sm:p-10 rounded-3xl bg-slate-900 border border-slate-800 flex flex-col justify-between hover:border-emerald-500/40 hover:scale-[1.01] transition-all duration-300">
+                <div class="p-8 sm:p-10 rounded-3xl bg-slate-900 border border-slate-800 flex flex-col justify-between hover:border-emerald-500/40 hover:scale-[1.01] transition-all duration-300 purple-glow-card floating-card float-delay-1">
                     <div class="space-y-6">
                         <span class="px-2.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-[10px] font-bold uppercase font-outfit tracking-wider">Mentoría VIP</span>
                         <h3 class="text-3xl font-outfit font-bold text-white">Mentoría 2 Horas</h3>
@@ -646,7 +684,7 @@
                 </div>
 
                 <!-- Bloque 2: Manifiesto Tecnológico -->
-                <div class="p-8 sm:p-10 rounded-3xl bg-slate-900 border border-slate-800 flex flex-col justify-between hover:border-purple-500/40 hover:scale-[1.01] transition-all duration-300">
+                <div class="p-8 sm:p-10 rounded-3xl bg-slate-900 border border-slate-800 flex flex-col justify-between hover:border-purple-500/40 hover:scale-[1.01] transition-all duration-300 purple-glow-card floating-card float-delay-2">
                     <div class="space-y-6">
                         <span class="px-2.5 py-0.5 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20 text-[10px] font-bold uppercase font-outfit tracking-wider">Nuestra Filosofía</span>
                         <h3 class="text-3xl font-outfit font-bold text-white">Metodología</h3>
@@ -677,7 +715,7 @@
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <!-- Caso 1 -->
-                    <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4">
+                    <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4 purple-glow-card floating-card float-delay-1">
                         <div class="flex items-center justify-between">
                             <h4 class="font-outfit font-bold text-lg text-white">Reformas en General</h4>
                             <span class="text-xs text-emerald-400 font-bold font-mono">Más visibilidad</span>
@@ -689,7 +727,7 @@
                     </div>
 
                     <!-- Caso 2 -->
-                    <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4">
+                    <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4 purple-glow-card floating-card float-delay-2">
                         <div class="flex items-center justify-between">
                             <h4 class="font-outfit font-bold text-lg text-white">Servicios y Climatización</h4>
                             <span class="text-xs text-emerald-400 font-bold font-mono">Web ligera</span>
@@ -701,7 +739,7 @@
                     </div>
 
                     <!-- Caso 3 -->
-                    <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4">
+                    <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800 space-y-4 purple-glow-card floating-card float-delay-3">
                         <div class="flex items-center justify-between">
                             <h4 class="font-outfit font-bold text-lg text-white">Clínicas y Consultas</h4>
                             <span class="text-xs text-emerald-400 font-bold font-mono">Sin cuotas</span>
@@ -865,7 +903,7 @@
                         <p class="text-slate-300 text-base font-light leading-relaxed">
                             Pymes Control nace para ayudar a pequeños negocios a entender y controlar mejor su presencia digital. La IA puede acelerar muchísimo el proceso, pero no sustituye el criterio, la estrategia ni el conocimiento del negocio. Mi trabajo es ayudarte a unir esas dos cosas: tu conocimiento del negocio y una forma moderna de crear una web profesional.
                         </p>
-                        <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800 space-y-3">
+                        <div class="p-6 rounded-2xl bg-darkblue-900/40 border border-slate-800 space-y-3 purple-glow-card floating-card float-delay-1">
                             <h3 class="font-outfit font-bold text-sm text-emerald-400 uppercase tracking-wider">No somos una agencia tradicional</h3>
                             <p class="text-xs text-slate-400 font-light leading-relaxed">
                                 Pymes Control no es una agencia tradicional de diseño web. No vengo a venderte una web cerrada que no entiendes. La idea es que aprendas cómo se crea, cómo se publica y cómo puedes mejorarla con ayuda de IA. Si quieres que alguien lo haga todo por ti, eso encaja más con un servicio de creación web. Si quieres entender el sistema y tener control, esta mentoría es para ti.
@@ -876,7 +914,7 @@
                     <div class="lg:col-span-6 space-y-6">
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                             <!-- Diferencia 1 -->
-                            <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800/80">
+                            <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800/80 purple-glow-card floating-card float-delay-2">
                                 <h3 class="font-outfit font-bold text-white mb-2 text-base flex items-center gap-2">
                                     <span class="w-6 h-6 rounded bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xs">✓</span>
                                     Sin Ataduras
@@ -887,7 +925,7 @@
                             </div>
                             
                             <!-- Diferencia 2 -->
-                            <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800/80">
+                            <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800/80 purple-glow-card floating-card float-delay-3">
                                 <h3 class="font-outfit font-bold text-white mb-2 text-base flex items-center gap-2">
                                     <span class="w-6 h-6 rounded bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xs">✓</span>
                                     Aprende el Proceso
@@ -898,7 +936,7 @@
                             </div>
                             
                             <!-- Diferencia 3 -->
-                            <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800/80">
+                            <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800/80 purple-glow-card floating-card float-delay-1">
                                 <h3 class="font-outfit font-bold text-white mb-2 text-base flex items-center gap-2">
                                     <span class="w-6 h-6 rounded bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xs">✓</span>
                                     Uso de IA con Criterio
@@ -909,7 +947,7 @@
                             </div>
                             
                             <!-- Diferencia 4 -->
-                            <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800/80">
+                            <div class="p-6 rounded-2xl bg-darkblue-900 border border-slate-800/80 purple-glow-card floating-card float-delay-2">
                                 <h3 class="font-outfit font-bold text-white mb-2 text-base flex items-center gap-2">
                                     <span class="w-6 h-6 rounded bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xs">✓</span>
                                     Base Sólida y Propia
@@ -1035,7 +1073,7 @@
             content.classList.toggle('hidden');
             if (content.classList.contains('hidden')) {
                 icon.innerText = '+';
-                icon.style.color = '#10B981';
+                icon.style.color = '#a855f7';
             } else {
                 icon.innerText = '-';
                 icon.style.color = '#EF4444';
