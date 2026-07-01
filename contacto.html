@@ -58,10 +58,6 @@
             -webkit-backdrop-filter: blur(12px);
         }
 
-        /* Borde blanco para textos negros sobre fondos de color */
-        .text-darkblue-950, .text-slate-950 {
-            text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff !important;
-        }
         .step-panel {
             display: none;
         }
@@ -78,13 +74,13 @@
 <body class="bg-darkblue-950 text-slate-100 font-sans min-h-screen relative overflow-x-hidden flex flex-col justify-between">
 
     <!-- Fondo de gradiente decorativo -->
-    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[450px] bg-[radial-gradient(ellipse_60%_65%_at_50%_-10%,rgba(16,185,129,0.1),rgba(255,255,255,0))] pointer-events-none -z-10"></div>
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[450px] bg-[radial-gradient(ellipse_60%_65%_at_50%_-10%,rgba(168,85,247,0.1),rgba(255,255,255,0))] pointer-events-none -z-10"></div>
 
     <!-- Navegación -->
     <header class="w-full border-b border-slate-800/80 glass">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <a href="index.html" class="flex items-center gap-2 group">
-                <span class="w-8 h-8 rounded-lg bg-gradient-to-tr from-emerald-500 to-teal-400 flex items-center justify-center font-extrabold text-darkblue-950 shadow-md">P</span>
+                <span class="w-8 h-8 rounded-lg bg-gradient-to-tr from-emerald-500 to-teal-400 flex items-center justify-center font-extrabold text-white shadow-md">P</span>
                 <span class="text-xl font-bold tracking-tight text-white">Pymes<span class="text-emerald-400 font-light">Control</span></span>
             </a>
             <a href="index.html" class="text-sm font-semibold text-slate-400 hover:text-white flex items-center gap-1.5 transition-colors">
@@ -256,7 +252,7 @@
                             <button type="button" onclick="prevStep(3)" class="px-5 py-3 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 text-sm font-semibold hover:text-white transition-colors">
                                 Atrás
                             </button>
-                            <button type="submit" class="px-8 py-3.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 text-darkblue-950 font-extrabold text-sm transition-all hover:scale-[1.02] active:scale-[0.98] glow-emerald">
+                             <button type="submit" class="px-8 py-3.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 text-white font-extrabold text-sm transition-all hover:scale-[1.02] active:scale-[0.98] glow-emerald">
                                 Enviar Cualificación
                             </button>
                         </div>
@@ -402,7 +398,7 @@
                 successTitle.innerHTML = `¡Felicidades, <strong>${name}</strong>! Tu negocio en el sector <strong>${sector}</strong> cumple con todos los requisitos para acceder a la <strong>Mentoría Intensiva (2.000€)</strong>. Hemos reservado una sesión de valoración de 15 minutos para revisar tu caso sin mantenimientos de agencias.`;
                 
                 routingContainer.innerHTML = `
-                    <a href="https://calendly.com/pymes-control/sesion" target="_blank" rel="noopener" class="block w-full py-4 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-400 text-darkblue-950 font-extrabold text-sm transition-all hover:scale-[1.02] shadow-lg glow-emerald mb-3">
+                    <a href="https://calendly.com/pymes-control/sesion" target="_blank" rel="noopener" class="block w-full py-4 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-400 text-white font-extrabold text-sm transition-all hover:scale-[1.02] shadow-lg glow-emerald mb-3">
                         Agendar Sesión en Calendly
                     </a>
                     <a href="index.html" class="block text-xs text-slate-500 hover:text-slate-300">Volver a la página principal</a>
