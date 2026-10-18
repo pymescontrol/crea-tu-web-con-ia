@@ -1,3 +1,2 @@
 User-agent: *
 Allow: /
-Sitemap: https://pymescontrol.github.io/crea-tu-web-con-ia/sitemap.xml

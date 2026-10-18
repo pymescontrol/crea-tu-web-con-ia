@@ -1,0 +1,185 @@
+{
+  "riaza": {
+    "headline": "Web para alojamientos y pequeños negocios en Riaza",
+    "title": "Web para alojamientos en Riaza | Pymes Control",
+    "heading": "Una ficha que distinga dónde está el alojamiento y cómo se utiliza",
+    "paragraphs": [
+      "El directorio del Ayuntamiento de Riaza reúne hoteles, apartamentos, casas y otras modalidades de alojamiento. Sus fichas incluyen direcciones en Riaza, Madriguera, Becerril y Villacorta, entre otros lugares. Aparecer en un directorio de la zona no significa que todos los establecimientos estén en el mismo núcleo.",
+      "Para preparar tu web proponemos separar tres decisiones: el lugar exacto, la modalidad de estancia y los espacios de uso exclusivo o compartido. Así la persona puede comparar tu alojamiento conociendo lo que realmente contrata. El directorio sirve como referencia local; las capacidades, servicios y condiciones de tu ficha deben confirmarse contigo."
+    ],
+    "decisions": [
+      {"label": "¿En qué localidad está la entrada?", "text": "Escribe el núcleo y la dirección real. Si estás en Madriguera o Villacorta, conserva ese nombre visible junto a la referencia a Riaza; comprueba también el punto de llegada del mapa."},
+      {"label": "¿Se contrata una habitación, un apartamento o la casa completa?", "text": "Explica qué unidad se ofrece, su capacidad confirmada y qué espacios se comparten. Una foto de la casa entera no aclara por sí sola qué recibe quien reserva."},
+      {"label": "¿Qué se confirma antes de aceptar la estancia?", "text": "Prepara fechas, número de viajeros y condiciones que cambian la decisión. Distingue una consulta de disponibilidad de una reserva confirmada."}
+    ],
+    "sources": [
+      {"label": "Ayuntamiento de Riaza: dónde dormir", "url": "https://www.riaza.es/donde-dormir"},
+      {"label": "Ayuntamiento de Riaza: pueblos del municipio", "url": "https://www.riaza.es/antiguas-pueblos-rutacolor1"}
+    ],
+    "scope": "Las fuentes permiten comprobar tipos de alojamiento y localizaciones publicadas. No verifican disponibilidad actual ni demuestran problemas comerciales de los establecimientos."
+  },
+  "segovia": {
+    "headline": "Web para comercios y servicios en Segovia",
+    "title": "Web para comercios y servicios en Segovia | Pymes Control",
+    "heading": "Decide qué necesita resolver tu web dentro de tu presencia comercial",
+    "paragraphs": [
+      "El área municipal Segovia Sí dedica un apartado al comercio, con iniciativas de dinamización y un recurso denominado «Digitaliza tu comercio». Ese contexto permite plantear la web como parte de la actividad del negocio, con una función concreta que tú puedas atender.",
+      "Si combinas venta y servicios, la primera decisión es separar las acciones: ver un producto, consultar un trabajo o acudir al establecimiento. En tu web podemos ordenar esos caminos con información propia. Una campaña comercial o una ficha en otro portal puede dar visibilidad, pero no explica necesariamente el alcance de cada servicio."
+    ],
+    "decisions": [
+      {"label": "¿Qué puede hacer el cliente con cada parte de tu oferta?", "text": "Clasifica tus líneas como producto para consultar, servicio para valorar o atención en tienda. Mostrar un catálogo no equivale a disponer de pago online, ni consultar un servicio confirma una cita."},
+      {"label": "¿Qué debe saber antes de elegir entre dos servicios?", "text": "Anota destinatario, resultado y límites de cada opción. Si también vendes productos, indica cuándo la consulta necesita modelo, medida o referencia."},
+      {"label": "¿Qué información permanece cuando termina una campaña?", "text": "Conserva servicios, dirección y contacto como base estable. Separa promociones con fechas y condiciones. Comprueba directamente la vigencia de cualquier iniciativa municipal antes de anunciar participación."}
+    ],
+    "sources": [
+      {"label": "Ayuntamiento de Segovia: comercio y digitalización", "url": "https://www.segovia.es/portal/segovia-si/comercio"}
+    ],
+    "scope": "Se ha verificado la existencia de los recursos municipales. No se atribuye participación en programas, ayudas, colaboración municipal ni resultados de ventas a Pymes Control."
+  },
+  "aranda-de-duero": {
+    "headline": "Web para restaurantes en Aranda de Duero",
+    "title": "Web para restaurantes en Aranda de Duero | Pymes Control",
+    "heading": "Distingue la comida de las visitas y experiencias con las que puede combinarse",
+    "paragraphs": [
+      "La Junta de Castilla y León presenta Aranda de Duero por su patrimonio y sus bodegas subterráneas. Para un restaurante, ese contexto permite preparar una explicación útil para quien está organizando varios planes: qué ofrece el restaurante y qué debe contratar o confirmar por separado.",
+      "La propuesta de web separa carta, menú y consulta para grupos. Si tu negocio también ofrece una visita, una cata o una colaboración real, habrá que explicar quién la presta y qué incluye. Si no la ofrece, la información sobre el destino puede enlazarse como referencia, sin convertirla en parte del precio de la comida."
+    ],
+    "decisions": [
+      {"label": "¿La propuesta es solo comida o incluye otra actividad?", "text": "Enumera los servicios que presta realmente tu negocio. Una imagen de una bodega no debe hacer pensar que la visita está incluida si no lo está."},
+      {"label": "¿Qué cambia cuando consulta un grupo?", "text": "Prepara fecha, número de comensales, horario deseado y propuesta de menú. Confirma condiciones alimentarias y disponibilidad directamente antes de aceptar la reserva."},
+      {"label": "¿Cómo encaja la comida en el plan del cliente?", "text": "Publica tus horarios reales de cocina y explica el canal de confirmación. Si el grupo combina varias actividades, acuerda su horario de llegada sin prometer la duración de servicios ajenos."}
+    ],
+    "sources": [
+      {"label": "Junta de Castilla y León: Aranda de Duero y sus bodegas", "url": "https://www.turismocastillayleon.com/es/patrimonio-cultura/aranda-duero"}
+    ],
+    "scope": "La fuente acredita el contexto patrimonial y vinícola. Las combinaciones de servicios son decisiones a estudiar con cada restaurante, no paquetes turísticos ofrecidos ni demanda medida."
+  },
+  "sepulveda": {
+    "headline": "Web para negocios que reciben visitas en Sepúlveda",
+    "title": "Web para negocios en Sepúlveda: prepara la visita | Pymes Control",
+    "heading": "Separa la ubicación del negocio, el aparcamiento y el acceso a pie",
+    "paragraphs": [
+      "El Ayuntamiento de Sepúlveda publica un apartado de aparcamientos con referencias como Puente Grande, Los Caños o Subida a la Picota. Son puntos diferentes del lugar donde atiende cada negocio: enlazar un aparcamiento no explica por sí solo cuál es la entrada del establecimiento.",
+      "Tu web puede mostrar primero la dirección y una fotografía propia de la puerta. Si resulta útil añadir una opción de aparcamiento, se enlaza la información municipal y se comprueba el recorrido concreto. Las plazas disponibles, las restricciones y la accesibilidad no se pueden deducir de una lista de ubicaciones."
+    ],
+    "decisions": [
+      {"label": "¿El mapa lleva a la entrada que utiliza el cliente?", "text": "Contrasta el punto con tu dirección y una imagen actual de la puerta. Evita enviar al visitante al centro del municipio o a una entrada de servicio."},
+      {"label": "¿Qué tramo necesita una explicación propia?", "text": "Comprueba el recorrido desde el punto que recomiendes. Describe escaleras, pendientes o condiciones reales solo cuando las hayas verificado; no inventes minutos a pie ni aparcamiento asegurado."},
+      {"label": "¿Quién mantiene los avisos que afectan a la visita?", "text": "Tu negocio actualiza horarios y citas. Los avisos públicos de tráfico o aparcamiento se consultan en su fuente competente, con un enlace fácil de localizar."}
+    ],
+    "sources": [
+      {"label": "Ayuntamiento de Sepúlveda: aparcamientos", "url": "https://www.sepulveda.es/aparcamientos"}
+    ],
+    "scope": "Se ha leído el listado municipal. No se ha inspeccionado ningún recorrido ni establecimiento, y no se certifican accesibilidad, plazas libres o restricciones actuales."
+  },
+  "cuellar": {
+    "headline": "Web para reunir la información de tu negocio en Cuéllar",
+    "title": "Web para comercios y profesionales en Cuéllar | Pymes Control",
+    "heading": "Revisa lo que se dice de tu negocio antes de trasladarlo a la web",
+    "paragraphs": [
+      "El Ayuntamiento de Cuéllar ofrece un directorio de empresas descargable por actividades. El documento enlazado está alojado en una ruta de diciembre de 2020 y contiene campos como nombre, teléfono, dirección y municipio. Esa referencia resulta útil para revisar datos, pero no permite asumir que cada ficha siga vigente.",
+      "Para un negocio que también publica en redes, proponemos un inventario de tres columnas: dato publicado, dato confirmado por el responsable y cambio pendiente. La web se prepara con la versión confirmada. Este ejercicio sirve tanto si apareces en el directorio como si tu información solo está en redes o mensajes."
+    ],
+    "decisions": [
+      {"label": "¿Coinciden nombre, dirección y contacto en tus canales?", "text": "Compara tu propia ficha, si existe, con los datos actuales del negocio. Anota cada corrección sin copiar ni reutilizar listados de otras empresas."},
+      {"label": "¿Qué publicación sigue describiendo un servicio vigente?", "text": "Marca cada pieza como conservar, actualizar o retirar. Comprueba precios, fotografías y promociones antes de convertirla en una sección estable."},
+      {"label": "¿Dónde quedará la información de referencia?", "text": "Elige la página de tu web que compartirás al responder. Mantén una lista de canales que revisar cuando cambie el horario o la oferta; no presupongas sincronización automática."}
+    ],
+    "sources": [
+      {"label": "Ayuntamiento de Cuéllar: empresas y comercios", "url": "https://www.aytocuellar.es/empleo-y-desarrollo/empresas-y-comercios/"},
+      {"label": "Directorio municipal descargable (PDF)", "url": "https://www.aytocuellar.es/wp-content/uploads/2020/12/DIRECTORIO-EMPRESAS-DE-CUELLAR.pdf"}
+    ],
+    "scope": "Se ha leído el PDF para comprobar su estructura. La fecha de su ruta no prueba la última actualización del contenido. No se afirma que los negocios citados sigan activos ni que dependan de redes sociales."
+  },
+  "el-espinar": {
+    "headline": "Web para profesionales que se desplazan en El Espinar",
+    "title": "Web de servicios a domicilio en El Espinar | Pymes Control",
+    "heading": "Explica la cobertura con localidades concretas y condiciones de desplazamiento",
+    "paragraphs": [
+      "Prodestur presenta un recorrido por el sur de Segovia que pasa por Villacastín, Zarzuela del Monte, Navas de San Antonio y El Espinar. Aunque estos lugares puedan formar parte de un mismo recorrido, eso no significa que un profesional de El Espinar trabaje en todos ellos.",
+      "Para tu web proponemos una ficha de cobertura que distinga lugar de salida, localidades atendidas y desplazamientos que necesitan valoración. El listado se construye contigo. La referencia territorial sirve para plantear preguntas concretas, sin atribuir a tu negocio cobertura, tiempos de llegada o tarifas que no hayas confirmado."
+    ],
+    "decisions": [
+      {"label": "¿Dónde está el trabajo y desde dónde te desplazas?", "text": "Pide localidad y zona del encargo. Distingue tu sede del lugar de prestación; no basta con poner «El Espinar y alrededores» si necesitas valorar cada destino."},
+      {"label": "¿Qué localidades atiendes de forma habitual?", "text": "Anota las que confirmes y separa las sujetas a presupuesto. Si recibes consultas de Navas de San Antonio, Zarzuela del Monte o Villacastín, decide cada caso según tu cobertura real."},
+      {"label": "¿Qué debe saberse antes de concertar la visita?", "text": "Reúne tipo de trabajo, ubicación, condiciones de acceso y disponibilidad del cliente. Explica si necesitas una visita previa y cómo se acuerda cualquier coste de desplazamiento."}
+    ],
+    "sources": [
+      {"label": "Prodestur Segovia: recorrido por el sur hasta El Espinar", "url": "https://www.segoviaturismo.es/planes/sur-provincia-hasta-espinar"}
+    ],
+    "scope": "El recorrido confirma las localidades citadas en la fuente. No es una medición de distancias, un estudio de demanda de servicios ni evidencia de cobertura comercial."
+  },
+  "la-granja": {
+    "headline": "Web para actividades y servicios por cita en La Granja",
+    "title": "Web para actividades en La Granja | Pymes Control",
+    "heading": "Explica si el visitante observa, participa o contrata una sesión",
+    "paragraphs": [
+      "Las fichas de la Junta sobre la Real Fábrica de Cristales y el soplado de vidrio describen un entorno que reúne museo, producción artesanal y formación. Es un ejemplo local de por qué conviene distinguir experiencias que una persona puede interpretar de formas diferentes.",
+      "Si tu negocio ofrece visitas, demostraciones o talleres, la web debe aclarar qué hará el participante. Ver una técnica no equivale a practicarla, y visitar una exposición no incluye necesariamente una sesión guiada. Aplicamos esa distinción a tu oferta real, sin anunciar actividades de la Real Fábrica como parte de nuestro servicio."
+    ],
+    "decisions": [
+      {"label": "¿Qué hace la persona durante la sesión?", "text": "Describe acciones: observar, recorrer, practicar o recibir atención. Si muestras herramientas o materiales en fotografías, aclara cuáles utiliza realmente el participante."},
+      {"label": "¿Qué condiciones permiten participar?", "text": "Confirma edad, experiencia, materiales y cualquier requisito de seguridad o adaptación. Separa la duración de la actividad del margen de llegada que pidas."},
+      {"label": "¿Qué fecha y lugar se confirman?", "text": "Indica el punto de encuentro de tu actividad y cómo se consulta una sesión. Si mencionas otros recursos del Real Sitio, enlaza su fuente para horarios y entradas, sin incluirlos implícitamente en tu precio."}
+    ],
+    "sources": [
+      {"label": "Junta de Castilla y León: Museo del Vidrio", "url": "https://www.turismocastillayleon.com/es/patrimonio-cultura/museo-vidrio-real-fabrica-cristales-granja"},
+      {"label": "Junta de Castilla y León: soplado de vidrio", "url": "https://www.turismocastillayleon.com/es/patrimonio-cultura/soplado-vidrio"}
+    ],
+    "scope": "Las fuentes aportan contexto cultural y tipos de actividad. No se han comprobado convocatorias actuales ni existe colaboración declarada con la Real Fábrica."
+  },
+  "ayllon": {
+    "headline": "Tu primera web para un pequeño negocio en Ayllón",
+    "title": "Tu primera web de negocio en Ayllón | Pymes Control",
+    "heading": "Elige una primera web según cómo atiendes, no solo según tu sector",
+    "paragraphs": [
+      "El directorio de Ayllón reúne actividades como comercio, oficios, diseño y turismo rural, con direcciones también en Santa María de Riaza y Santibáñez de Ayllón. El Ayuntamiento ofrece además un procedimiento para autorizar la publicación de datos empresariales. La ficha de un directorio y una web propia cumplen funciones diferentes.",
+      "Para empezar proponemos elegir entre tres recorridos: acudir a una tienda, consultar un trabajo o preparar una estancia. Cada uno necesita una información inicial distinta. La primera versión puede centrarse en el recorrido principal y explicar después los servicios secundarios, sin añadir funciones que todavía no necesites."
+    ],
+    "decisions": [
+      {"label": "Si el cliente acude: ¿qué debe comprobar antes?", "text": "Prioriza ubicación exacta, horario y tipo de producto. Si estás en un núcleo del municipio, nómbralo. Para artículos concretos, explica cómo confirmar existencias antes del desplazamiento."},
+      {"label": "Si te encarga un trabajo: ¿qué tienes que valorar?", "text": "Prepara servicio, alcance y datos previos para presupuestar. La primera web puede facilitar esa consulta sin incorporar tienda online ni reservar trabajos automáticamente."},
+      {"label": "Si reserva una estancia: ¿qué necesita comparar?", "text": "Da prioridad a capacidad, modalidad y condiciones confirmadas. Elige este recorrido solo si corresponde a tu actividad; no llenes una web de oficios con información turística ajena al servicio."}
+    ],
+    "sources": [
+      {"label": "Ayuntamiento de Ayllón: directorio y autorización de publicación", "url": "https://www.ayllon.es/directorio-de-empresas"}
+    ],
+    "scope": "Se han comprobado las actividades y localizaciones que aparecen en el directorio, no su vigencia individual. No se publican datos de terceros ni se promete alta en el directorio."
+  },
+  "pedraza": {
+    "headline": "Web escaparate para negocios visuales en Pedraza",
+    "title": "Web escaparate en Pedraza: fotos que explican | Pymes Control",
+    "heading": "Muestra lo que pertenece a tu negocio dentro del entorno de Pedraza",
+    "paragraphs": [
+      "La guía de la Junta presenta Pedraza mediante su conjunto histórico y su gastronomía de asados. Esa imagen del destino puede despertar interés, pero una fotografía de la villa no explica qué espacio, producto o servicio pertenece a un negocio concreto.",
+      "En una web escaparate proponemos un recorrido visual de cuatro piezas: entrada, espacio, detalle de la oferta y condiciones. Para un restaurante, por ejemplo, la foto de un asado explica algo diferente de la del comedor. Para una tienda, una vista del escaparate necesita completarse con referencias de los productos."
+    ],
+    "decisions": [
+      {"label": "¿Qué fotografía permite reconocer tu establecimiento?", "text": "Selecciona una imagen propia de la entrada o escaparate. Una foto del castillo o de la plaza puede situar el entorno, pero no debe presentarse como una instalación de tu negocio."},
+      {"label": "¿Qué detalle permite elegir?", "text": "En restauración, muestra un plato real y el espacio donde se sirve. En productos, añade material, medidas y referencia. Evita usar solo vistas bonitas sin información comercial."},
+      {"label": "¿Qué condición no puede verse en la imagen?", "text": "Aclara si es muestra o producto disponible, qué requiere encargo y cómo se confirma una consulta. Una foto de una mesa montada no garantiza disponibilidad ni capacidad para cualquier grupo."}
+    ],
+    "sources": [
+      {"label": "Junta de Castilla y León: Pedraza, patrimonio y gastronomía", "url": "https://www.turismocastillayleon.com/es/patrimonio-cultura/pedraza"}
+    ],
+    "scope": "La fuente acredita el contexto del destino. La propuesta fotográfica es editorial; no representa un cliente, un reportaje realizado ni autorización para reutilizar imágenes ajenas."
+  },
+  "soria": {
+    "headline": "Web para servicios profesionales en Soria",
+    "title": "Web para profesionales en Soria: alcance y consultas | Pymes Control",
+    "heading": "Un ejemplo local para explicar especialidad, idioma y alcance",
+    "paragraphs": [
+      "El portal municipal Turismo Soria publica un directorio de guías oficiales con idiomas y datos de contacto. Es una referencia concreta de servicio profesional: saber cómo contactar y en qué idioma atiende alguien ayuda a elegir, pero no define por sí solo qué incluye un encargo.",
+      "Para preparar una web profesional, usamos ese ejemplo para distinguir especialidad, ámbito y entrega. En una visita guiada interesa aclarar ciudad o recorrido provincial, idioma y elementos incluidos. En otro despacho, la misma decisión se traduce en el problema que atiende, el documento o trabajo que entrega y lo que se presupuestaría aparte."
+    ],
+    "decisions": [
+      {"label": "¿Qué especialidad puede confirmar el cliente?", "text": "Publica formación, acreditación o experiencia solo cuando puedas justificarla. Si ofreces atención en varios idiomas, indica los que realmente puedes utilizar para ese servicio."},
+      {"label": "¿Dónde empieza y termina el encargo?", "text": "En el ejemplo de una visita, distingue un recorrido por Soria ciudad de una salida por la provincia y aclara transporte o entradas. Para otros servicios, define entregables y tareas excluidas con la misma precisión."},
+      {"label": "¿Qué información permite preparar la propuesta?", "text": "Solicita objetivo, fecha e información que cambie el alcance. Para una visita serían participantes, idioma y recorrido deseado; para un despacho, el resultado solicitado y su punto de partida."}
+    ],
+    "sources": [
+      {"label": "Turismo Soria: directorio de guías oficiales e idiomas", "url": "https://www.turismosoria.es/planifica-tu-visita/guias-de-turismo/"}
+    ],
+    "scope": "Se ha leído la estructura del directorio. No se afirma que los profesionales tengan carencias en sus webs ni que hayan contratado a Pymes Control."
+  }
+}

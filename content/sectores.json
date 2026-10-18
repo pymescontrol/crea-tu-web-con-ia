@@ -1,0 +1,10 @@
+[
+  {"slug":"comercio","name":"Comercio y tienda local"},
+  {"slug":"hosteleria","name":"Restaurante, bar o cafetería"},
+  {"slug":"alojamiento","name":"Alojamiento"},
+  {"slug":"peluqueria","name":"Peluquería, barbería o estética"},
+  {"slug":"profesionales","name":"Servicios profesionales"},
+  {"slug":"oficios","name":"Oficios y servicios a domicilio"},
+  {"slug":"artesania","name":"Artesanía y productos propios"},
+  {"slug":"actividades","name":"Actividades y experiencias"}
+]

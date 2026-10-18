@@ -1,0 +1,387 @@
+[
+  {
+    "id": "el-espinar",
+    "city": "El Espinar",
+    "angle": "Una web que aclare dónde trabajas y qué necesitas para preparar un presupuesto",
+    "audience": "Profesionales que se desplazan para prestar servicios y necesitan recibir consultas con información suficiente.",
+    "description": "Web para profesionales de El Espinar por 99,99 €, IVA incluido. Define cobertura, desplazamientos y datos para presupuestar con una ficha práctica.",
+    "intro": "Si trabajas en El Espinar y cada consulta empieza con «¿vienes hasta aquí?» o «¿cuánto cuesta?», tu web puede resolver la primera parte de esa conversación. Creamos una página que presente tus servicios, la cobertura que realmente puedes atender y los datos necesarios para estudiar un encargo. El objetivo es que quien te contacte entienda cómo trabajas y pueda explicarte mejor lo que necesita.",
+    "sections": [
+      {
+        "heading": "Pide datos que cambien de verdad el presupuesto",
+        "paragraphs": [
+          "No todos los servicios se pueden presupuestar con una foto. Antes de publicar un precio, piensa qué factores lo modifican: medidas, estado de lo existente, materiales, dificultad de acceso o necesidad de una visita. Explicarlos ayuda al cliente a distinguir una orientación de un presupuesto definitivo."
+        ],
+        "items": [
+          "Qué necesita resolver y en qué lugar.",
+          "Medidas o fotografías que puedas interpretar con seguridad.",
+          "Plazo deseado y circunstancias que debas conocer antes de desplazarte."
+        ]
+      }
+    ],
+    "example": {
+      "title": "Un mensaje para consultar un pequeño arreglo",
+      "description": "Ejemplo hipotético de una consulta que podría recibir un profesional. No procede de un cliente real ni describe servicios de Pymes Control.",
+      "items": [
+        {
+          "label": "Qué necesito",
+          "text": "La puerta interior de una habitación roza el suelo al abrirla. Quisiera saber si podéis ajustarla."
+        },
+        {
+          "label": "Antes de la visita",
+          "text": "Me gustaría confirmar si atendéis mi zona y si necesitáis conocer alguna condición de acceso."
+        },
+        {
+          "label": "Información disponible",
+          "text": "Puedo facilitar fotografías de la puerta y las medidas que necesitéis para una primera valoración."
+        },
+        {
+          "label": "Mi consulta",
+          "text": "¿Podéis orientarme con esa información o hace falta una visita antes de preparar el presupuesto?"
+        }
+      ]
+    },
+    "checklist": [
+      "Anota los servicios que sí aceptas y los que quedan fuera.",
+      "Revisa las zonas a las que puedes desplazarte actualmente.",
+      "Elige tres datos que siempre necesitas para valorar un trabajo.",
+      "Comprueba que el teléfono o correo de contacto está actualizado."
+    ],
+    "faq": [
+      {
+        "question": "¿Tengo que publicar precios cerrados de mis servicios?",
+        "answer": "Solo si puedes respetarlos en las condiciones indicadas. Si el importe depende del trabajo, explica esas condiciones y qué información necesitas para presupuestar. Una cifra sin contexto puede crear una expectativa equivocada."
+      },
+      {
+        "question": "¿Puedo atender también fuera de El Espinar?",
+        "answer": "Tu web puede recoger la cobertura que nos confirmes. Para destinos que dependan del encargo, podemos indicar que se consulte la disponibilidad; no hace falta anunciar una cobertura ilimitada."
+      },
+      {
+        "question": "¿La web confirma automáticamente las visitas?",
+        "answer": "Esta propuesta presenta tu servicio y facilita el contacto. Una visita se confirma mediante el procedimiento que utilices con tus clientes; no se da por concertada por enviar una consulta."
+      }
+    ],
+    "related": [
+      "soria",
+      "cuellar"
+    ],
+    "localReview": {
+      "approved": false,
+      "evidence": [
+        "https://www.segoviaturismo.es/planes/sur-provincia-hasta-espinar",
+        "docs/investigacion-local-realizada.md#el-espinar"
+      ],
+      "checkedAt": "2026-10-18",
+      "status": "documented_pending_business_validation",
+      "remaining": "Contrastar la utilidad de la propuesta con un negocio real y revisar su solapamiento antes de aprobar la indexación."
+    }
+  },
+  {
+    "id": "la-granja",
+    "city": "La Granja",
+    "angle": "Presenta tus actividades o servicios por cita con la información que necesita quien pregunta",
+    "audience": "Negocios con actividades, sesiones o servicios por cita que quieren explicar su propuesta antes de recibir una consulta.",
+    "description": "Web para actividades en La Granja por 99,99 €, IVA incluido. Explica participación, requisitos y consulta de fechas con ejemplos y fuentes locales.",
+    "intro": "Una persona puede estar interesada en tu actividad y no saber si encaja con ella, cuánto tiempo debe reservarse o qué necesita llevar. Si tienes un negocio en La Granja, preparamos tu web para que esas dudas tengan respuesta en una ficha clara. Tú aportas las condiciones reales del servicio y nosotros las organizamos para que consultar una fecha resulte sencillo.",
+    "sections": [
+      {
+        "heading": "Explica el tiempo y la preparación necesaria",
+        "paragraphs": [
+          "La duración ayuda a organizar el día. Diferencia el tiempo de la sesión del margen de llegada si lo necesitas. Si la duración depende del servicio elegido, presenta las opciones de forma separada y evita que una cifra orientativa parezca una promesa exacta.",
+          "Reúne en el mismo lugar lo que está incluido y lo que debe aportar el participante. Así evitas que una foto de materiales o equipamiento se interprete como parte del precio cuando no lo es."
+        ],
+        "items": [
+          "Duración habitual y posibles variaciones.",
+          "Material que facilitas y material que debe llevar la persona.",
+          "Lugar de realización y cualquier indicación de acceso confirmada."
+        ]
+      }
+    ],
+    "example": {
+      "title": "Una consulta para participar en un taller",
+      "description": "Ejemplo hipotético de un mensaje de una persona interesada. No corresponde a un cliente real ni anuncia una actividad disponible.",
+      "items": [
+        {
+          "label": "La actividad",
+          "text": "Me interesa vuestro taller de iniciación, pero nunca he participado en uno. ¿Puedo apuntarme sin experiencia previa?"
+        },
+        {
+          "label": "La preparación",
+          "text": "Quisiera saber cuánto dura la sesión y si tengo que llevar algún material o ropa específica."
+        },
+        {
+          "label": "La fecha",
+          "text": "Preferiría asistir un sábado por la mañana. ¿Tenéis alguna sesión prevista con plazas disponibles?"
+        },
+        {
+          "label": "El siguiente paso",
+          "text": "Si encontramos una fecha que encaje, ¿qué debo hacer para confirmar mi participación?"
+        }
+      ]
+    },
+    "checklist": [
+      "Describe la actividad sin utilizar solo su nombre comercial.",
+      "Confirma duración, destinatarios y requisitos de participación.",
+      "Separa el material incluido de lo que debe llevar el cliente.",
+      "Prepara las condiciones reales para confirmar o cambiar una cita."
+    ],
+    "faq": [
+      {
+        "question": "¿Necesito un calendario de reservas para tener esta web?",
+        "answer": "Puedes presentar tus actividades y recibir consultas sin un calendario automático. Esta propuesta no incluye un sistema de reservas integrado; la disponibilidad se confirma mediante el contacto que utilices en tu negocio."
+      },
+      {
+        "question": "¿Cómo presento actividades de distinta duración?",
+        "answer": "Conviene dar a cada una su propia ficha breve, con duración y contenido. Si una misma actividad varía según el grupo, explica de qué depende y confirma los detalles al responder."
+      },
+      {
+        "question": "¿Qué pasa si todavía no tengo fechas programadas?",
+        "answer": "Puedes explicar la actividad y permitir que te consulten próximas fechas. Evita mostrar sesiones antiguas como disponibles o dar por abierta una convocatoria que todavía no has organizado."
+      }
+    ],
+    "related": [
+      "riaza",
+      "pedraza"
+    ],
+    "localReview": {
+      "approved": false,
+      "evidence": [
+        "https://www.turismocastillayleon.com/es/patrimonio-cultura/museo-vidrio-real-fabrica-cristales-granja",
+        "https://www.turismocastillayleon.com/es/patrimonio-cultura/soplado-vidrio",
+        "docs/investigacion-local-realizada.md#la-granja"
+      ],
+      "checkedAt": "2026-10-18",
+      "status": "documented_pending_business_validation",
+      "remaining": "Contrastar la utilidad de la propuesta con un negocio real y revisar su solapamiento antes de aprobar la indexación."
+    }
+  },
+  {
+    "id": "ayllon",
+    "city": "Ayllón",
+    "angle": "Empieza con una web que responda a las preguntas esenciales de tu negocio",
+    "audience": "Dueños de pequeños negocios que preparan su primera web y necesitan decidir qué información publicar primero.",
+    "description": "Tu primera web en Ayllón por 99,99 €, IVA incluido. Elige qué mostrar según atiendas en tienda, realices trabajos o recibas huéspedes.",
+    "intro": "Preparar tu primera web puede parecer una lista interminable de textos, fotografías y decisiones. Si tienes un pequeño negocio en Ayllón, empezamos por lo que permite entenderlo: qué ofreces, a quién atiendes y cómo contactar contigo. Creamos la web con esa información ordenada para que puedas presentar tu negocio sin tener que convertirte en diseñador.",
+    "sections": [
+      {
+        "heading": "Deja las ampliaciones para una necesidad concreta",
+        "paragraphs": [
+          "Antes de pedir nuevas funciones, identifica qué problema deben resolver. Mostrar productos no implica necesitar una tienda online; explicar un servicio no obliga a ofrecer reservas automáticas. Un encargo concreto permite aclarar el alcance y los costes antes de tomar una decisión."
+        ],
+        "items": []
+      }
+    ],
+    "example": {
+      "title": "Un escaparate sencillo para una tienda de artículos del hogar",
+      "description": "Ejemplo hipotético de textos para una tienda ficticia. No representa un cliente ni un negocio de Ayllón y no incorpora venta online.",
+      "items": [
+        {
+          "label": "Para tu casa",
+          "text": "Menaje, textiles y pequeños accesorios para el hogar. Descubre el tipo de artículos que puedes encontrar en nuestra tienda."
+        },
+        {
+          "label": "¿Buscas algo concreto?",
+          "text": "Cuéntanos qué artículo necesitas y si buscas una medida o un color determinado."
+        },
+        {
+          "label": "Antes de desplazarte",
+          "text": "Consulta la disponibilidad del artículo que te interesa. Las fotografías muestran una selección de nuestra oferta."
+        },
+        {
+          "label": "Ven a conocernos",
+          "text": "Revisa nuestra dirección y horario de atención. Si tienes alguna duda sobre tu visita, ponte en contacto con nosotros."
+        }
+      ]
+    },
+    "checklist": [
+      "Primero, define el servicio o producto principal y si quieres facilitar una llamada, una consulta o una visita.",
+      "Confirma los datos imprescindibles: contacto que atiendes, horario vigente y dirección si recibes visitas.",
+      "Después, selecciona fotografías propias y respuestas a las dudas que impiden decidir a tus clientes.",
+      "Deja para más adelante las ampliaciones que todavía no responden a una necesidad concreta."
+    ],
+    "faq": [
+      {
+        "question": "¿Tengo que redactar una página entera antes de contactar?",
+        "answer": "Puedes empezar con una lista de servicios, tus datos y las preguntas que te hacen los clientes. Esa información permite estudiar cómo presentar tu negocio; no necesitas preparar un texto publicitario terminado."
+      },
+      {
+        "question": "¿Qué hago si no tengo suficientes fotografías?",
+        "answer": "Prioriza imágenes propias que expliquen algo: el espacio, un producto o un trabajo. Es preferible una selección pequeña y representativa a llenar la página con imágenes que no corresponden a lo que vendes."
+      },
+      {
+        "question": "¿Mostrar productos significa que podré cobrar en la web?",
+        "answer": "Presentar productos y cobrar pedidos son funciones distintas. Esta propuesta se centra en explicar tu negocio y facilitar el contacto. Cualquier necesidad de venta online debe concretarse antes de acordar el encargo."
+      }
+    ],
+    "related": [
+      "cuellar",
+      "sepulveda"
+    ],
+    "localReview": {
+      "approved": false,
+      "evidence": [
+        "https://www.ayllon.es/directorio-de-empresas",
+        "docs/investigacion-local-realizada.md#ayllon"
+      ],
+      "checkedAt": "2026-10-18",
+      "status": "documented_pending_business_validation",
+      "remaining": "Contrastar la utilidad de la propuesta con un negocio real y revisar su solapamiento antes de aprobar la indexación."
+    }
+  },
+  {
+    "id": "pedraza",
+    "city": "Pedraza",
+    "angle": "Convierte tus fotografías en una presentación útil de lo que ofreces",
+    "audience": "Negocios con productos, espacios o trabajos visuales que necesitan explicar qué está viendo el visitante y cómo consultarlo.",
+    "description": "Web escaparate en Pedraza por 99,99 €, IVA incluido. Prepara fotos de tu negocio con contexto, condiciones y una ficha para organizar tu galería.",
+    "intro": "Una foto puede despertar interés, pero no siempre explica qué se puede pedir o contratar. Si tu negocio en Pedraza se apoya en productos, espacios o trabajos visuales, creamos una web que acompañe las imágenes con información útil. La persona que la visite podrá entender qué muestra cada fotografía, qué condiciones debe conocer y cómo consultarte por algo concreto.",
+    "sections": [
+      {
+        "heading": "Añade pies de foto que permitan decidir",
+        "paragraphs": [
+          "El pie de foto puede explicar lo que la imagen no cuenta: medidas, material, uso previsto o si existen variantes. Prioriza los datos que cambian la decisión de compra o la consulta. Decir «producto exclusivo de gran calidad» no permite comparar dos opciones.",
+          "Las descripciones también ayudan a quien no distingue bien la imagen o necesita leer la información. Utiliza nombres reconocibles y relaciona cada foto con el producto, trabajo o espacio correspondiente."
+        ],
+        "items": [
+          "Nombre o referencia que puedas reconocer al recibir una consulta.",
+          "Características comprobadas, sin completar medidas de memoria.",
+          "Aclaración de si se trata de una muestra, un encargo o un artículo disponible."
+        ]
+      }
+    ],
+    "example": {
+      "title": "Cuatro imágenes para explicar un restaurante sin confundirlo con el destino",
+      "description": "Ejemplo orientativo de un guion fotográfico, aplicable a un restaurante que confirme estos materiales. No representa un negocio real ni ofrece reservas en Pedraza.",
+      "items": [
+        {
+          "label": "Entrada reconocible",
+          "text": "Una fotografía propia permite identificar la puerta y el nombre del establecimiento. El pie de foto indica qué acceso aparece."
+        },
+        {
+          "label": "Espacio de atención",
+          "text": "Una imagen del comedor explica cómo es el espacio. Capacidad, uso exclusivo o adaptación para grupos requieren datos confirmados; no se deducen de la fotografía."
+        },
+        {
+          "label": "Oferta real",
+          "text": "Un plato servido por el negocio se identifica por su nombre y se relaciona con la carta vigente. Una fotografía de archivo no debe prometer una propuesta que ya no se ofrece."
+        },
+        {
+          "label": "Condición y consulta",
+          "text": "Junto a la galería se explica cómo consultar mesa o grupo. Disponibilidad, horario y condiciones se confirman por el canal del restaurante."
+        }
+      ]
+    },
+    "checklist": [
+      "Revisa que puedes usar todas las fotografías seleccionadas.",
+      "Asigna a cada imagen un nombre y una descripción concreta.",
+      "Distingue las muestras de lo que sigue disponible.",
+      "Comprueba medidas, materiales y condiciones antes de publicarlos."
+    ],
+    "faq": [
+      {
+        "question": "¿Necesito muchas fotos para que la web funcione como escaparate?",
+        "answer": "Necesitas fotografías que expliquen tu oferta. Una selección breve con vistas diferentes y descripciones claras puede resultar más útil que una galería extensa en la que el visitante no sabe qué está viendo."
+      },
+      {
+        "question": "¿Puedo mostrar trabajos que ya he entregado?",
+        "answer": "Puedes utilizarlos como ejemplos cuando tengas derecho a publicar las imágenes. Identifícalos como trabajos realizados y evita presentarlos como artículos disponibles. No publiques datos del cliente que no deban hacerse públicos."
+      },
+      {
+        "question": "¿Cómo distingo una muestra de lo que está disponible ahora?",
+        "answer": "Identifica la imagen como muestra, trabajo realizado o artículo disponible. Si no mantienes las existencias al día, invita a confirmar disponibilidad. Cuando una pieza se venda, actualiza su estado o conserva la fotografía como referencia, con esa aclaración visible."
+      }
+    ],
+    "related": [
+      "la-granja",
+      "aranda-de-duero"
+    ],
+    "localReview": {
+      "approved": false,
+      "evidence": [
+        "https://www.turismocastillayleon.com/es/patrimonio-cultura/pedraza",
+        "docs/investigacion-local-realizada.md#pedraza"
+      ],
+      "checkedAt": "2026-10-18",
+      "status": "documented_pending_business_validation",
+      "remaining": "Contrastar la utilidad de la propuesta con un negocio real y revisar su solapamiento antes de aprobar la indexación."
+    }
+  },
+  {
+    "id": "soria",
+    "city": "Soria",
+    "angle": "Explica el alcance de tu servicio profesional antes de recibir el encargo",
+    "audience": "Autónomos y pequeños despachos que necesitan aclarar qué problema atienden, qué entregan y qué deben conocer antes de preparar una propuesta.",
+    "description": "Web para profesionales en Soria por 99,99 €, IVA incluido. Explica especialidad, idiomas y alcance; consulta un ejemplo local y prepara tu propuesta.",
+    "intro": "Cuando vendes un servicio profesional, el cliente necesita entender algo más que tu especialidad. Quiere saber si puedes ayudarle, qué recibirá y cómo empezar. Si trabajas en Soria, preparamos una web que presente el alcance de tus servicios y resuelva dudas antes del primer contacto. Esa claridad ayuda a que las consultas lleguen con un objetivo mejor definido.",
+    "sections": [
+      {
+        "heading": "Pide lo necesario para valorar el encargo",
+        "paragraphs": [
+          "La primera consulta debe permitir entender el objetivo y el punto de partida. Pide una descripción breve, el plazo deseado y la información que cambie tu valoración. No conviertas el primer contacto en una petición indiscriminada de documentos.",
+          "Si después necesitas contratos, expedientes o información confidencial, acuerda con el cliente cómo compartirla. La web puede explicar esa secuencia sin invitar a enviar datos sensibles por cualquier canal."
+        ],
+        "items": [
+          "Qué necesita conseguir y qué ha preparado hasta ahora.",
+          "Para qué fecha lo necesita y si existe un motivo concreto.",
+          "Qué materiales están disponibles, sin exigir su envío inmediato."
+        ]
+      }
+    ],
+    "example": {
+      "title": "Una consulta a un guía con idioma y alcance definidos",
+      "description": "Ejemplo hipotético de mensaje, inspirado en los campos del directorio municipal de guías. No es una consulta real ni una oferta de visitas de Pymes Control.",
+      "items": [
+        {
+          "label": "Objetivo y lugar",
+          "text": "Queremos consultar una visita por Soria ciudad. Si proponéis un recorrido por la provincia, necesitaríamos conocer sus diferencias antes de elegir."
+        },
+        {
+          "label": "Idioma y participantes",
+          "text": "Necesitamos atención en el idioma que os indicaremos y facilitaremos el número de personas. ¿Podéis confirmar si esa propuesta encaja con el grupo?"
+        },
+        {
+          "label": "Qué se incluye",
+          "text": "¿La propuesta incluye solo el servicio de guía o también entradas y desplazamientos? Queremos distinguir esos conceptos antes de aceptar el presupuesto."
+        },
+        {
+          "label": "Fecha y confirmación",
+          "text": "Os indicaremos fecha y horario deseados. ¿Qué información necesitáis para confirmar disponibilidad, recorrido y condiciones?"
+        }
+      ]
+    },
+    "checklist": [
+      "Explica cada servicio mediante un problema y un resultado concreto.",
+      "Anota qué información necesitas antes de preparar una propuesta.",
+      "Distingue una consulta inicial de un encargo ya aceptado.",
+      "Prepara respuestas a las dudas sobre alcance, plazos y entregables."
+    ],
+    "faq": [
+      {
+        "question": "¿Debo contar todo mi método de trabajo en la web?",
+        "answer": "Basta con explicar las etapas que ayudan al cliente a decidir y prepararse. El detalle interno que no cambia su elección puede reservarse para la conversación. Prioriza qué necesita aportar y qué recibirá."
+      },
+      {
+        "question": "¿Cómo presento servicios que siempre se presupuestan a medida?",
+        "answer": "Describe su alcance habitual y los factores que hacen variar el encargo. Pide la información necesaria para valorarlo y evita una tarifa orientativa sin condiciones que pueda confundirse con un presupuesto cerrado."
+      },
+      {
+        "question": "¿Puedo mostrar experiencia sin publicar nombres de clientes?",
+        "answer": "Puedes explicar tu trayectoria comprobable y el tipo de trabajo que realizas. Si utilizas ejemplos preparados para la web, identifícalos como orientativos. No atribuyas proyectos, resultados o testimonios que no puedas acreditar."
+      }
+    ],
+    "related": [
+      "segovia",
+      "el-espinar"
+    ],
+    "localReview": {
+      "approved": false,
+      "evidence": [
+        "https://www.turismosoria.es/planifica-tu-visita/guias-de-turismo/",
+        "docs/investigacion-local-realizada.md#soria"
+      ],
+      "checkedAt": "2026-10-18",
+      "status": "documented_pending_business_validation",
+      "remaining": "Contrastar la utilidad de la propuesta con un negocio real y revisar su solapamiento antes de aprobar la indexación."
+    }
+  }
+]

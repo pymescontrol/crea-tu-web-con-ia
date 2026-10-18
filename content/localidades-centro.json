@@ -1,0 +1,397 @@
+[
+  {
+    "id": "riaza",
+    "city": "Riaza",
+    "angle": "Una web que responde antes de la primera consulta",
+    "audience": "Pequeños alojamientos y negocios que reciben preguntas sobre sus servicios y condiciones",
+    "description": "Creamos tu web de alojamiento en Riaza por 99,99 €, IVA incluido. Prepara ubicación, modalidad y condiciones con una ficha práctica y fuentes locales.",
+    "intro": "Si tienes un alojamiento o un pequeño negocio en Riaza, tu futura web puede empezar por una tarea concreta: explicar bien qué ofreces. Una persona que todavía no te conoce necesita decidir si tu propuesta encaja antes de llamar. Preparar esa información también te ayuda a detectar qué preguntas respondes una y otra vez.",
+    "sections": [
+      {
+        "heading": "Prepara un contacto que tenga contexto",
+        "paragraphs": [
+          "Una llamada resulta más útil cuando la persona ya sabe qué quiere consultar. La página puede sugerir la información que conviene tener preparada: fechas deseadas, número de personas o servicio de interés. Eso permite iniciar una conversación más concreta sin presentar una consulta como una reserva confirmada.",
+          "Elige también dónde recibes esas consultas y quién responde. Si atiendes mensajes en determinadas horas, comunica tu horario real. No hace falta prometer respuesta inmediata ni mostrar una disponibilidad que no puedes mantener actualizada."
+        ],
+        "items": [
+          "Coloca la forma de contacto después de explicar las condiciones principales.",
+          "Distingue claramente consultar disponibilidad de confirmar una contratación."
+        ]
+      }
+    ],
+    "example": {
+      "title": "Guion para distinguir una estancia completa de una habitación",
+      "description": "Ejemplo orientativo de preparación del contenido. Completa cada punto con las condiciones de tu alojamiento; no describe una oferta disponible ni un cliente de Pymes Control.",
+      "items": [
+        {
+          "label": "Lugar exacto",
+          "text": "Indica Riaza o el núcleo donde está el alojamiento, la dirección y el acceso real. Comprueba que la ubicación del mapa coincide con la entrada."
+        },
+        {
+          "label": "Unidad que se contrata",
+          "text": "Explica si se ofrece una habitación, un apartamento o la casa completa. Añade la capacidad autorizada y confirmada, sin deducirla del número de camas que aparece en una fotografía."
+        },
+        {
+          "label": "Uso de los espacios",
+          "text": "Distingue dormitorios, cocina, zonas comunes y exteriores según sean exclusivos o compartidos. Describe únicamente las instalaciones reales."
+        },
+        {
+          "label": "Confirmación",
+          "text": "Define qué fechas, ocupación y condiciones debes revisar antes de aceptar una estancia. Muestra la consulta como el inicio de esa comprobación."
+        }
+      ]
+    },
+    "checklist": [
+      "Reúne fotografías actuales que puedas utilizar y explica qué muestra cada una.",
+      "Anota las cinco preguntas que más recibes antes de una contratación.",
+      "Comprueba qué condiciones son fijas y cuáles necesitan consulta previa.",
+      "Confirma dirección, horarios y canal de contacto antes de publicar."
+    ],
+    "faq": [
+      {
+        "question": "¿Necesito ofrecer reservas online para tener una web útil?",
+        "answer": "Puedes presentar el alojamiento y recibir consultas mediante tu canal habitual. Un sistema que confirme reservas y gestione disponibilidad tiene funciones adicionales que no deben darse por incluidas."
+      },
+      {
+        "question": "¿Qué hago si no tengo fotos de todas las instalaciones?",
+        "answer": "Empieza por imágenes propias y actuales de lo que puedes mostrar. Describe con precisión el resto y evita fotografías que hagan esperar espacios o servicios diferentes de los reales."
+      },
+      {
+        "question": "¿Conviene publicar todas las condiciones en la portada?",
+        "answer": "Destaca las que afectan a la decisión inicial y organiza el detalle en un bloque fácil de encontrar. No escondas una limitación relevante detrás de una invitación genérica a contactar."
+      }
+    ],
+    "related": [
+      "sepulveda",
+      "pedraza"
+    ],
+    "localReview": {
+      "approved": false,
+      "evidence": [
+        "https://www.riaza.es/donde-dormir",
+        "https://www.riaza.es/antiguas-pueblos-rutacolor1",
+        "docs/investigacion-local-realizada.md#riaza"
+      ],
+      "checkedAt": "2026-10-18",
+      "status": "documented_pending_business_validation",
+      "remaining": "Contrastar la utilidad de la propuesta con un negocio real y revisar su solapamiento antes de aprobar la indexación."
+    }
+  },
+  {
+    "id": "segovia",
+    "city": "Segovia",
+    "angle": "Ordena tus servicios para que cada persona encuentre el suyo",
+    "audience": "Autónomos, comercios y pequeñas empresas con varias líneas de servicio",
+    "description": "Web para comercios y servicios en Segovia por 99,99 €, IVA incluido. Ordena productos, atención y consultas con una ficha para preparar tu negocio.",
+    "intro": "Si tu negocio en Segovia ofrece varias cosas, elegir qué mostrar primero puede ser más difícil que redactar una presentación. Una web útil permite reconocer rápidamente el servicio que interesa, entender sus límites y saber qué hacer después. El objetivo es que tus visitantes no tengan que conocer tu organización interna para orientarse.",
+    "sections": [
+      {
+        "heading": "Explica cada servicio con el mismo nivel de claridad",
+        "paragraphs": [
+          "Una ficha breve puede responder quién necesita ese servicio, qué incluye y qué información hace falta para valorarlo. Repetir esta estructura facilita comparar opciones. Lo que debe cambiar es la respuesta: el contenido concreto de cada servicio.",
+          "Cuando el precio depende del encargo, explica de qué depende en lugar de inventar una cifra orientativa. Si publicas un importe, revisa que sus condiciones estén claras y que corresponda al servicio descrito."
+        ],
+        "items": [
+          "Añade un ejemplo sencillo del tipo de necesidad que resuelves.",
+          "Señala una limitación relevante cuando ayude a evitar consultas equivocadas."
+        ]
+      },
+      {
+        "heading": "Comprueba el recorrido desde el móvil",
+        "paragraphs": [
+          "Pide a alguien que desconozca tu oferta que encuentre un servicio y explique cómo lo consultaría. Si duda entre dos nombres o no entiende qué incluye, esa observación te da una mejora concreta. Una prueba así sirve para revisar la claridad; no demuestra por sí sola resultados comerciales."
+        ],
+        "items": []
+      }
+    ],
+    "example": {
+      "title": "Tres servicios de peluquería que responden a necesidades diferentes",
+      "description": "Ejemplo orientativo de una peluquería ficticia, pensado para mostrar una estructura por necesidades. No representa un negocio, cliente o servicio disponible en Segovia.",
+      "items": [
+        {
+          "label": "Mantener tu corte",
+          "text": "Corte y peinado para conservar el estilo que llevas. Al consultar tu cita, cuéntanos el largo actual y qué te gustaría retocar."
+        },
+        {
+          "label": "Cambiar de imagen",
+          "text": "Si buscas otro corte o color, explica el resultado que tienes en mente. Valoraremos contigo la propuesta antes de acordar el servicio."
+        },
+        {
+          "label": "Prepararte para una ocasión",
+          "text": "Peinados para una celebración o un evento. Indica la fecha, la hora a la que necesitas estar listo y si tienes una referencia del estilo que buscas."
+        }
+      ]
+    },
+    "checklist": [
+      "Enumera tus servicios y escribe para quién resulta útil cada uno.",
+      "Detecta nombres parecidos que puedan generar confusión.",
+      "Prepara una explicación de alcance y límites para las opciones principales.",
+      "Revisa el recorrido de elección y contacto en una pantalla de móvil."
+    ],
+    "faq": [
+      {
+        "question": "¿Cada servicio necesita una página independiente?",
+        "answer": "No necesariamente. Puede bastar una sección si la explicación es breve. Una página adicional tiene sentido cuando resuelve dudas propias y aporta información suficiente para ayudar a decidir."
+      },
+      {
+        "question": "¿Puedo mostrar servicios para particulares y empresas?",
+        "answer": "Sí. Explica dónde cambian las necesidades o el alcance. Separar ambos públicos solo por el título aporta poco si después reciben exactamente la misma información."
+      },
+      {
+        "question": "¿Qué servicio debería ir primero?",
+        "answer": "El que encaje con tus prioridades actuales y puedas atender bien. Las consultas reales de tus clientes pueden ayudarte a decidir; no hace falta inventar cuál es el más solicitado."
+      }
+    ],
+    "related": [
+      "soria",
+      "cuellar"
+    ],
+    "localReview": {
+      "approved": false,
+      "evidence": [
+        "https://www.segovia.es/portal/segovia-si/comercio",
+        "docs/investigacion-local-realizada.md#segovia"
+      ],
+      "checkedAt": "2026-10-18",
+      "status": "documented_pending_business_validation",
+      "remaining": "Contrastar la utilidad de la propuesta con un negocio real y revisar su solapamiento antes de aprobar la indexación."
+    }
+  },
+  {
+    "id": "aranda-de-duero",
+    "city": "Aranda de Duero",
+    "angle": "Carta, menús y consultas para grupos sin confusiones",
+    "audience": "Restaurantes y negocios de alimentación que quieren presentar su oferta con claridad",
+    "description": "Web para restaurantes en Aranda de Duero por 99,99 €, IVA incluido. Distingue carta, grupos y actividades; prepara tu propuesta con una ficha práctica.",
+    "intro": "Si tienes un restaurante en Aranda de Duero, la persona que consulta tu web puede estar resolviendo decisiones muy distintas: dónde comer hoy, qué opciones hay o cómo preguntar por una reunión de grupo. Organizar esas situaciones ayuda a presentar tu propuesta sin convertir la portada en una acumulación de platos y anuncios.",
+    "sections": [
+      {
+        "heading": "Distingue qué se puede pedir y cuándo",
+        "paragraphs": [
+          "Carta, menú y propuesta para grupos no son nombres intercambiables. Cada opción puede tener horarios, disponibilidad y condiciones diferentes. Explica esas diferencias junto a la oferta y revisa que las fotografías no contradigan lo que una persona puede encontrar en ese momento.",
+          "Una carta legible como texto permite consultar platos y precios sin ampliar una fotografía llena de letra pequeña. Si también utilizas un documento descargable, procura que la información visible y ese archivo correspondan a la misma versión."
+        ],
+        "items": [
+          "Agrupa platos u opciones con nombres que se entiendan sin conocer el restaurante.",
+          "Indica las condiciones reales que afectan al precio o a la disponibilidad.",
+          "Identifica qué contenidos cambian con frecuencia y quién los revisará."
+        ]
+      },
+      {
+        "heading": "Evita respuestas que no puedes confirmar",
+        "paragraphs": [
+          "Las fotografías, descripciones e información alimentaria deben corresponder a tu oferta real. Si alguien tiene una necesidad alimentaria concreta, facilita una consulta directa para que el restaurante pueda dar información precisa y actualizada. Una frase genérica no sustituye revisar los ingredientes y la preparación."
+        ],
+        "items": []
+      }
+    ],
+    "example": {
+      "title": "Carta, menú y grupos: tres opciones explicadas por separado",
+      "description": "Ejemplo orientativo de un restaurante ficticio. Las condiciones son supuestos didácticos; no corresponden a una carta, un cliente o una oferta disponible en Aranda de Duero.",
+      "items": [
+        {
+          "label": "Platos a la carta",
+          "text": "Elige los platos por separado. Cada uno se presenta con su descripción y su precio; las dudas sobre ingredientes o preparación se consultan antes de pedir."
+        },
+        {
+          "label": "Menú del día",
+          "text": "Primero, segundo y postre dentro de una propuesta conjunta. Bebida aparte. El menú indica qué días y en qué servicio se ofrece para evitar confundirlo con la carta."
+        },
+        {
+          "label": "Comidas de grupo",
+          "text": "Para preparar una propuesta necesitamos la fecha, el número de personas y las necesidades que debamos conocer. La solicitud se revisa con el restaurante antes de confirmar la reserva."
+        }
+      ]
+    },
+    "checklist": [
+      "Prepara una versión actual de la carta y comprueba sus importes.",
+      "Anota las diferencias entre carta, menú y oferta para grupos.",
+      "Selecciona fotografías propias que representen lo que sirves.",
+      "Define quién confirma las consultas y por qué canal responde."
+    ],
+    "faq": [
+      {
+        "question": "¿Basta con subir una foto de la carta?",
+        "answer": "Puede resultar difícil de leer desde el móvil. Conviene preparar los platos y precios como información legible, y revisar cualquier imagen o archivo adicional cuando cambie la oferta."
+      },
+      {
+        "question": "¿Puedo anunciar una propuesta para grupos sin reservas online?",
+        "answer": "Sí. Puedes explicar sus características y recibir consultas por tu canal habitual. La página debe distinguir ese contacto de una reserva confirmada o de un pago."
+      },
+      {
+        "question": "¿Qué ocurre si el menú cambia cada semana?",
+        "answer": "Conviene tener un bloque fácil de localizar y un criterio para retirar la información caducada. No publiques como permanente una propuesta que solo está disponible en fechas concretas."
+      }
+    ],
+    "related": [
+      "riaza",
+      "la-granja"
+    ],
+    "localReview": {
+      "approved": false,
+      "evidence": [
+        "https://www.turismocastillayleon.com/es/patrimonio-cultura/aranda-duero",
+        "docs/investigacion-local-realizada.md#aranda-de-duero"
+      ],
+      "checkedAt": "2026-10-18",
+      "status": "documented_pending_business_validation",
+      "remaining": "Contrastar la utilidad de la propuesta con un negocio real y revisar su solapamiento antes de aprobar la indexación."
+    }
+  },
+  {
+    "id": "sepulveda",
+    "city": "Sepúlveda",
+    "angle": "Ayuda a preparar la visita a tu negocio",
+    "audience": "Pequeños establecimientos y servicios que reciben a personas que todavía no los conocen",
+    "description": "Web para negocios en Sepúlveda por 99,99 €, IVA incluido. Prepara la visita con dirección, entrada y referencias municipales de aparcamiento.",
+    "intro": "Si recibes clientes en tu negocio de Sepúlveda, tu web puede acompañar una decisión que empieza antes de llegar. Saber qué ofreces, cuándo atiendes y cómo localizar la entrada evita que una persona tenga que buscar esos datos en mensajes antiguos. Esa claridad resulta útil tanto para quien vive cerca como para quien te visita por primera vez.",
+    "sections": [
+      {
+        "heading": "Responde las preguntas en el orden de una visita",
+        "paragraphs": [
+          "La primera pregunta es si el negocio ofrece lo que la persona busca. Después vienen la disponibilidad, los horarios y la ubicación. Presentar esos datos en un orden sencillo permite valorar la visita sin recorrer toda la web. Una descripción larga del negocio no debería ocultar la información práctica.",
+          "Si necesitas cita previa o hay alguna condición de acceso, sitúala junto al horario o a la forma de contacto. Evita que alguien interprete un horario de atención como una promesa de disponibilidad para cualquier servicio."
+        ],
+        "items": [
+          "Qué puede hacer o encontrar una persona en el establecimiento.",
+          "Cuándo puede acudir y si necesita consultar antes.",
+          "Dónde está la entrada que debe utilizar y cómo contactar si tiene dudas."
+        ]
+      }
+    ],
+    "example": {
+      "title": "Antes de venir: información para preparar tu visita",
+      "description": "Ejemplo orientativo e hipotético del texto de una sección de visita. No describe un establecimiento real ni acredita horarios, accesos o ubicaciones.",
+      "items": [
+        {
+          "label": "¿Es tu primera visita?",
+          "text": "Consulta lo que ofrecemos y cuéntanos si necesitas confirmar algo antes de desplazarte."
+        },
+        {
+          "label": "Planifica cuándo acudir",
+          "text": "Comprueba el horario y los avisos vigentes. Si quieres consultar un servicio concreto, confirma antes si necesitas una cita."
+        },
+        {
+          "label": "Encuentra la entrada",
+          "text": "¿Tienes dudas para localizar el acceso? Contacta con nosotros antes de venir y consulta las indicaciones que necesitas."
+        },
+        {
+          "label": "Una necesidad concreta",
+          "text": "Si las condiciones del espacio pueden afectar a tu visita, escríbenos para aclararlas antes de organizar el desplazamiento."
+        }
+      ]
+    },
+    "checklist": [
+      "Comprueba dirección, entrada y destino del enlace de ubicación.",
+      "Separa el horario habitual de los cambios temporales.",
+      "Anota qué necesita saber alguien que nunca ha acudido.",
+      "Revisa si alguna indicación depende de información ajena al negocio."
+    ],
+    "faq": [
+      {
+        "question": "¿Tengo que añadir información turística para que la página sea útil?",
+        "answer": "Solo si ayuda de verdad a utilizar tu servicio y puedes comprobarla. Una web comercial no necesita acumular lugares y descripciones que no influyen en la decisión de visitar tu negocio."
+      },
+      {
+        "question": "¿Cómo muestro los cierres o cambios de horario?",
+        "answer": "Coloca un aviso con fechas concretas junto al horario habitual y retíralo cuando deje de aplicarse. Un mensaje sin fecha puede generar dudas mucho después del cambio."
+      },
+      {
+        "question": "¿Y si atiendo únicamente con cita previa?",
+        "answer": "Indícalo antes de invitar a acudir y explica cómo se consulta una cita. El contacto no debe presentarse como una confirmación automática si tu negocio tiene que responder primero."
+      }
+    ],
+    "related": [
+      "riaza",
+      "la-granja"
+    ],
+    "localReview": {
+      "approved": false,
+      "evidence": [
+        "https://www.sepulveda.es/aparcamientos",
+        "docs/investigacion-local-realizada.md#sepulveda"
+      ],
+      "checkedAt": "2026-10-18",
+      "status": "documented_pending_business_validation",
+      "remaining": "Contrastar la utilidad de la propuesta con un negocio real y revisar su solapamiento antes de aprobar la indexación."
+    }
+  },
+  {
+    "id": "cuellar",
+    "city": "Cuéllar",
+    "angle": "Convierte tus publicaciones en una presentación estable del negocio",
+    "audience": "Comercios y profesionales que hoy explican su oferta mediante redes sociales y mensajes",
+    "description": "Web para tu negocio en Cuéllar por 99,99 €, IVA incluido. Revisa datos del directorio y redes, elige contenido vigente y descarga tu ficha de preparación.",
+    "intro": "Si ya publicas en redes y atiendes mensajes para tu negocio en Cuéllar, probablemente tienes parte del contenido de una web. El trabajo consiste en seleccionar lo que sigue siendo útil y darle un orden estable. Así, quien llega por primera vez puede entender tu oferta sin recorrer publicaciones de fechas y temas diferentes.",
+    "sections": [
+      {
+        "heading": "Transforma publicaciones sueltas en respuestas completas",
+        "paragraphs": [
+          "Una publicación puede anunciar un servicio sin explicar a quién se dirige o qué comprende. Para la web, añade ese contexto. Reúne las preguntas relacionadas en el mismo apartado y utiliza títulos que permitan anticipar la respuesta. El objetivo es que la información se entienda aunque la persona no siga tus redes.",
+          "No necesitas copiar todo el historial. Selecciona las piezas que representan tu oferta actual y elimina contradicciones. Si dos publicaciones dan precios o condiciones diferentes, confirma primero cuál está vigente."
+        ],
+        "items": [
+          "Convierte cada servicio principal en una explicación que se sostenga por sí sola.",
+          "Sitúa cerca el canal adecuado para consultar ese servicio."
+        ]
+      }
+    ],
+    "example": {
+      "title": "Una presentación estable para un servicio de arreglos de prendas",
+      "description": "Ejemplo orientativo e hipotético de textos reunidos en una web de servicios. No corresponde a un negocio real ni a publicaciones o trabajos realizados por Pymes Control.",
+      "items": [
+        {
+          "label": "Arreglos para seguir usando tu ropa",
+          "text": "Bajos, ajustes y pequeñas reparaciones. Cuéntanos qué prenda tienes y qué te gustaría cambiar para consultar si podemos realizar el trabajo."
+        },
+        {
+          "label": "Antes de traer la prenda",
+          "text": "Explica qué ajuste necesitas y si ya has detectado alguna dificultad. Para valorar el arreglo puede ser necesario revisar la prenda."
+        },
+        {
+          "label": "Un detalle que ayuda a entenderlo",
+          "text": "En un ajuste de largo, la consulta empieza por saber qué cambio buscas y cómo utilizas la prenda. El alcance se confirma después de revisar el trabajo necesario."
+        },
+        {
+          "label": "Consulta las condiciones actuales",
+          "text": "Pregunta por disponibilidad y plazo antes de acudir. Las condiciones de una publicación antigua pueden haber cambiado."
+        }
+      ]
+    },
+    "checklist": [
+      "Reúne publicaciones y respuestas que expliquen tu oferta actual.",
+      "Retira promociones caducadas y comprueba precios y horarios.",
+      "Confirma que puedes reutilizar las fotografías seleccionadas.",
+      "Elige qué información revisarás cuando cambie tu negocio."
+    ],
+    "faq": [
+      {
+        "question": "¿Tener una web significa dejar de usar Instagram o Facebook?",
+        "answer": "Puedes seguir utilizándolos para novedades y conversación. La web ofrece un lugar donde organizar la información estable y al que dirigir a quien necesita entender tu servicio con más detalle."
+      },
+      {
+        "question": "¿Se copiarán automáticamente mis publicaciones a la web?",
+        "answer": "No debe darse por incluida una sincronización automática. El contenido se prepara y organiza para la página; cualquier conexión adicional necesitaría definir y comprobar su alcance."
+      },
+      {
+        "question": "¿Puedo empezar si apenas tengo textos preparados?",
+        "answer": "Puedes reunir nombres de servicios, condiciones actuales y preguntas habituales como punto de partida. Es mejor una explicación breve y confirmada que llenar la página con afirmaciones que tu negocio no puede sostener."
+      }
+    ],
+    "related": [
+      "segovia",
+      "ayllon"
+    ],
+    "localReview": {
+      "approved": false,
+      "evidence": [
+        "https://www.aytocuellar.es/empleo-y-desarrollo/empresas-y-comercios/",
+        "https://www.aytocuellar.es/wp-content/uploads/2020/12/DIRECTORIO-EMPRESAS-DE-CUELLAR.pdf",
+        "docs/investigacion-local-realizada.md#cuellar"
+      ],
+      "checkedAt": "2026-10-18",
+      "status": "documented_pending_business_validation",
+      "remaining": "Contrastar la utilidad de la propuesta con un negocio real y revisar su solapamiento antes de aprobar la indexación."
+    }
+  }
+]
