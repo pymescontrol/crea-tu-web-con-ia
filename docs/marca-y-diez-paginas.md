@@ -11,7 +11,7 @@ Revisión del 18 de octubre de 2026. Referencia: PDF «PYMES_CONTROL_Identidad_M
 - Beneficio de editar contenidos desde el chat de ChatGPT en el móvil, sin explicar el funcionamiento técnico.
 - Diez propuestas para el primer grupo de localidades elegido por el titular.
 
-No se han convertido en compromisos las propuestas del PDF sobre mini formación, transferencia técnica, soporte, garantía de treinta días o revisión de Search Console. No se publican incrementos de clientes, retorno de inversión ni posiciones garantizadas. Dominio, alojamiento y condiciones detalladas de financiación siguen pendientes.
+Las propuestas del PDF no se convirtieron automáticamente en compromisos. Posteriormente el titular confirmó condiciones de páginas, materiales, plazo objetivo, cambios y devolución recogidas en `docs/condiciones-servicio-borrador.md`; estas instrucciones prevalecen sobre el PDF. El cliente paga el dominio. Alojamiento compatible y financiación detallada siguen pendientes. No se publican incrementos de clientes, retorno de inversión ni posiciones garantizadas.
 
 ## Contenido propio de cada página
 

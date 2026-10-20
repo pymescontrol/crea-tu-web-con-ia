@@ -14,13 +14,13 @@ La consulta de disponibilidad .com mediante `rdap.verisign.com` estaba bloqueada
 
 ## Condiciones confirmadas y pendientes
 
-Confirmado: creación web, 99,99 € con IVA, pago único y financiación posible en tres meses. Beneficio de edición desde el chat de ChatGPT en el móvil. El titular explicará la implementación más adelante; no mostrar esos detalles en el sitio.
+Confirmado: creación web, 99,99 € con IVA, pago único y financiación posible en tres meses. Tamaño orientativo de cinco a diez páginas, ampliable según lo acordado; contacto opcional por WhatsApp y llamada, sin compra online; textos redactados por Pymes Control tras hablar con el negocio y fotografías preferentemente reales aportadas por el cliente. Dominio a cargo del cliente. Objetivo de entrega de una semana, sin garantía de indexación ni posiciones en ese plazo. Beneficio de edición desde el chat de ChatGPT en el móvil; implementación pendiente, sin explicar detalles técnicos en el sitio.
 
-Pendiente: alcance contractual concreto, condiciones detalladas de financiación, dominio y alojamiento, datos del titular y textos legales aplicables, validación del servicio de edición con las indicaciones del titular. No inventar intereses, cuotas, garantía de treinta días ni costes externos gratuitos.
+El titular ha indicado un mes inicial gratuito para cambios y un mes de devolución, además de 20 € por cambio encargado al proveedor. Se están concretando sus puntos de inicio, alcance e IVA. Véase `docs/condiciones-servicio-borrador.md`. Pendientes también financiación detallada, proveedor de alojamiento compatible, datos fiscales del vendedor y validación de la edición. No inventar intereses, cuotas, cargos futuros ni gratuidad perpetua.
 
 ## Revisión de las diez páginas
 
-Las fuentes están en `content/localidades-centro.json` y `content/localidades-entorno.json`. Cada una conserva `localReview.approved: false` y `evidence: []`. Hace falta investigar el contexto y justificar la utilidad local. Véase `docs/marca-y-diez-paginas.md`.
+Las fuentes están en `content/localidades-centro.json`, `content/localidades-entorno.json` y `content/guias-locales.json`. Cada localidad conserva `localReview.approved: false` con evidencia documental ya registrada. Falta contrastar utilidad comercial y solapamiento. Véase `docs/investigacion-local-realizada.md`.
 
 El campo de aprobación editorial no representa una certificación de Google. Registrar referencias y razones comprobadas para la decisión. No aprobar una página por longitud, variedad de sinónimos o diferencias de color.
 
@@ -35,4 +35,4 @@ El campo de aprobación editorial no representa una certificación de Google. Re
 
 Sitemap: cero URLs con indexación desactivada; tres generales si solo se activa la opción global; hasta trece cuando las diez localidades estén aprobadas. Robots permite rastrear para leer `noindex`; esta medida no hace privados los borradores.
 
-No se ha publicado el sitio, subido cambios a GitHub, comprado un dominio ni solicitado indexación en esta tarea.
+La versión se ha guardado en GitHub, en la rama `codex/diez-paginas-locales-documentadas`. No se ha desplegado esta versión como web pública, comprado un dominio ni solicitado indexación.

@@ -5,10 +5,51 @@
   "billing": "one_time",
   "taxIncluded": true,
   "financingMonths": 3,
-  "domainIncluded": null,
+  "domainIncluded": false,
   "hostingIncluded": null,
   "editingIntegration": "pending",
   "summary": "Creamos la web de tu negocio por 99,99 €, IVA incluido. Podrás editar su contenido desde el chat de ChatGPT en tu móvil.",
   "contactEmail": "dasmesantoto@gmail.com",
-  "contactPhone": "+34691223199"
+  "contactPhone": "+34691223199",
+  "pageCount": {
+    "typicalMin": 5,
+    "typicalMax": 10,
+    "moreByAgreement": true
+  },
+  "features": {
+    "whatsapp": "optional",
+    "phoneCall": "optional",
+    "onlineCheckout": false
+  },
+  "contentPreparation": {
+    "texts": "Pymes Control tras hablar con el responsable y definir su público objetivo",
+    "photos": "Preferentemente reales, aportadas por el cliente",
+    "aiImages": "Opcionales como ilustraciones acordadas, diferenciadas de fotografías reales del negocio"
+  },
+  "delivery": {
+    "targetWeeks": 1,
+    "startsAt": null,
+    "googleRankingGuaranteed": false,
+    "googleIndexingDeadlineGuaranteed": false
+  },
+  "hostingPlan": {
+    "intendedCustomerFee": "0.00",
+    "provider": null,
+    "status": "provider_and_conditions_pending",
+    "futureCharges": null
+  },
+  "changes": {
+    "freeInitialMonths": 1,
+    "startsAt": null,
+    "scope": null,
+    "assistedChangePrice": "20.00",
+    "assistedChangeTaxIncluded": null,
+    "afterFreePeriod": null
+  },
+  "refund": {
+    "windowMonths": 1,
+    "startsAt": null,
+    "amount": "full_service_price",
+    "procedure": null
+  }
 }

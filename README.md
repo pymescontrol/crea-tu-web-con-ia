@@ -51,7 +51,9 @@ Las pruebas trabajan en una copia temporal y cubren retirada limitada, navegaci�
 
 El formulario recibe `?pagina=riaza` u otro identificador conocido, muestra la propuesta y rellena la localidad. La actividad la elige la persona. Los identificadores desconocidos se ignoran. Prepara un borrador `mailto:` que la persona revisa y envía desde su aplicación; no transmite solicitudes ni procesa pagos.
 
-No se han inventado intereses, importe de cuotas, proveedor de financiación, plazos de entrega o inclusión del dominio/alojamiento. La integración de edición sigue `pending`; la redacción comercial no implementa esa función. No explicar el flujo técnico en la web por petición del titular. Las propuestas del PDF sobre garantía, soporte, formación y transferencia no se añaden automáticamente al alcance contratado.
+La oferta contempla cinco a diez páginas como orientación, más según el alcance acordado, contacto opcional por WhatsApp o llamada y ausencia de compra online. Pymes Control redacta tras hablar con el negocio; el cliente aporta preferentemente fotos reales. Dominio aparte y objetivo de entrega de una semana sin garantía de indexación o posiciones. El mes de cambios gratuitos, devolución y precio de 20 € por cambio están recogidos en `docs/condiciones-servicio-borrador.md`, con los detalles pendientes. El alojamiento requiere elegir un proveedor compatible con el uso comercial; guardar código en GitHub no obliga a alojarlo en Pages.
+
+No se han inventado intereses, cuotas ni gratuidad perpetua. La integración de edición sigue `pending`; la redacción comercial no implementa esa función. No explicar el flujo técnico en la web por petición del titular. Las propuestas del PDF no sustituyen las instrucciones expresas del titular.
 
 ## Indexación y dominio
 
