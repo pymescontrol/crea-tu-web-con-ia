@@ -35,21 +35,18 @@
   "hostingPlan": {
     "intendedCustomerFee": "0.00",
     "provider": null,
-    "status": "provider_and_conditions_pending",
-    "futureCharges": null
+    "status": "verify_current_hosting_and_terms",
+    "futureCharges": null,
+    "reportedPlatform": "GitHub"
   },
   "changes": {
     "freeInitialMonths": 1,
-    "startsAt": null,
-    "scope": null,
+    "startsAt": "after_delivery_and_payment",
+    "scope": "Cambios que el cliente no pueda realizar por sí mismo y encargue a Pymes Control",
     "assistedChangePrice": "20.00",
-    "assistedChangeTaxIncluded": null,
-    "afterFreePeriod": null
+    "assistedChangeTaxIncluded": false,
+    "pricingStatus": "confirmed",
+    "afterFirstMonth": "paid_assistance"
   },
-  "refund": {
-    "windowMonths": 1,
-    "startsAt": null,
-    "amount": "full_service_price",
-    "procedure": null
-  }
+  "voluntaryRefundOffered": false
 }
