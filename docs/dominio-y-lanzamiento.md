@@ -1,6 +1,6 @@
 # Dominio y preparación del lanzamiento
 
-Se prepara **una web con diez páginas de captación**, cuatro generales y dos accesos antiguos. La marca visible es Pymes Control. No hay dominio definitivo elegido ni registrado en esta tarea.
+Se prepara **una web con diez páginas de captación**, cuatro generales, un borrador de aviso legal y dos accesos antiguos. La marca visible es Pymes Control. No hay dominio definitivo elegido ni registrado en esta tarea.
 
 ## Dominio
 
@@ -23,6 +23,8 @@ El titular ha retirado la oferta comercial de devolución y ha aclarado que la a
 Las fuentes están en `content/localidades-centro.json`, `content/localidades-entorno.json` y `content/guias-locales.json`. Cada localidad conserva `localReview.approved: false` con evidencia documental ya registrada. Falta contrastar utilidad comercial y solapamiento. Véase `docs/investigacion-local-realizada.md`.
 
 El campo de aprobación editorial no representa una certificación de Google. Registrar referencias y razones comprobadas para la decisión. No aprobar una página por longitud, variedad de sinónimos o diferencias de color.
+
+El titular autorizó incorporar su nombre y NIF al aviso legal. Queda pendiente el domicilio profesional; el documento es un borrador y esa identificación no acredita altas fiscales ni de Seguridad Social.
 
 ## Publicación e indexación
 

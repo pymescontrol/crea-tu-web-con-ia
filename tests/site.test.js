@@ -43,7 +43,7 @@ test('build replaces the old catalogue with ten reachable local pages', () => {
   expectBuild(staging);
   for (const file of retiredFiles) assert.equal(fs.existsSync(path.join(temp, file)), false, file);
   assert.deepEqual(files().filter(file => file.startsWith('localidades/')).sort(), [...landingFiles].sort());
-  assert.equal(files().length, 16);
+  assert.equal(files().length, 17);
   const titles = [];
   for (const [index, file] of landingFiles.entries()) {
     const html = read(file);
@@ -103,6 +103,13 @@ test('each local page provides a usable preparation download and its cited sourc
 });
 
 test('prelaunch has noindex and all links, assets, fragments and scripts resolve', () => {
+  const legal = JSON.parse(read('content/legal.json'));
+  assert.ok(read('aviso-legal.html').includes(legal.holderName));
+  assert.ok(read('aviso-legal.html').includes(legal.taxId));
+  for (const file of files().filter(file => file !== 'aviso-legal.html')) {
+    assert.ok(!read(file).includes(legal.taxId), `${file}: tax ID should only appear in the legal notice`);
+    if (!aliases.includes(file)) assert.match(read(file), /href="(?:\.\.\/)?aviso-legal\.html"/);
+  }
   assert.deepEqual(sitemapUrls(), []);
   assert.doesNotMatch(read('robots.txt'), /Disallow:\s*\//);
   for (const file of files()) {
@@ -139,7 +146,7 @@ test('enabling the site does not automatically index unreviewed local pages', ()
     assert.equal(canonical(read(file)), url);
     assert.match(read(file), /name="robots" content="index, follow"/);
   }
-  for (const file of [...landingFiles, 'contacto.html', ...aliases]) {
+  for (const file of [...landingFiles, 'contacto.html', 'aviso-legal.html', ...aliases]) {
     assert.match(read(file), /name="robots" content="noindex, follow"/, file);
   }
   for (const file of landingFiles) assert.equal(canonical(read(file)), production.baseUrl + file);
@@ -170,7 +177,7 @@ test('local indexing requires explicit editorial approval and recorded evidence'
       assert.equal(canonical(read(file)), production.baseUrl + file);
       assert.match(read(file), /name="robots" content="index, follow"/, file);
     }
-    for (const file of ['contacto.html', ...aliases]) assert.match(read(file), /name="robots" content="noindex, follow"/, file);
+    for (const file of ['contacto.html', 'aviso-legal.html', ...aliases]) assert.match(read(file), /name="robots" content="noindex, follow"/, file);
     expectBuild(staging);
     assert.deepEqual(sitemapUrls(), []);
     for (const file of landingFiles) assert.match(read(file), /name="robots" content="noindex, follow"/, file);
@@ -210,7 +217,7 @@ test('confirmed offer is consistent without invented financing or SEO guarantees
   assert.equal(offer.billing, 'one_time');
   assert.equal(offer.taxIncluded, true);
   assert.equal(offer.financingMonths, 3);
-  for (const file of files().filter(file => !aliases.includes(file))) {
+  for (const file of files().filter(file => ![...aliases, 'aviso-legal.html'].includes(file))) {
     const html = read(file);
     assert.match(html, /99,99/, file);
     assert.match(html, /Pago único|pago único/, file);

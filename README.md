@@ -6,8 +6,9 @@ Una web de venta de creación web para pequeños negocios. Oferta confirmada: **
 
 - **10 páginas de captación**: Riaza, Segovia, Aranda de Duero, Sepúlveda, Cuéllar, El Espinar, La Granja, Ayllón, Pedraza y Soria.
 - **4 páginas generales**: inicio, servicio, proceso y contacto.
+- **1 borrador de aviso legal**, enlazado desde el pie, con el titular y NIF facilitados. Falta completar el domicilio profesional.
 - **2 accesos antiguos** con redirección HTML: `consultoria-vip.html` al servicio y `plantilla-nicho.html` al directorio de localidades.
-- Total: 14 páginas de contenido y 2 alias; **16 archivos HTML**.
+- Total: 14 páginas de contenido comercial, 1 aviso legal y 2 alias; **17 archivos HTML**.
 - Se retiraron las 100 páginas de sector/ciudad y los 10 directorios de la versión anterior. La lista exacta está en `lib/retiradas.js`. Una URL retirada no se redirige a una localidad sin relación.
 
 Las diez propuestas incluyen contexto local contrastado, fuentes visibles, decisiones prácticas y una ficha descargable distinta para preparar el negocio. El buyer es común: dueño de un pequeño negocio que quiere una web hecha y poder mantener su contenido al día. La investigación documental se realizó el 18 de octubre de 2026; todavía falta contrastar su utilidad comercial con negocios reales. No se han inventado oficinas, clientes, testimonios, estadísticas ni estudios de competencia.
@@ -31,13 +32,14 @@ Editar fuentes y regenerar; los HTML son salidas:
 | Fuente | Contenido |
 |---|---|
 | `content/servicio.json` | Oferta, precio y contacto |
+| `content/legal.json` | Identificación autorizada por el titular y estado del aviso legal |
 | `content/localidades-centro.json` | Riaza, Segovia, Aranda de Duero, Sepúlveda y Cuéllar |
 | `content/localidades-entorno.json` | El Espinar, La Granja, Ayllón, Pedraza y Soria |
 | `content/guias-locales.json` | Contexto contrastado, decisiones, títulos y fuentes de las diez guías |
 | `content/sectores.json` | Actividades seleccionables en el formulario; no genera páginas |
 | `lib/catalogo.js` | Validación de contenido, rutas y estado de revisión editorial |
 | `lib/retiradas.js` | Manifiesto cerrado de las 110 salidas antiguas que se retiran |
-| `generate-pages.js` | Inicio, servicio, proceso, contacto y JavaScript del formulario |
+| `generate-pages.js` | Inicio, servicio, proceso, contacto, aviso legal y JavaScript del formulario |
 | `generate-nichos.js` | Diez páginas locales, dos alias e inventario |
 | `generate-sitemap.js` | Sitemap y robots de acuerdo con las opciones de indexación |
 | `lib/marketing.js` | Oferta, cabecera y pie comunes |
@@ -64,7 +66,7 @@ Hay una segunda condición para cada localidad: `localReview.approved` y una lis
 - Sitio sin indexación: 0 URLs.
 - Indexación global activada, diez localidades sin revisar: 3 URLs generales.
 - Diez localidades revisadas y aprobadas, indexación global activada: 13 URLs.
-- Contacto y los dos alias quedan siempre fuera.
+- Contacto, aviso legal y los dos alias quedan siempre fuera.
 
 La revisión editorial es una decisión humana basada en evidencia, no una puntuación de similitud ni un certificado SEO. Registrar fuentes y razonamiento reales, nunca textos de relleno para activar el campo. Las pruebas usan aprobaciones y dominio de ejemplo solo en copias temporales.
 
