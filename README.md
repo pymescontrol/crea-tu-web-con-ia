@@ -6,7 +6,7 @@ Una web de venta de creación web para pequeños negocios. Oferta confirmada: **
 
 - **10 páginas de captación**: Riaza, Segovia, Aranda de Duero, Sepúlveda, Cuéllar, El Espinar, La Granja, Ayllón, Pedraza y Soria.
 - **4 páginas generales**: inicio, servicio, proceso y contacto.
-- **1 borrador de aviso legal**, enlazado desde el pie, con el titular y NIF facilitados. Falta completar el domicilio profesional.
+- **1 borrador de aviso legal**, enlazado desde el pie, con el nombre, NIF y domicilio facilitados por el titular. Atención online y por teléfono, sin atención al público en ese domicilio.
 - **2 accesos antiguos** con redirección HTML: `consultoria-vip.html` al servicio y `plantilla-nicho.html` al directorio de localidades.
 - Total: 14 páginas de contenido comercial, 1 aviso legal y 2 alias; **17 archivos HTML**.
 - Se retiraron las 100 páginas de sector/ciudad y los 10 directorios de la versión anterior. La lista exacta está en `lib/retiradas.js`. Una URL retirada no se redirige a una localidad sin relación.
