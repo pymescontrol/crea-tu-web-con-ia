@@ -24,7 +24,7 @@ Las fuentes están en `content/localidades-centro.json`, `content/localidades-en
 
 El campo de aprobación editorial no representa una certificación de Google. Registrar referencias y razones comprobadas para la decisión. No aprobar una página por longitud, variedad de sinónimos o diferencias de color.
 
-El titular autorizó incorporar su nombre y NIF al aviso legal. Queda pendiente el domicilio profesional; el documento es un borrador y esa identificación no acredita altas fiscales ni de Seguridad Social.
+El titular autorizó incorporar su nombre, NIF y domicilio al aviso legal. La atención habitual es online y por teléfono, sin atención al público en ese domicilio; las visitas al negocio del cliente se acuerdan previamente según la ubicación. El documento sigue como borrador pendiente de revisión antes del lanzamiento; los datos facilitados no acreditan altas fiscales ni de Seguridad Social.
 
 ## Publicación e indexación
 
