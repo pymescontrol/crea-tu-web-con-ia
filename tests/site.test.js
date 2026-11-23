@@ -30,7 +30,7 @@ function expectBuild(config, command) {
 }
 
 // These checks cover site behavior and publication safeguards; they do not certify Google's policies.
-test('testimonial mockups are labelled individually and excluded from the indexable site', () => {
+test('testimonial mockups are labelled at section level and excluded from the indexable site', () => {
   expectBuild(staging);
   const demo = JSON.parse(read('content/testimonios-demo.json'));
   assert.equal(demo.demo, true);
@@ -39,10 +39,11 @@ test('testimonial mockups are labelled individually and excluded from the indexa
   const home = read('index.html');
   const cards = [...home.matchAll(/<article class="review-card"[\s\S]*?<\/article>/g)].map(match => match[0]);
   assert.equal(cards.length, 56);
+  assert.match(home, /Casos de éxito · demo/);
+  assert.match(home, /<div class="demo-notice"><strong>56 reseñas ficticias para probar el diseño\./);
   for (const card of cards) {
-    assert.match(card, /Ejemplo ficticio · no es una reseña real/);
-    assert.match(card, /valoración simulada/);
-    assert.match(card, /personaje ficticio/);
+    assert.doesNotMatch(card, /Ejemplo ficticio|valoración simulada|personaje ficticio/);
+    assert.match(card, /<span>5\/5<\/span>/);
     assert.doesNotMatch(card, /Buitrago|Pymes Control/i);
   }
   assert.doesNotMatch(home, /AggregateRating|ratingValue|reviewCount|itemtype="[^"]*Review/i);
