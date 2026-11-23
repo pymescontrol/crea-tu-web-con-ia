@@ -37,4 +37,6 @@ El titular autorizó incorporar su nombre, NIF y domicilio al aviso legal. La at
 
 Sitemap: cero URLs con indexación desactivada; tres generales si solo se activa la opción global; hasta trece cuando las diez localidades estén aprobadas. Robots permite rastrear para leer `noindex`; esta medida no hace privados los borradores.
 
-La versión se ha guardado en GitHub, en la rama `codex/diez-paginas-locales-documentadas`. No se ha desplegado esta versión como web pública, comprado un dominio ni solicitado indexación.
+La versión de revisión se publicó en GitHub Pages desde `main` el 22 de octubre de 2026, con despliegue correcto de la revisión `3d81807`. URL de revisión: https://pymescontrol.github.io/crea-tu-web-con-ia/. No se ha comprado un dominio ni solicitado indexación en esta tarea. Esta vista pública mantiene noindex; no es un espacio privado ni resuelve las condiciones pendientes del lanzamiento comercial.
+
+La maqueta de «Casos de éxito» usa únicamente ejemplos ficticios, identificados tanto en la cabecera como en cada tarjeta. No son opiniones de clientes ni datos para SEO de reseñas. El generador excluye la maqueta cuando se activa la indexación global; los testimonios reales deberán prepararse y autorizarse por separado.

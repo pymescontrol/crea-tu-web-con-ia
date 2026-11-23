@@ -1,0 +1,453 @@
+{
+  "demo": true,
+  "items": [
+    {
+      "id": "demo-01",
+      "persona": "Nuria",
+      "actividad": "Carpintería",
+      "localidad": "Allariz",
+      "texto": "Para una carpintería como la mía, lo principal es enseñar bien los acabados. Me gusta que las fotos tengan espacio y que pedir presupuesto sea tan sencillo.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-02",
+      "persona": "Álvaro",
+      "actividad": "Restaurante",
+      "localidad": "Zafra",
+      "texto": "La carta se lee sin ampliar la pantalla y el teléfono está a mano. Gracias, David, por darle prioridad a esas cosas en la propuesta.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-03",
+      "persona": "Celia",
+      "actividad": "Floristería",
+      "localidad": "Haro",
+      "texto": "No todos los ramos se encargan para lo mismo. Separar celebraciones, regalos y encargos especiales me parece una manera muy clara de presentar la tienda.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-04",
+      "persona": "Rubén",
+      "actividad": "Albañilería y reformas",
+      "localidad": "Almagro",
+      "texto": "Yo quería explicar qué trabajos acepto, sin llenar la página de palabras técnicas. Este planteamiento deja claro qué información necesito para preparar un presupuesto.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-05",
+      "persona": "Teresa",
+      "actividad": "Alojamiento rural",
+      "localidad": "Morella",
+      "texto": "Se agradece ver juntas las habitaciones, las condiciones y cómo llegar. El apartado de preguntas es justo lo que buscaría antes de llamar para reservar.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-06",
+      "persona": "Manuel",
+      "actividad": "Taller mecánico",
+      "localidad": "Cazorla",
+      "texto": "Revisiones, neumáticos y averías: cada servicio tiene su sitio. No necesito una web complicada, sino que quien entre entienda cómo pedir cita.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-07",
+      "persona": "Irene",
+      "actividad": "Peluquería",
+      "localidad": "Olite",
+      "texto": "Gracias, David, por tener en cuenta que casi todo se consulta desde el móvil. La lista de servicios y el botón de contacto quedan muy cómodos en este diseño.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-08",
+      "persona": "Pablo",
+      "actividad": "Panadería",
+      "localidad": "Trujillo",
+      "texto": "Me gusta que el pan del día y los encargos tengan apartados distintos. Las fotos acompañan, pero los horarios siguen siendo fáciles de encontrar.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-09",
+      "persona": "Eva",
+      "actividad": "Tienda de ropa",
+      "localidad": "Llanes",
+      "texto": "Buscaba una idea para mostrar el estilo de la tienda sin montar una tienda online. Esta propuesta encaja: unas buenas fotos, qué vendemos y cómo visitarnos.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-10",
+      "persona": "Sergio",
+      "actividad": "Electricista",
+      "localidad": "Jaca",
+      "texto": "Lo importante para mí es que se distinga una instalación de una reparación. También me parece acertado explicar la zona de trabajo antes de pedir al cliente que llame.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-11",
+      "persona": "Marina",
+      "actividad": "Librería",
+      "localidad": "Ribadeo",
+      "texto": "La sección de recomendaciones tiene un aire cercano, como la librería que quiero enseñar. Y el espacio para avisar de presentaciones de libros me resulta muy útil.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-12",
+      "persona": "Antonio",
+      "actividad": "Fontanería",
+      "localidad": "Úbeda",
+      "texto": "Agradezco que el texto vaya al grano. Qué reparaciones hago, cuándo atiendo y qué datos conviene dar por teléfono: con eso la propuesta ya tiene sentido.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-13",
+      "persona": "Rocío",
+      "actividad": "Cafetería",
+      "localidad": "Ronda",
+      "texto": "Los desayunos se ven apetecibles sin que todo dependa de una foto enorme. Me quedo con la idea de poner la carta y el horario tan cerca del principio.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-14",
+      "persona": "Javier",
+      "actividad": "Academia de idiomas",
+      "localidad": "Mérida",
+      "texto": "Separar los cursos por edad y objetivo ayuda a entender la oferta. Gracias, David, por proponer un espacio específico para explicar cómo es una primera clase.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-15",
+      "persona": "Alicia",
+      "actividad": "Pastelería",
+      "localidad": "Tudela",
+      "texto": "En una tarta por encargo importan mucho la fecha, las raciones y las alergias. Me parece buena idea explicar qué información pediríamos antes de hablar del diseño.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-16",
+      "persona": "Héctor",
+      "actividad": "Taller de bicicletas",
+      "localidad": "Dénia",
+      "texto": "La página de mantenimiento se entiende incluso si no sabes de mecánica. Eso es lo que buscaba en el ejemplo, explicar las cosas con palabras normales.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-17",
+      "persona": "Lucía",
+      "actividad": "Pescadería",
+      "localidad": "Santoña",
+      "texto": "Me gusta que se dé importancia a cómo preparar un encargo y no solo al producto. El horario, la recogida y el contacto quedan bien ordenados.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-18",
+      "persona": "Dani",
+      "actividad": "Jardinería",
+      "localidad": "Olot",
+      "texto": "El mantenimiento de un jardín y una puesta a punto puntual son encargos diferentes. Esta estructura permite explicarlo sin hacer que el visitante lea demasiado.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-19",
+      "persona": "Beatriz",
+      "actividad": "Tienda de calzado",
+      "localidad": "Astorga",
+      "texto": "La propuesta no parece un catálogo interminable. Enseña el tipo de calzado, da información de la tienda y deja claro cómo consultar por una talla.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-20",
+      "persona": "Jesús",
+      "actividad": "Pintura de interiores",
+      "localidad": "Alcalá la Real",
+      "texto": "Gracias, David, por reservar espacio para explicar la preparación de las paredes. En este oficio importa tanto eso como el color que se elija al final.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-21",
+      "persona": "Paula",
+      "actividad": "Centro de estética",
+      "localidad": "Monzón",
+      "texto": "Me gusta poder presentar cada servicio con una explicación breve, su duración y el precio orientativo. La página se ve tranquila y es fácil moverse por ella.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-22",
+      "persona": "Luis",
+      "actividad": "Ferretería",
+      "localidad": "Lerma",
+      "texto": "Vendemos cosas muy distintas y no quería que el diseño resultase un lío. Agruparlas por usos es una idea sencilla que funciona bien en esta maqueta.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-23",
+      "persona": "Elena",
+      "actividad": "Arreglos de ropa",
+      "localidad": "Tarazona",
+      "texto": "Un bajo de pantalón y un arreglo de vestido no se explican igual. Aquí cada tipo de trabajo tiene su espacio y se entiende que primero hay que ver la prenda.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-24",
+      "persona": "Óscar",
+      "actividad": "Reparación de electrodomésticos",
+      "localidad": "Benavente",
+      "texto": "Me parece práctico recordar que hace falta la marca y el modelo al consultar. El ejemplo prepara bien esa primera conversación sin prometer arreglos antes de revisar la avería.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-25",
+      "persona": "Clara",
+      "actividad": "Taller de cerámica",
+      "localidad": "Baeza",
+      "texto": "Las piezas necesitan verse con detalle y aquí tienen protagonismo. También me gusta separar lo que está disponible de los encargos que requieren preparación.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-26",
+      "persona": "Fernando",
+      "actividad": "Tienda de productos locales",
+      "localidad": "Requena",
+      "texto": "El origen de cada producto es parte de lo que quiero contar. Este diseño deja sitio para explicarlo sin esconder los datos prácticos de la tienda.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-27",
+      "persona": "Marta",
+      "actividad": "Restaurante de cocina casera",
+      "localidad": "Aracena",
+      "texto": "Gracias, David, por plantear una carta sencilla de consultar. Me gusta especialmente que el menú y las consultas para grupos no se mezclen.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-28",
+      "persona": "Diego",
+      "actividad": "Carpintería metálica",
+      "localidad": "Valdés",
+      "texto": "Las fotos de puertas y barandillas necesitan una pequeña explicación al lado. La propuesta permite contar materiales y acabados sin convertir la página en un manual.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-29",
+      "persona": "Inés",
+      "actividad": "Estudio de fotografía",
+      "localidad": "Montilla",
+      "texto": "Lo primero que miro es cómo se ven las galerías en el móvil. En este ejemplo las imágenes se disfrutan y el contacto no queda perdido al final.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-30",
+      "persona": "Adrián",
+      "actividad": "Clases de música",
+      "localidad": "Ayamonte",
+      "texto": "Me parece un acierto diferenciar iniciación y clases para quien ya toca. Así puedo explicar el enfoque de cada opción sin dar por hecho que todo el mundo sabe lo mismo.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-31",
+      "persona": "Raquel",
+      "actividad": "Tienda de mascotas",
+      "localidad": "Alcañiz",
+      "texto": "La organización por tipo de animal resulta muy cómoda. Me gusta que haya espacio para las consultas sobre productos, además de las fotos y los horarios.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-32",
+      "persona": "Miguel",
+      "actividad": "Tapicería",
+      "localidad": "Plasencia",
+      "texto": "Antes de dar un precio necesito ver el mueble. Gracias, David, por reflejar ese paso con claridad en lugar de presentar todos los trabajos como si fueran iguales.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-33",
+      "persona": "Sofía",
+      "actividad": "Limpieza profesional",
+      "localidad": "Carballo",
+      "texto": "La limpieza de una vivienda y la de un local tienen necesidades distintas. Esta propuesta ayuda a explicar qué datos hacen falta para acordar el servicio.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-34",
+      "persona": "José",
+      "actividad": "Frutería",
+      "localidad": "Mula",
+      "texto": "Quería una idea sencilla, con productos de temporada y los datos para preparar un encargo. Me gusta que el diseño conserve ese aire de comercio de barrio.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-35",
+      "persona": "Laura",
+      "actividad": "Escuela de baile",
+      "localidad": "Palafrugell",
+      "texto": "Los horarios se distinguen bien y cada grupo tiene su explicación. Para quien empieza desde cero, ese detalle me parece más útil que una portada llena de frases generales.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-36",
+      "persona": "Carlos",
+      "actividad": "Cristalería",
+      "localidad": "Medina del Campo",
+      "texto": "El apartado sobre medidas y fotografías está bien pensado. Permite explicar cómo consultar un trabajo sin hacer creer que el presupuesto sale de una foto sin más.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-37",
+      "persona": "Patricia",
+      "actividad": "Lavandería",
+      "localidad": "Vélez-Málaga",
+      "texto": "Lo que necesito mostrar se encuentra enseguida: servicios, horario y cómo funciona la entrega. Gracias, David, por mantener la propuesta así de clara.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-38",
+      "persona": "Andrés",
+      "actividad": "Barbería",
+      "localidad": "Águilas",
+      "texto": "Me quedo con el estilo sencillo y el espacio para explicar los cortes. El acceso al teléfono está donde lo buscaría alguien que quiere pedir hora.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-39",
+      "persona": "Cristina",
+      "actividad": "Papelería",
+      "localidad": "Ejea de los Caballeros",
+      "texto": "Material escolar, oficina e impresión quedan bien separados. La propuesta sirve para explicar la variedad de la papelería sin tener que enseñar cada artículo.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-40",
+      "persona": "Marcos",
+      "actividad": "Guía de rutas a pie",
+      "localidad": "Cambados",
+      "texto": "Me gusta ver la duración, el punto de encuentro y qué llevar antes de contactar. Son detalles pequeños, pero necesarios para elegir una ruta con calma.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-41",
+      "persona": "Ana",
+      "actividad": "Tienda de decoración",
+      "localidad": "Montblanc",
+      "texto": "Las fotografías tienen espacio sin comerse toda la página. Me parece una buena forma de enseñar el estilo de la tienda y animar a consultar por una pieza concreta.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-42",
+      "persona": "Iván",
+      "actividad": "Instalación de toldos",
+      "localidad": "Écija",
+      "texto": "Cada terraza pide una solución distinta. El ejemplo deja claro que primero se valoran las medidas y el uso, que es como tiene sentido empezar la conversación.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-43",
+      "persona": "Silvia",
+      "actividad": "Centro de pilates",
+      "localidad": "Reinosa",
+      "texto": "Gracias, David, por separar los tipos de clase y explicar a quién se dirige cada uno. Me gusta que se invite a consultar dudas sin hacer promesas sobre resultados.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-44",
+      "persona": "Joaquín",
+      "actividad": "Reparación de calzado",
+      "localidad": "Inca",
+      "texto": "Hay arreglos que la gente no sabe que se pueden consultar. Esta propuesta ofrece espacio para enseñarlos y explica que hay que revisar el calzado antes de confirmar el trabajo.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-45",
+      "persona": "Sara",
+      "actividad": "Taller de artesanía",
+      "localidad": "Icod de los Vinos",
+      "texto": "El proceso también forma parte de cada pieza. Me gusta que esta idea de web deje enseñar los materiales y la elaboración junto al resultado final.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-46",
+      "persona": "Víctor",
+      "actividad": "Servicio de informática",
+      "localidad": "Los Llanos de Aridane",
+      "texto": "El texto no está lleno de siglas, y eso se agradece. Distingue ayuda con el ordenador, configuración y mantenimiento con ejemplos que se entienden bien.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-47",
+      "persona": "Isabel",
+      "actividad": "Heladería",
+      "localidad": "Alaior",
+      "texto": "La propuesta da protagonismo a los sabores sin descuidar la información práctica. Me gusta especialmente reservar un sitio claro para consultar ingredientes y alérgenos.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-48",
+      "persona": "Raúl",
+      "actividad": "Reformas de baños",
+      "localidad": "Chiclana de la Frontera",
+      "texto": "Me parece acertado contar los pasos del encargo antes de hablar de acabados. Gracias, David, por dejar claro qué se revisa y qué hay que acordar antes de empezar.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-49",
+      "persona": "Andrea",
+      "actividad": "Tienda de alimentación",
+      "localidad": "Sarria",
+      "texto": "Para una tienda pequeña no hace falta complicarlo todo. En esta maqueta encuentro el surtido, el horario y cómo preguntar por un producto sin dar vueltas.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-50",
+      "persona": "Pedro",
+      "actividad": "Academia de apoyo escolar",
+      "localidad": "Hellín",
+      "texto": "La información por etapas está bien organizada. Las familias podrían consultar qué materias se trabajan y qué preguntar antes de elegir un grupo, sin promesas de notas.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-51",
+      "persona": "Verónica",
+      "actividad": "Tienda de muebles",
+      "localidad": "Fraga",
+      "texto": "Me gusta la idea de organizar los muebles por estancia. Las fotografías inspiran y las medidas aportan la información que hace falta para seguir preguntando.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-52",
+      "persona": "Enrique",
+      "actividad": "Herrería",
+      "localidad": "Guadix",
+      "texto": "Un trabajo a medida necesita explicarse con algo más que una imagen. Esta estructura permite mostrar opciones y dejar claro que cada encargo se estudia por separado.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-53",
+      "persona": "Natalia",
+      "actividad": "Peluquería canina",
+      "localidad": "Ponteareas",
+      "texto": "Gracias, David, por incluir qué conviene comentar antes de pedir cita. El tipo de pelo, el tamaño y las necesidades del perro ayudan a explicar bien el servicio.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-54",
+      "persona": "Tomás",
+      "actividad": "Tienda de instrumentos musicales",
+      "localidad": "Almansa",
+      "texto": "La propuesta distingue comprar un instrumento, buscar un accesorio y consultar una reparación. Me parece una manera ordenada de presentar todo lo que ofrece una tienda así.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-55",
+      "persona": "Esther",
+      "actividad": "Comida para llevar",
+      "localidad": "Villacarrillo",
+      "texto": "La carta y las condiciones para encargar se ven juntas, como debería ser. Me gusta que el ejemplo explique la recogida sin dar a entender que hay reparto si no se ofrece.",
+      "estrellas": 5
+    },
+    {
+      "id": "demo-56",
+      "persona": "Gabriel",
+      "actividad": "Montaje de muebles",
+      "localidad": "Gáldar",
+      "texto": "Me quedo con la sencillez de la propuesta. Explica qué datos del mueble y del espacio hacen falta para valorar el montaje, y después permite contactar sin complicaciones.",
+      "estrellas": 5
+    }
+  ]
+}

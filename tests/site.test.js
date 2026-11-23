@@ -30,6 +30,31 @@ function expectBuild(config, command) {
 }
 
 // These checks cover site behavior and publication safeguards; they do not certify Google's policies.
+test('testimonial mockups are labelled individually and excluded from the indexable site', () => {
+  expectBuild(staging);
+  const demo = JSON.parse(read('content/testimonios-demo.json'));
+  assert.equal(demo.demo, true);
+  assert.equal(demo.items.length, 56);
+  assert.equal(new Set(demo.items.map(item => item.id)).size, 56);
+  const home = read('index.html');
+  const cards = [...home.matchAll(/<article class="review-card"[\s\S]*?<\/article>/g)].map(match => match[0]);
+  assert.equal(cards.length, 56);
+  for (const card of cards) {
+    assert.match(card, /Ejemplo ficticio · no es una reseña real/);
+    assert.match(card, /valoración simulada/);
+    assert.match(card, /personaje ficticio/);
+    assert.doesNotMatch(card, /Buitrago|Pymes Control/i);
+  }
+  assert.doesNotMatch(home, /AggregateRating|ratingValue|reviewCount|itemtype="[^"]*Review/i);
+  assert.match(home, /<details class="review-more">/);
+  try {
+    expectBuild(production);
+    for (const file of files()) assert.doesNotMatch(read(file), /data-review-demo=|#casos-de-exito|56 reseñas ficticias/);
+  } finally {
+    expectBuild(staging);
+  }
+});
+
 test('build replaces the old catalogue with ten reachable local pages', () => {
   const {retiredFiles} = require(path.join(temp, 'lib/retiradas'));
   assert.equal(retiredFiles.length, 110);

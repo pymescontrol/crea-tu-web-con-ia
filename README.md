@@ -32,6 +32,7 @@ Editar fuentes y regenerar; los HTML son salidas:
 | Fuente | Contenido |
 |---|---|
 | `content/servicio.json` | Oferta, precio y contacto |
+| `content/testimonios-demo.json` | 56 ejemplos ficticios para la maqueta de testimonios |
 | `content/legal.json` | Identificación autorizada por el titular y estado del aviso legal |
 | `content/localidades-centro.json` | Riaza, Segovia, Aranda de Duero, Sepúlveda y Cuéllar |
 | `content/localidades-entorno.json` | El Espinar, La Granja, Ayllón, Pedraza y Soria |
@@ -71,3 +72,9 @@ Hay una segunda condición para cada localidad: `localReview.approved` y una lis
 La revisión editorial es una decisión humana basada en evidencia, no una puntuación de similitud ni un certificado SEO. Registrar fuentes y razonamiento reales, nunca textos de relleno para activar el campo. Las pruebas usan aprobaciones y dominio de ejemplo solo en copias temporales.
 
 Antes de indexar: dominio elegido y conectado; alcance y condiciones de venta definidos; edición ofrecida validada con las instrucciones del titular; información del titular y textos legales aplicables; revisión local individual; comprobación de la versión publicada. Los scripts no compran dominios, cambian DNS, suben código ni solicitan indexación.
+
+## Maqueta de testimonios
+
+La portada incluye «Casos de éxito — vista previa», con 56 ejemplos ficticios, cinco estrellas simuladas y actividades en distintas localidades. No se atribuyen opiniones a empresas reales ni se afirman resultados de posicionamiento. El aviso general y cada tarjeta identifican el contenido como ficticio. Se muestran seis tarjetas y un desplegable accesible permite consultar las otras cincuenta, sin JavaScript adicional.
+
+`lib/testimonios-demo.js` genera esta sección solo mientras `indexingEnabled` sea `false`; al activar la indexación, desaparecen los ejemplos y su enlace de navegación. No se generan datos estructurados de reseñas ni una valoración agregada. Antes de publicar testimonios reales, sustituir la maqueta por opiniones autorizadas y verificables; no retirar las etiquetas manteniendo textos inventados.
