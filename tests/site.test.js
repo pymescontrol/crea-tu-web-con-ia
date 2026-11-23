@@ -40,6 +40,9 @@ test('testimonial mockups are labelled at section level and excluded from the in
   const cards = [...home.matchAll(/<article class="review-card"[\s\S]*?<\/article>/g)].map(match => match[0]);
   assert.equal(cards.length, 56);
   assert.match(home, /Casos de éxito · demo/);
+  assert.match(home, /href="#casos-de-exito"/);
+  assert.doesNotMatch(home, /href="index.html#casos-de-exito"/);
+  assert.match(read('servicio.html'), /href="index.html#casos-de-exito"/);
   assert.match(home, /<h2 id="reviews-title">Reseñas · demo<\/h2>/);
   assert.doesNotMatch(home, /Maqueta · contenido de ejemplo|Así se verá este espacio|56 reseñas ficticias para probar el diseño|Los nombres, negocios, opiniones y estrellas son inventados/);
   for (const card of cards) {
